@@ -1,0 +1,40 @@
+[1.123s] Invoking command in '/root/tiago_public_ws/build/urdf_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/tiago_public_ws/install/launch_pal:/opt/ros/humble /usr/bin/cmake --build /root/tiago_public_ws/build/urdf_test -- -j8 -l8
+[1.290s] Built target ament_cmake_python_symlink_urdf_test
+[2.524s] running egg_info
+[2.535s] writing urdf_test.egg-info/PKG-INFO
+[2.535s] writing dependency_links to urdf_test.egg-info/dependency_links.txt
+[2.535s] writing top-level names to urdf_test.egg-info/top_level.txt
+[2.558s] reading manifest file 'urdf_test.egg-info/SOURCES.txt'
+[2.574s] writing manifest file 'urdf_test.egg-info/SOURCES.txt'
+[2.798s] Built target ament_cmake_python_build_urdf_test_egg
+[2.913s] Invoked command in '/root/tiago_public_ws/build/urdf_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/tiago_public_ws/install/launch_pal:/opt/ros/humble /usr/bin/cmake --build /root/tiago_public_ws/build/urdf_test -- -j8 -l8
+[3.095s] Invoking command in '/root/tiago_public_ws/build/urdf_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/tiago_public_ws/install/launch_pal:/opt/ros/humble /usr/bin/cmake --install /root/tiago_public_ws/build/urdf_test
+[3.267s] -- Install configuration: ""
+[3.268s] -- Execute custom install script
+[3.268s] -- Up-to-date symlink: /root/tiago_public_ws/install/urdf_test/lib/urdf_test/test_urdf.py
+[3.268s] -- Up-to-date symlink: /root/tiago_public_ws/install/urdf_test/share/urdf_test/environment/pythonpath.sh
+[3.268s] -- Up-to-date symlink: /root/tiago_public_ws/install/urdf_test/share/urdf_test/environment/pythonpath.dsv
+[3.269s] -- Up-to-date symlink: /root/tiago_public_ws/install/urdf_test/local/lib/python3.10/dist-packages/urdf_test-2.0.3-py3.10.egg-info/PKG-INFO
+[3.269s] -- Up-to-date symlink: /root/tiago_public_ws/install/urdf_test/local/lib/python3.10/dist-packages/urdf_test-2.0.3-py3.10.egg-info/SOURCES.txt
+[3.269s] -- Up-to-date symlink: /root/tiago_public_ws/install/urdf_test/local/lib/python3.10/dist-packages/urdf_test-2.0.3-py3.10.egg-info/dependency_links.txt
+[3.271s] -- Up-to-date symlink: /root/tiago_public_ws/install/urdf_test/local/lib/python3.10/dist-packages/urdf_test-2.0.3-py3.10.egg-info/top_level.txt
+[3.271s] -- Up-to-date symlink: /root/tiago_public_ws/install/urdf_test/local/lib/python3.10/dist-packages/urdf_test/__init__.py
+[3.272s] -- Up-to-date symlink: /root/tiago_public_ws/install/urdf_test/local/lib/python3.10/dist-packages/urdf_test/description_test.py
+[3.272s] -- Up-to-date symlink: /root/tiago_public_ws/install/urdf_test/share/ament_index/resource_index/package_run_dependencies/urdf_test
+[3.273s] -- Up-to-date symlink: /root/tiago_public_ws/install/urdf_test/share/ament_index/resource_index/parent_prefix_path/urdf_test
+[3.273s] -- Up-to-date symlink: /root/tiago_public_ws/install/urdf_test/share/urdf_test/environment/ament_prefix_path.sh
+[3.273s] -- Up-to-date symlink: /root/tiago_public_ws/install/urdf_test/share/urdf_test/environment/ament_prefix_path.dsv
+[3.273s] -- Up-to-date symlink: /root/tiago_public_ws/install/urdf_test/share/urdf_test/environment/path.sh
+[3.273s] -- Up-to-date symlink: /root/tiago_public_ws/install/urdf_test/share/urdf_test/environment/path.dsv
+[3.274s] -- Up-to-date symlink: /root/tiago_public_ws/install/urdf_test/share/urdf_test/local_setup.bash
+[3.274s] -- Up-to-date symlink: /root/tiago_public_ws/install/urdf_test/share/urdf_test/local_setup.sh
+[3.274s] -- Up-to-date symlink: /root/tiago_public_ws/install/urdf_test/share/urdf_test/local_setup.zsh
+[3.274s] -- Up-to-date symlink: /root/tiago_public_ws/install/urdf_test/share/urdf_test/local_setup.dsv
+[3.274s] -- Symlinking: /root/tiago_public_ws/install/urdf_test/share/urdf_test/package.dsv
+[3.274s] -- Up-to-date symlink: /root/tiago_public_ws/install/urdf_test/share/ament_index/resource_index/packages/urdf_test
+[3.274s] -- Up-to-date symlink: /root/tiago_public_ws/install/urdf_test/share/urdf_test/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.274s] -- Up-to-date symlink: /root/tiago_public_ws/install/urdf_test/share/urdf_test/cmake/urdf_testConfig.cmake
+[3.274s] -- Up-to-date symlink: /root/tiago_public_ws/install/urdf_test/share/urdf_test/cmake/urdf_testConfig-version.cmake
+[3.275s] -- Up-to-date symlink: /root/tiago_public_ws/install/urdf_test/share/urdf_test/package.xml
+[3.369s] Listing '/root/tiago_public_ws/install/urdf_test/local/lib/python3.10/dist-packages/urdf_test'...
+[3.500s] Invoked command in '/root/tiago_public_ws/build/urdf_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/tiago_public_ws/install/launch_pal:/opt/ros/humble /usr/bin/cmake --install /root/tiago_public_ws/build/urdf_test

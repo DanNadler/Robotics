@@ -1,0 +1,33 @@
+[0.168s] Invoking command in '/root/tiago_public_ws/build/plansys2_cascade_example': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/tiago_public_ws/build/plansys2_cascade_example -- -j8 -l8
+[0.432s] [ 25%] Built target move_action_node
+[0.562s] [ 50%] Built target check_obstacles_node
+[0.711s] [ 75%] Built target ask_charge_action_node
+[0.882s] [100%] Built target charge_action_node
+[0.914s] Invoked command in '/root/tiago_public_ws/build/plansys2_cascade_example' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/tiago_public_ws/build/plansys2_cascade_example -- -j8 -l8
+[1.071s] Invoking command in '/root/tiago_public_ws/build/plansys2_cascade_example': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/tiago_public_ws/build/plansys2_cascade_example
+[1.105s] -- Install configuration: ""
+[1.105s] -- Execute custom install script
+[1.105s] -- Up-to-date symlink: /root/tiago_public_ws/install/plansys2_cascade_example/share/plansys2_cascade_example/launch/commands
+[1.105s] -- Up-to-date symlink: /root/tiago_public_ws/install/plansys2_cascade_example/share/plansys2_cascade_example/launch/plansys2_cascade_example_launch.py
+[1.105s] -- Up-to-date symlink: /root/tiago_public_ws/install/plansys2_cascade_example/share/plansys2_cascade_example/pddl/cascade_example.pddl
+[1.106s] -- Up-to-date symlink: /root/tiago_public_ws/install/plansys2_cascade_example/lib/plansys2_cascade_example/move_action_node
+[1.106s] -- Up-to-date symlink: /root/tiago_public_ws/install/plansys2_cascade_example/lib/plansys2_cascade_example/charge_action_node
+[1.106s] -- Up-to-date symlink: /root/tiago_public_ws/install/plansys2_cascade_example/lib/plansys2_cascade_example/ask_charge_action_node
+[1.106s] -- Up-to-date symlink: /root/tiago_public_ws/install/plansys2_cascade_example/lib/plansys2_cascade_example/check_obstacles_node
+[1.106s] -- Up-to-date symlink: /root/tiago_public_ws/install/plansys2_cascade_example/share/ament_index/resource_index/package_run_dependencies/plansys2_cascade_example
+[1.106s] -- Up-to-date symlink: /root/tiago_public_ws/install/plansys2_cascade_example/share/ament_index/resource_index/parent_prefix_path/plansys2_cascade_example
+[1.106s] -- Up-to-date symlink: /root/tiago_public_ws/install/plansys2_cascade_example/share/plansys2_cascade_example/environment/ament_prefix_path.sh
+[1.106s] -- Up-to-date symlink: /root/tiago_public_ws/install/plansys2_cascade_example/share/plansys2_cascade_example/environment/ament_prefix_path.dsv
+[1.106s] -- Up-to-date symlink: /root/tiago_public_ws/install/plansys2_cascade_example/share/plansys2_cascade_example/environment/path.sh
+[1.106s] -- Up-to-date symlink: /root/tiago_public_ws/install/plansys2_cascade_example/share/plansys2_cascade_example/environment/path.dsv
+[1.106s] -- Up-to-date symlink: /root/tiago_public_ws/install/plansys2_cascade_example/share/plansys2_cascade_example/local_setup.bash
+[1.107s] -- Up-to-date symlink: /root/tiago_public_ws/install/plansys2_cascade_example/share/plansys2_cascade_example/local_setup.sh
+[1.107s] -- Up-to-date symlink: /root/tiago_public_ws/install/plansys2_cascade_example/share/plansys2_cascade_example/local_setup.zsh
+[1.107s] -- Up-to-date symlink: /root/tiago_public_ws/install/plansys2_cascade_example/share/plansys2_cascade_example/local_setup.dsv
+[1.107s] -- Symlinking: /root/tiago_public_ws/install/plansys2_cascade_example/share/plansys2_cascade_example/package.dsv
+[1.126s] -- Up-to-date symlink: /root/tiago_public_ws/install/plansys2_cascade_example/share/ament_index/resource_index/packages/plansys2_cascade_example
+[1.126s] -- Up-to-date symlink: /root/tiago_public_ws/install/plansys2_cascade_example/share/plansys2_cascade_example/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.127s] -- Up-to-date symlink: /root/tiago_public_ws/install/plansys2_cascade_example/share/plansys2_cascade_example/cmake/plansys2_cascade_exampleConfig.cmake
+[1.128s] -- Up-to-date symlink: /root/tiago_public_ws/install/plansys2_cascade_example/share/plansys2_cascade_example/cmake/plansys2_cascade_exampleConfig-version.cmake
+[1.130s] -- Up-to-date symlink: /root/tiago_public_ws/install/plansys2_cascade_example/share/plansys2_cascade_example/package.xml
+[1.156s] Invoked command in '/root/tiago_public_ws/build/plansys2_cascade_example' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/tiago_public_ws/build/plansys2_cascade_example

@@ -1,0 +1,33 @@
+[0.985s] Invoking command in '/root/tiago_public_ws/build/pal_gripper_controller_configuration': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/tiago_public_ws/build/pal_gripper_controller_configuration -- -j8 -l8
+[1.141s] Invoked command in '/root/tiago_public_ws/build/pal_gripper_controller_configuration' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/tiago_public_ws/build/pal_gripper_controller_configuration -- -j8 -l8
+[1.371s] Invoking command in '/root/tiago_public_ws/build/pal_gripper_controller_configuration': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/tiago_public_ws/build/pal_gripper_controller_configuration
+[1.440s] -- Install configuration: ""
+[1.442s] -- Execute custom install script
+[1.442s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_gripper_controller_configuration/share/pal_gripper_controller_configuration/config/current_limit_controllers.yaml
+[1.442s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_gripper_controller_configuration/share/pal_gripper_controller_configuration/config/current_limit_controllers_left.yaml
+[1.443s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_gripper_controller_configuration/share/pal_gripper_controller_configuration/config/current_limit_controllers_right.yaml
+[1.443s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_gripper_controller_configuration/share/pal_gripper_controller_configuration/config/gazebo_controller_manager_cfg.yaml
+[1.443s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_gripper_controller_configuration/share/pal_gripper_controller_configuration/config/gripper_controller.yaml
+[1.443s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_gripper_controller_configuration/share/pal_gripper_controller_configuration/config/joint_state_broadcaster.yaml
+[1.443s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_gripper_controller_configuration/share/pal_gripper_controller_configuration/config/joint_trajectory_controllers.yaml
+[1.443s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_gripper_controller_configuration/share/pal_gripper_controller_configuration/config/pids.yaml
+[1.445s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_gripper_controller_configuration/share/pal_gripper_controller_configuration/launch/current_limit_controllers.launch
+[1.456s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_gripper_controller_configuration/share/pal_gripper_controller_configuration/launch/gripper_controller.launch
+[1.457s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_gripper_controller_configuration/share/pal_gripper_controller_configuration/launch/joint_state_broadcaster.launch.py
+[1.457s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_gripper_controller_configuration/share/pal_gripper_controller_configuration/launch/pal_gripper_controller.launch.py
+[1.457s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_gripper_controller_configuration/share/ament_index/resource_index/package_run_dependencies/pal_gripper_controller_configuration
+[1.457s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_gripper_controller_configuration/share/ament_index/resource_index/parent_prefix_path/pal_gripper_controller_configuration
+[1.457s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_gripper_controller_configuration/share/pal_gripper_controller_configuration/environment/ament_prefix_path.sh
+[1.457s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_gripper_controller_configuration/share/pal_gripper_controller_configuration/environment/ament_prefix_path.dsv
+[1.458s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_gripper_controller_configuration/share/pal_gripper_controller_configuration/environment/path.sh
+[1.459s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_gripper_controller_configuration/share/pal_gripper_controller_configuration/environment/path.dsv
+[1.459s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_gripper_controller_configuration/share/pal_gripper_controller_configuration/local_setup.bash
+[1.459s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_gripper_controller_configuration/share/pal_gripper_controller_configuration/local_setup.sh
+[1.459s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_gripper_controller_configuration/share/pal_gripper_controller_configuration/local_setup.zsh
+[1.459s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_gripper_controller_configuration/share/pal_gripper_controller_configuration/local_setup.dsv
+[1.459s] -- Symlinking: /root/tiago_public_ws/install/pal_gripper_controller_configuration/share/pal_gripper_controller_configuration/package.dsv
+[1.461s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_gripper_controller_configuration/share/ament_index/resource_index/packages/pal_gripper_controller_configuration
+[1.461s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_gripper_controller_configuration/share/pal_gripper_controller_configuration/cmake/pal_gripper_controller_configurationConfig.cmake
+[1.461s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_gripper_controller_configuration/share/pal_gripper_controller_configuration/cmake/pal_gripper_controller_configurationConfig-version.cmake
+[1.461s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_gripper_controller_configuration/share/pal_gripper_controller_configuration/package.xml
+[1.627s] Invoked command in '/root/tiago_public_ws/build/pal_gripper_controller_configuration' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/tiago_public_ws/build/pal_gripper_controller_configuration

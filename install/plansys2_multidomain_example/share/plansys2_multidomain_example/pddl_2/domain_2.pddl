@@ -1,0 +1,1 @@
+/root/tiago_public_ws/src/ros2_planning_system_examples/plansys2_multidomain_example/pddl_2/domain_2.pddl

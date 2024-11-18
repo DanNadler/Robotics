@@ -1,0 +1,25 @@
+[0.436s] Invoking command in '/root/tiago_public_ws/build/pal_navigation_cfg_params': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/tiago_public_ws/install/launch_pal:/opt/ros/humble /usr/bin/cmake --build /root/tiago_public_ws/build/pal_navigation_cfg_params -- -j8 -l8
+[1.201s] Invoked command in '/root/tiago_public_ws/build/pal_navigation_cfg_params' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/tiago_public_ws/install/launch_pal:/opt/ros/humble /usr/bin/cmake --build /root/tiago_public_ws/build/pal_navigation_cfg_params -- -j8 -l8
+[1.965s] Invoking command in '/root/tiago_public_ws/build/pal_navigation_cfg_params': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/tiago_public_ws/install/launch_pal:/opt/ros/humble /usr/bin/cmake --install /root/tiago_public_ws/build/pal_navigation_cfg_params
+[2.005s] -- Install configuration: ""
+[2.014s] -- Execute custom install script
+[2.026s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_navigation_cfg_params/share/pal_navigation_cfg_params/params/omni_base_nav2.yaml
+[2.026s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_navigation_cfg_params/share/pal_navigation_cfg_params/params/pmb2_nav2.yaml
+[2.027s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_navigation_cfg_params/share/pal_navigation_cfg_params/params/tiago_dual_nav2.yaml
+[2.027s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_navigation_cfg_params/share/pal_navigation_cfg_params/params/tiago_nav2.yaml
+[2.027s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_navigation_cfg_params/share/ament_index/resource_index/package_run_dependencies/pal_navigation_cfg_params
+[2.030s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_navigation_cfg_params/share/ament_index/resource_index/parent_prefix_path/pal_navigation_cfg_params
+[2.030s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_navigation_cfg_params/share/pal_navigation_cfg_params/environment/ament_prefix_path.sh
+[2.030s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_navigation_cfg_params/share/pal_navigation_cfg_params/environment/ament_prefix_path.dsv
+[2.034s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_navigation_cfg_params/share/pal_navigation_cfg_params/environment/path.sh
+[2.040s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_navigation_cfg_params/share/pal_navigation_cfg_params/environment/path.dsv
+[2.050s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_navigation_cfg_params/share/pal_navigation_cfg_params/local_setup.bash
+[2.051s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_navigation_cfg_params/share/pal_navigation_cfg_params/local_setup.sh
+[2.054s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_navigation_cfg_params/share/pal_navigation_cfg_params/local_setup.zsh
+[2.056s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_navigation_cfg_params/share/pal_navigation_cfg_params/local_setup.dsv
+[2.062s] -- Symlinking: /root/tiago_public_ws/install/pal_navigation_cfg_params/share/pal_navigation_cfg_params/package.dsv
+[2.139s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_navigation_cfg_params/share/ament_index/resource_index/packages/pal_navigation_cfg_params
+[2.139s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_navigation_cfg_params/share/pal_navigation_cfg_params/cmake/pal_navigation_cfg_paramsConfig.cmake
+[2.141s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_navigation_cfg_params/share/pal_navigation_cfg_params/cmake/pal_navigation_cfg_paramsConfig-version.cmake
+[2.141s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_navigation_cfg_params/share/pal_navigation_cfg_params/package.xml
+[2.151s] Invoked command in '/root/tiago_public_ws/build/pal_navigation_cfg_params' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/tiago_public_ws/install/launch_pal:/opt/ros/humble /usr/bin/cmake --install /root/tiago_public_ws/build/pal_navigation_cfg_params

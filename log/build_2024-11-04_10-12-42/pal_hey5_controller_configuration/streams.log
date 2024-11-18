@@ -1,0 +1,23 @@
+[1.066s] Invoking command in '/root/tiago_public_ws/build/pal_hey5_controller_configuration': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/tiago_public_ws/build/pal_hey5_controller_configuration -- -j8 -l8
+[1.224s] Invoked command in '/root/tiago_public_ws/build/pal_hey5_controller_configuration' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/tiago_public_ws/build/pal_hey5_controller_configuration -- -j8 -l8
+[1.358s] Invoking command in '/root/tiago_public_ws/build/pal_hey5_controller_configuration': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/tiago_public_ws/build/pal_hey5_controller_configuration
+[1.395s] -- Install configuration: ""
+[1.397s] -- Execute custom install script
+[1.400s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_hey5_controller_configuration/share/pal_hey5_controller_configuration/config/pal_hey5_controller.yaml
+[1.402s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_hey5_controller_configuration/share/pal_hey5_controller_configuration/launch/pal_hey5_controller.launch.py
+[1.406s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_hey5_controller_configuration/share/ament_index/resource_index/package_run_dependencies/pal_hey5_controller_configuration
+[1.407s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_hey5_controller_configuration/share/ament_index/resource_index/parent_prefix_path/pal_hey5_controller_configuration
+[1.409s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_hey5_controller_configuration/share/pal_hey5_controller_configuration/environment/ament_prefix_path.sh
+[1.409s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_hey5_controller_configuration/share/pal_hey5_controller_configuration/environment/ament_prefix_path.dsv
+[1.419s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_hey5_controller_configuration/share/pal_hey5_controller_configuration/environment/path.sh
+[1.420s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_hey5_controller_configuration/share/pal_hey5_controller_configuration/environment/path.dsv
+[1.420s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_hey5_controller_configuration/share/pal_hey5_controller_configuration/local_setup.bash
+[1.422s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_hey5_controller_configuration/share/pal_hey5_controller_configuration/local_setup.sh
+[1.436s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_hey5_controller_configuration/share/pal_hey5_controller_configuration/local_setup.zsh
+[1.437s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_hey5_controller_configuration/share/pal_hey5_controller_configuration/local_setup.dsv
+[1.437s] -- Symlinking: /root/tiago_public_ws/install/pal_hey5_controller_configuration/share/pal_hey5_controller_configuration/package.dsv
+[1.462s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_hey5_controller_configuration/share/ament_index/resource_index/packages/pal_hey5_controller_configuration
+[1.466s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_hey5_controller_configuration/share/pal_hey5_controller_configuration/cmake/pal_hey5_controller_configurationConfig.cmake
+[1.466s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_hey5_controller_configuration/share/pal_hey5_controller_configuration/cmake/pal_hey5_controller_configurationConfig-version.cmake
+[1.466s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_hey5_controller_configuration/share/pal_hey5_controller_configuration/package.xml
+[1.501s] Invoked command in '/root/tiago_public_ws/build/pal_hey5_controller_configuration' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/tiago_public_ws/build/pal_hey5_controller_configuration

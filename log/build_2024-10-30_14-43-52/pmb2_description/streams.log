@@ -1,0 +1,9 @@
+[0.149s] Invoking command in '/root/tiago_public_ws/build/pmb2_description': AMENT_PREFIX_PATH=/root/tiago_public_ws/install/urdf_test:/root/tiago_public_ws/install/pal_urdf_utils:/root/tiago_public_ws/install/launch_pal:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/tiago_public_ws/install/urdf_test:/root/tiago_public_ws/install/pal_urdf_utils:/opt/ros/humble PYTHONPATH=/root/tiago_public_ws/install/urdf_test/local/lib/python3.10/dist-packages:/root/tiago_public_ws/install/launch_pal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /root/tiago_public_ws/build/pmb2_description -- -j8 -l8
+[0.214s] Built target ament_cmake_python_symlink_pmb2_description
+[0.642s] running egg_info
+[0.643s] writing pmb2_description.egg-info/PKG-INFO
+[0.643s] writing dependency_links to pmb2_description.egg-info/dependency_links.txt
+[0.643s] writing top-level names to pmb2_description.egg-info/top_level.txt
+[0.645s] reading manifest file 'pmb2_description.egg-info/SOURCES.txt'
+[0.646s] writing manifest file 'pmb2_description.egg-info/SOURCES.txt'
+[0.669s] Built target ament_cmake_python_build_pmb2_description_egg

@@ -1,0 +1,1 @@
+Invoking command in '/root/tiago_public_ws/build/plansys2_simple_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/tiago_public_ws/install/launch_pal:/opt/ros/humble /usr/bin/cmake /root/tiago_public_ws/src/ros2_planning_system_examples/plansys2_simple_example -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/tiago_public_ws/install/plansys2_simple_example

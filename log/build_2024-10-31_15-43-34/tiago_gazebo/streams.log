@@ -1,0 +1,185 @@
+[1.707s] Invoking command in '/root/tiago_public_ws/build/tiago_gazebo': AMENT_PREFIX_PATH=/root/tiago_public_ws/install/tiago_moveit_config:/root/tiago_public_ws/install/tiago_bringup:/root/tiago_public_ws/install/tiago_2dnav:/root/tiago_public_ws/install/tiago_description:/root/tiago_public_ws/install/tiago_controller_configuration:/root/tiago_public_ws/install/pmb2_description:/root/tiago_public_ws/install/pmb2_controller_configuration:/root/tiago_public_ws/install/play_motion2:/root/tiago_public_ws/install/pal_hey5_description:/root/tiago_public_ws/install/pal_gripper_description:/root/tiago_public_ws/install/urdf_test:/root/tiago_public_ws/install/tiago_laser_sensors:/root/tiago_public_ws/install/play_motion2_msgs:/root/tiago_public_ws/install/pal_urdf_utils:/root/tiago_public_ws/install/pal_robotiq_description:/root/tiago_public_ws/install/pal_robotiq_controller_configuration:/root/tiago_public_ws/install/pal_hey5_controller_configuration:/root/tiago_public_ws/install/pal_gripper_controller_configuration:/root/tiago_public_ws/install/pal_gazebo_worlds:/root/tiago_public_ws/install/launch_pal:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/tiago_public_ws/install/tiago_moveit_config:/root/tiago_public_ws/install/tiago_bringup:/root/tiago_public_ws/install/tiago_2dnav:/root/tiago_public_ws/install/tiago_description:/root/tiago_public_ws/install/tiago_controller_configuration:/root/tiago_public_ws/install/pmb2_description:/root/tiago_public_ws/install/pmb2_controller_configuration:/root/tiago_public_ws/install/play_motion2:/root/tiago_public_ws/install/pal_hey5_description:/root/tiago_public_ws/install/pal_gripper_description:/root/tiago_public_ws/install/urdf_test:/root/tiago_public_ws/install/tiago_laser_sensors:/root/tiago_public_ws/install/play_motion2_msgs:/root/tiago_public_ws/install/pal_urdf_utils:/root/tiago_public_ws/install/pal_robotiq_description:/root/tiago_public_ws/install/pal_robotiq_controller_configuration:/root/tiago_public_ws/install/pal_hey5_controller_configuration:/root/tiago_public_ws/install/pal_gripper_controller_configuration:/root/tiago_public_ws/install/pal_gazebo_worlds:/opt/ros/humble LD_LIBRARY_PATH=/root/tiago_public_ws/install/play_motion2/lib:/root/tiago_public_ws/install/play_motion2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/tiago_public_ws/install/tiago_description/local/lib/python3.10/dist-packages:/root/tiago_public_ws/install/pmb2_description/local/lib/python3.10/dist-packages:/root/tiago_public_ws/install/urdf_test/local/lib/python3.10/dist-packages:/root/tiago_public_ws/install/play_motion2_msgs/local/lib/python3.10/dist-packages:/root/tiago_public_ws/build/launch_pal:/root/tiago_public_ws/install/launch_pal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /root/tiago_public_ws/build/tiago_gazebo -- -j8 -l8
+[1.760s] -- Found ament_cmake_auto: 1.3.10 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[2.085s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.004s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[4.022s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.034s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.389s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.829s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[5.309s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.701s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.747s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[5.804s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.804s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[5.804s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[5.855s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.973s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.973s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[5.973s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[6.369s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[6.378s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[14.236s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[14.582s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[14.656s] -- Added test 'copyright' to check source files copyright and LICENSE
+[14.666s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[14.667s] -- Configured cppcheck include dirs: 
+[14.667s] -- Configured cppcheck exclude dirs and/or files: 
+[14.670s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[14.670s] -- Configured cpplint exclude dirs and/or files: 
+[14.671s] -- Added test 'flake8' to check Python code syntax and style conventions
+[14.672s] -- Added test 'lint_cmake' to check CMake code style
+[14.673s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[14.680s] -- Added test 'uncrustify' to check C / C++ code style
+[14.680s] -- Configured uncrustify additional arguments: 
+[14.699s] -- Added test 'xmllint' to check XML markup files
+[14.709s] -- Configuring done
+[14.909s] -- Generating done
+[14.915s] -- Build files have been written to: /root/tiago_public_ws/build/tiago_gazebo
+[15.086s] [  2%] Built target tiago_gazebo__cpp
+[15.158s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[15.229s] [  8%] Built target gtest
+[15.325s] [35m[1mConsolidate compiler generated dependencies of target tiago_gazebo__rosidl_typesupport_introspection_cpp[0m
+[15.388s] [ 16%] Built target tiago_gazebo__rosidl_typesupport_introspection_cpp
+[15.463s] [35m[1mConsolidate compiler generated dependencies of target tiago_gazebo__rosidl_typesupport_fastrtps_cpp[0m
+[15.538s] [ 24%] Built target tiago_gazebo__rosidl_typesupport_fastrtps_cpp
+[15.607s] [35m[1mConsolidate compiler generated dependencies of target tiago_gazebo__rosidl_typesupport_cpp[0m
+[15.677s] [ 32%] Built target tiago_gazebo__rosidl_typesupport_cpp
+[15.751s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[15.806s] [ 37%] Built target gtest_main
+[15.873s] [ 37%] Built target ament_cmake_python_symlink_tiago_gazebo
+[15.886s] [35m[1mConsolidate compiler generated dependencies of target tuck_arm_test[0m
+[15.911s] [ 43%] Built target tuck_arm_test
+[16.416s] running egg_info
+[16.418s] writing tiago_gazebo.egg-info/PKG-INFO
+[16.418s] writing dependency_links to tiago_gazebo.egg-info/dependency_links.txt
+[16.419s] writing top-level names to tiago_gazebo.egg-info/top_level.txt
+[16.422s] reading manifest file 'tiago_gazebo.egg-info/SOURCES.txt'
+[16.424s] writing manifest file 'tiago_gazebo.egg-info/SOURCES.txt'
+[16.466s] [ 43%] Built target ament_cmake_python_build_tiago_gazebo_egg
+[16.520s] [35m[1mConsolidate compiler generated dependencies of target tiago_gazebo__rosidl_generator_c[0m
+[16.585s] [ 51%] Built target tiago_gazebo__rosidl_generator_c
+[16.660s] [35m[1mConsolidate compiler generated dependencies of target tiago_gazebo__rosidl_typesupport_fastrtps_c[0m
+[16.717s] [ 59%] Built target tiago_gazebo__rosidl_typesupport_fastrtps_c
+[16.788s] [35m[1mConsolidate compiler generated dependencies of target tiago_gazebo__rosidl_typesupport_c[0m
+[16.887s] [ 67%] Built target tiago_gazebo__rosidl_typesupport_c
+[16.959s] [35m[1mConsolidate compiler generated dependencies of target tiago_gazebo__rosidl_typesupport_introspection_c[0m
+[16.973s] [ 75%] Built target tiago_gazebo__rosidl_typesupport_introspection_c
+[16.995s] [ 75%] Built target tiago_gazebo
+[17.086s] [ 78%] Built target tiago_gazebo__py
+[17.165s] [35m[1mConsolidate compiler generated dependencies of target tiago_gazebo__rosidl_generator_py[0m
+[17.214s] [ 83%] Built target tiago_gazebo__rosidl_generator_py
+[17.259s] [35m[1mConsolidate compiler generated dependencies of target tiago_gazebo__rosidl_typesupport_fastrtps_c__pyext[0m
+[17.276s] [ 89%] Built target tiago_gazebo__rosidl_typesupport_fastrtps_c__pyext
+[17.291s] [35m[1mConsolidate compiler generated dependencies of target tiago_gazebo__rosidl_typesupport_c__pyext[0m
+[17.317s] [ 94%] Built target tiago_gazebo__rosidl_typesupport_c__pyext
+[17.399s] [35m[1mConsolidate compiler generated dependencies of target tiago_gazebo__rosidl_typesupport_introspection_c__pyext[0m
+[17.475s] [100%] Built target tiago_gazebo__rosidl_typesupport_introspection_c__pyext
+[17.527s] Invoked command in '/root/tiago_public_ws/build/tiago_gazebo' returned '0': AMENT_PREFIX_PATH=/root/tiago_public_ws/install/tiago_moveit_config:/root/tiago_public_ws/install/tiago_bringup:/root/tiago_public_ws/install/tiago_2dnav:/root/tiago_public_ws/install/tiago_description:/root/tiago_public_ws/install/tiago_controller_configuration:/root/tiago_public_ws/install/pmb2_description:/root/tiago_public_ws/install/pmb2_controller_configuration:/root/tiago_public_ws/install/play_motion2:/root/tiago_public_ws/install/pal_hey5_description:/root/tiago_public_ws/install/pal_gripper_description:/root/tiago_public_ws/install/urdf_test:/root/tiago_public_ws/install/tiago_laser_sensors:/root/tiago_public_ws/install/play_motion2_msgs:/root/tiago_public_ws/install/pal_urdf_utils:/root/tiago_public_ws/install/pal_robotiq_description:/root/tiago_public_ws/install/pal_robotiq_controller_configuration:/root/tiago_public_ws/install/pal_hey5_controller_configuration:/root/tiago_public_ws/install/pal_gripper_controller_configuration:/root/tiago_public_ws/install/pal_gazebo_worlds:/root/tiago_public_ws/install/launch_pal:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/tiago_public_ws/install/tiago_moveit_config:/root/tiago_public_ws/install/tiago_bringup:/root/tiago_public_ws/install/tiago_2dnav:/root/tiago_public_ws/install/tiago_description:/root/tiago_public_ws/install/tiago_controller_configuration:/root/tiago_public_ws/install/pmb2_description:/root/tiago_public_ws/install/pmb2_controller_configuration:/root/tiago_public_ws/install/play_motion2:/root/tiago_public_ws/install/pal_hey5_description:/root/tiago_public_ws/install/pal_gripper_description:/root/tiago_public_ws/install/urdf_test:/root/tiago_public_ws/install/tiago_laser_sensors:/root/tiago_public_ws/install/play_motion2_msgs:/root/tiago_public_ws/install/pal_urdf_utils:/root/tiago_public_ws/install/pal_robotiq_description:/root/tiago_public_ws/install/pal_robotiq_controller_configuration:/root/tiago_public_ws/install/pal_hey5_controller_configuration:/root/tiago_public_ws/install/pal_gripper_controller_configuration:/root/tiago_public_ws/install/pal_gazebo_worlds:/opt/ros/humble LD_LIBRARY_PATH=/root/tiago_public_ws/install/play_motion2/lib:/root/tiago_public_ws/install/play_motion2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/tiago_public_ws/install/tiago_description/local/lib/python3.10/dist-packages:/root/tiago_public_ws/install/pmb2_description/local/lib/python3.10/dist-packages:/root/tiago_public_ws/install/urdf_test/local/lib/python3.10/dist-packages:/root/tiago_public_ws/install/play_motion2_msgs/local/lib/python3.10/dist-packages:/root/tiago_public_ws/build/launch_pal:/root/tiago_public_ws/install/launch_pal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /root/tiago_public_ws/build/tiago_gazebo -- -j8 -l8
+[18.000s] Invoking command in '/root/tiago_public_ws/build/tiago_gazebo': AMENT_PREFIX_PATH=/root/tiago_public_ws/install/tiago_moveit_config:/root/tiago_public_ws/install/tiago_bringup:/root/tiago_public_ws/install/tiago_2dnav:/root/tiago_public_ws/install/tiago_description:/root/tiago_public_ws/install/tiago_controller_configuration:/root/tiago_public_ws/install/pmb2_description:/root/tiago_public_ws/install/pmb2_controller_configuration:/root/tiago_public_ws/install/play_motion2:/root/tiago_public_ws/install/pal_hey5_description:/root/tiago_public_ws/install/pal_gripper_description:/root/tiago_public_ws/install/urdf_test:/root/tiago_public_ws/install/tiago_laser_sensors:/root/tiago_public_ws/install/play_motion2_msgs:/root/tiago_public_ws/install/pal_urdf_utils:/root/tiago_public_ws/install/pal_robotiq_description:/root/tiago_public_ws/install/pal_robotiq_controller_configuration:/root/tiago_public_ws/install/pal_hey5_controller_configuration:/root/tiago_public_ws/install/pal_gripper_controller_configuration:/root/tiago_public_ws/install/pal_gazebo_worlds:/root/tiago_public_ws/install/launch_pal:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/tiago_public_ws/install/tiago_moveit_config:/root/tiago_public_ws/install/tiago_bringup:/root/tiago_public_ws/install/tiago_2dnav:/root/tiago_public_ws/install/tiago_description:/root/tiago_public_ws/install/tiago_controller_configuration:/root/tiago_public_ws/install/pmb2_description:/root/tiago_public_ws/install/pmb2_controller_configuration:/root/tiago_public_ws/install/play_motion2:/root/tiago_public_ws/install/pal_hey5_description:/root/tiago_public_ws/install/pal_gripper_description:/root/tiago_public_ws/install/urdf_test:/root/tiago_public_ws/install/tiago_laser_sensors:/root/tiago_public_ws/install/play_motion2_msgs:/root/tiago_public_ws/install/pal_urdf_utils:/root/tiago_public_ws/install/pal_robotiq_description:/root/tiago_public_ws/install/pal_robotiq_controller_configuration:/root/tiago_public_ws/install/pal_hey5_controller_configuration:/root/tiago_public_ws/install/pal_gripper_controller_configuration:/root/tiago_public_ws/install/pal_gazebo_worlds:/opt/ros/humble LD_LIBRARY_PATH=/root/tiago_public_ws/install/play_motion2/lib:/root/tiago_public_ws/install/play_motion2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/tiago_public_ws/install/tiago_description/local/lib/python3.10/dist-packages:/root/tiago_public_ws/install/pmb2_description/local/lib/python3.10/dist-packages:/root/tiago_public_ws/install/urdf_test/local/lib/python3.10/dist-packages:/root/tiago_public_ws/install/play_motion2_msgs/local/lib/python3.10/dist-packages:/root/tiago_public_ws/build/launch_pal:/root/tiago_public_ws/install/launch_pal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /root/tiago_public_ws/build/tiago_gazebo
+[18.012s] -- Install configuration: ""
+[18.013s] -- Execute custom install script
+[18.015s] -- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/share/ament_index/resource_index/rosidl_interfaces/tiago_gazebo
+[18.018s] -- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/include/tiago_gazebo/tiago_gazebo/msg/detail/order__functions.h
+[18.019s] -- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/include/tiago_gazebo/tiago_gazebo/msg/detail/order__struct.h
+[18.019s] -- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/include/tiago_gazebo/tiago_gazebo/msg/detail/order__type_support.h
+[18.020s] -- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/include/tiago_gazebo/tiago_gazebo/msg/order.h
+[18.020s] -- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/include/tiago_gazebo/tiago_gazebo/msg/rosidl_generator_c__visibility_control.h
+[18.022s] -- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/share/tiago_gazebo/environment/library_path.sh
+[18.022s] -- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/share/tiago_gazebo/environment/library_path.dsv
+[18.023s] -- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/include/tiago_gazebo/tiago_gazebo/msg/detail/order__rosidl_typesupport_fastrtps_c.h
+[18.024s] -- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/include/tiago_gazebo/tiago_gazebo/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[18.025s] -- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/include/tiago_gazebo/tiago_gazebo/msg/detail/order__rosidl_typesupport_introspection_c.h
+[18.025s] -- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/include/tiago_gazebo/tiago_gazebo/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[18.027s] -- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/include/tiago_gazebo/tiago_gazebo/msg/detail/order__builder.hpp
+[18.028s] -- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/include/tiago_gazebo/tiago_gazebo/msg/detail/order__struct.hpp
+[18.029s] -- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/include/tiago_gazebo/tiago_gazebo/msg/detail/order__traits.hpp
+[18.032s] -- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/include/tiago_gazebo/tiago_gazebo/msg/order.hpp
+[18.033s] -- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/include/tiago_gazebo/tiago_gazebo/msg/detail/order__rosidl_typesupport_fastrtps_cpp.hpp
+[18.034s] -- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/include/tiago_gazebo/tiago_gazebo/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[18.035s] -- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/include/tiago_gazebo/tiago_gazebo/msg/detail/order__rosidl_typesupport_introspection_cpp.hpp
+[18.037s] -- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/share/tiago_gazebo/environment/pythonpath.sh
+[18.037s] -- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/share/tiago_gazebo/environment/pythonpath.dsv
+[18.039s] -- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/local/lib/python3.10/dist-packages/tiago_gazebo-4.2.0-py3.10.egg-info/PKG-INFO
+[18.040s] -- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/local/lib/python3.10/dist-packages/tiago_gazebo-4.2.0-py3.10.egg-info/SOURCES.txt
+[18.041s] -- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/local/lib/python3.10/dist-packages/tiago_gazebo-4.2.0-py3.10.egg-info/dependency_links.txt
+[18.042s] -- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/local/lib/python3.10/dist-packages/tiago_gazebo-4.2.0-py3.10.egg-info/top_level.txt
+[18.043s] -- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/local/lib/python3.10/dist-packages/tiago_gazebo/__init__.py
+[18.044s] -- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/local/lib/python3.10/dist-packages/tiago_gazebo/_tiago_gazebo_s.ep.rosidl_typesupport_c.c
+[18.046s] -- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/local/lib/python3.10/dist-packages/tiago_gazebo/_tiago_gazebo_s.ep.rosidl_typesupport_fastrtps_c.c
+[18.049s] -- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/local/lib/python3.10/dist-packages/tiago_gazebo/_tiago_gazebo_s.ep.rosidl_typesupport_introspection_c.c
+[18.052s] -- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/local/lib/python3.10/dist-packages/tiago_gazebo/libtiago_gazebo__rosidl_generator_py.so
+[18.054s] -- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/local/lib/python3.10/dist-packages/tiago_gazebo/msg/__init__.py
+[18.057s] -- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/local/lib/python3.10/dist-packages/tiago_gazebo/msg/_order.py
+[18.060s] -- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/local/lib/python3.10/dist-packages/tiago_gazebo/msg/_order_s.c
+[18.062s] -- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/local/lib/python3.10/dist-packages/tiago_gazebo/tiago_gazebo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[18.067s] -- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/local/lib/python3.10/dist-packages/tiago_gazebo/tiago_gazebo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[18.068s] -- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/local/lib/python3.10/dist-packages/tiago_gazebo/tiago_gazebo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[18.070s] -- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/local/lib/python3.10/dist-packages/tiago_gazebo/tiago_gazebo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[18.071s] -- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/local/lib/python3.10/dist-packages/tiago_gazebo/tiago_gazebo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[18.071s] -- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/local/lib/python3.10/dist-packages/tiago_gazebo/tiago_gazebo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[18.071s] -- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/share/tiago_gazebo/msg/Order.idl
+[18.073s] -- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/share/tiago_gazebo/msg/Order.msg
+[18.074s] -- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/lib/tiago_gazebo/tuck_arm.py
+[18.074s] -- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/lib/tiago_gazebo/talker.py
+[18.074s] -- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/lib/tiago_gazebo/listener.py
+[18.075s] -- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/lib/tiago_gazebo/vision.py
+[18.076s] -- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/lib/tiago_gazebo/generat_markers.py
+[18.077s] -- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/lib/tiago_gazebo/head_control.py
+[18.078s] -- Symlinking: /root/tiago_public_ws/install/tiago_gazebo/lib/tiago_gazebo/initial_pose_node.py
+[18.102s] -- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/share/tiago_gazebo/test/tuck_arm_test
+[18.104s] -- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/share/tiago_gazebo/launch/.tiago_gazebo.launch.py.swo
+[18.104s] -- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/share/tiago_gazebo/launch/robot_spawn.launch.py
+[18.105s] -- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/share/tiago_gazebo/launch/tiago_cafe.launch.py
+[18.105s] -- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/share/tiago_gazebo/launch/tiago_cafe.launch.py:Zone.Identifier
+[18.106s] -- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/share/tiago_gazebo/launch/tiago_gazebo.launch.py
+[18.109s] -- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/share/ament_index/resource_index/package_run_dependencies/tiago_gazebo
+[18.109s] -- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/share/ament_index/resource_index/parent_prefix_path/tiago_gazebo
+[18.110s] -- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/share/tiago_gazebo/environment/ament_prefix_path.sh
+[18.111s] -- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/share/tiago_gazebo/environment/ament_prefix_path.dsv
+[18.112s] -- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/share/tiago_gazebo/environment/path.sh
+[18.117s] -- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/share/tiago_gazebo/environment/path.dsv
+[18.118s] -- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/share/tiago_gazebo/local_setup.bash
+[18.120s] -- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/share/tiago_gazebo/local_setup.sh
+[18.120s] -- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/share/tiago_gazebo/local_setup.zsh
+[18.122s] -- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/share/tiago_gazebo/local_setup.dsv
+[18.122s] -- Symlinking: /root/tiago_public_ws/install/tiago_gazebo/share/tiago_gazebo/package.dsv
+[18.141s] -- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/share/ament_index/resource_index/packages/tiago_gazebo
+[18.142s] -- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/share/tiago_gazebo/cmake/rosidl_cmake-extras.cmake
+[18.143s] -- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/share/tiago_gazebo/cmake/ament_cmake_export_include_directories-extras.cmake
+[18.144s] -- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/share/tiago_gazebo/cmake/ament_cmake_export_libraries-extras.cmake
+[18.144s] -- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/share/tiago_gazebo/cmake/ament_cmake_export_targets-extras.cmake
+[18.145s] -- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/share/tiago_gazebo/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[18.146s] -- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/share/tiago_gazebo/cmake/ament_cmake_export_dependencies-extras.cmake
+[18.146s] -- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/share/tiago_gazebo/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[18.147s] -- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/share/tiago_gazebo/cmake/tiago_gazeboConfig.cmake
+[18.149s] -- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/share/tiago_gazebo/cmake/tiago_gazeboConfig-version.cmake
+[18.151s] -- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/share/tiago_gazebo/package.xml
+[18.151s] -- Up-to-date: /root/tiago_public_ws/install/tiago_gazebo/lib/libtiago_gazebo__rosidl_generator_c.so
+[18.151s] -- Up-to-date: /root/tiago_public_ws/install/tiago_gazebo/lib/libtiago_gazebo__rosidl_typesupport_fastrtps_c.so
+[18.151s] -- Up-to-date: /root/tiago_public_ws/install/tiago_gazebo/lib/libtiago_gazebo__rosidl_typesupport_introspection_c.so
+[18.151s] -- Up-to-date: /root/tiago_public_ws/install/tiago_gazebo/lib/libtiago_gazebo__rosidl_typesupport_c.so
+[18.153s] -- Up-to-date: /root/tiago_public_ws/install/tiago_gazebo/lib/libtiago_gazebo__rosidl_typesupport_fastrtps_cpp.so
+[18.154s] -- Up-to-date: /root/tiago_public_ws/install/tiago_gazebo/lib/libtiago_gazebo__rosidl_typesupport_introspection_cpp.so
+[18.157s] -- Up-to-date: /root/tiago_public_ws/install/tiago_gazebo/lib/libtiago_gazebo__rosidl_typesupport_cpp.so
+[18.273s] Listing '/root/tiago_public_ws/install/tiago_gazebo/local/lib/python3.10/dist-packages/tiago_gazebo'...
+[18.274s] Compiling '/root/tiago_public_ws/install/tiago_gazebo/local/lib/python3.10/dist-packages/tiago_gazebo/__init__.py'...
+[18.274s] Listing '/root/tiago_public_ws/install/tiago_gazebo/local/lib/python3.10/dist-packages/tiago_gazebo/msg'...
+[18.282s] -- Up-to-date: /root/tiago_public_ws/install/tiago_gazebo/lib/libtiago_gazebo__rosidl_generator_py.so
+[18.283s] -- Up-to-date: /root/tiago_public_ws/install/tiago_gazebo/share/tiago_gazebo/cmake/export_tiago_gazebo__rosidl_generator_cExport.cmake
+[18.283s] -- Up-to-date: /root/tiago_public_ws/install/tiago_gazebo/share/tiago_gazebo/cmake/export_tiago_gazebo__rosidl_generator_cExport-noconfig.cmake
+[18.284s] -- Up-to-date: /root/tiago_public_ws/install/tiago_gazebo/share/tiago_gazebo/cmake/export_tiago_gazebo__rosidl_typesupport_fastrtps_cExport.cmake
+[18.284s] -- Up-to-date: /root/tiago_public_ws/install/tiago_gazebo/share/tiago_gazebo/cmake/export_tiago_gazebo__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[18.284s] -- Up-to-date: /root/tiago_public_ws/install/tiago_gazebo/share/tiago_gazebo/cmake/tiago_gazebo__rosidl_typesupport_introspection_cExport.cmake
+[18.284s] -- Up-to-date: /root/tiago_public_ws/install/tiago_gazebo/share/tiago_gazebo/cmake/tiago_gazebo__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[18.285s] -- Up-to-date: /root/tiago_public_ws/install/tiago_gazebo/share/tiago_gazebo/cmake/tiago_gazebo__rosidl_typesupport_cExport.cmake
+[18.285s] -- Up-to-date: /root/tiago_public_ws/install/tiago_gazebo/share/tiago_gazebo/cmake/tiago_gazebo__rosidl_typesupport_cExport-noconfig.cmake
+[18.285s] -- Up-to-date: /root/tiago_public_ws/install/tiago_gazebo/share/tiago_gazebo/cmake/export_tiago_gazebo__rosidl_generator_cppExport.cmake
+[18.288s] -- Up-to-date: /root/tiago_public_ws/install/tiago_gazebo/share/tiago_gazebo/cmake/export_tiago_gazebo__rosidl_typesupport_fastrtps_cppExport.cmake
+[18.288s] -- Up-to-date: /root/tiago_public_ws/install/tiago_gazebo/share/tiago_gazebo/cmake/export_tiago_gazebo__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[18.290s] -- Up-to-date: /root/tiago_public_ws/install/tiago_gazebo/share/tiago_gazebo/cmake/tiago_gazebo__rosidl_typesupport_introspection_cppExport.cmake
+[18.290s] -- Up-to-date: /root/tiago_public_ws/install/tiago_gazebo/share/tiago_gazebo/cmake/tiago_gazebo__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[18.292s] -- Up-to-date: /root/tiago_public_ws/install/tiago_gazebo/share/tiago_gazebo/cmake/tiago_gazebo__rosidl_typesupport_cppExport.cmake
+[18.292s] -- Up-to-date: /root/tiago_public_ws/install/tiago_gazebo/share/tiago_gazebo/cmake/tiago_gazebo__rosidl_typesupport_cppExport-noconfig.cmake
+[18.297s] -- Up-to-date: /root/tiago_public_ws/install/tiago_gazebo/share/tiago_gazebo/cmake/export_tiago_gazebo__rosidl_generator_pyExport.cmake
+[18.298s] -- Up-to-date: /root/tiago_public_ws/install/tiago_gazebo/share/tiago_gazebo/cmake/export_tiago_gazebo__rosidl_generator_pyExport-noconfig.cmake
+[18.301s] Invoked command in '/root/tiago_public_ws/build/tiago_gazebo' returned '0': AMENT_PREFIX_PATH=/root/tiago_public_ws/install/tiago_moveit_config:/root/tiago_public_ws/install/tiago_bringup:/root/tiago_public_ws/install/tiago_2dnav:/root/tiago_public_ws/install/tiago_description:/root/tiago_public_ws/install/tiago_controller_configuration:/root/tiago_public_ws/install/pmb2_description:/root/tiago_public_ws/install/pmb2_controller_configuration:/root/tiago_public_ws/install/play_motion2:/root/tiago_public_ws/install/pal_hey5_description:/root/tiago_public_ws/install/pal_gripper_description:/root/tiago_public_ws/install/urdf_test:/root/tiago_public_ws/install/tiago_laser_sensors:/root/tiago_public_ws/install/play_motion2_msgs:/root/tiago_public_ws/install/pal_urdf_utils:/root/tiago_public_ws/install/pal_robotiq_description:/root/tiago_public_ws/install/pal_robotiq_controller_configuration:/root/tiago_public_ws/install/pal_hey5_controller_configuration:/root/tiago_public_ws/install/pal_gripper_controller_configuration:/root/tiago_public_ws/install/pal_gazebo_worlds:/root/tiago_public_ws/install/launch_pal:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/tiago_public_ws/install/tiago_moveit_config:/root/tiago_public_ws/install/tiago_bringup:/root/tiago_public_ws/install/tiago_2dnav:/root/tiago_public_ws/install/tiago_description:/root/tiago_public_ws/install/tiago_controller_configuration:/root/tiago_public_ws/install/pmb2_description:/root/tiago_public_ws/install/pmb2_controller_configuration:/root/tiago_public_ws/install/play_motion2:/root/tiago_public_ws/install/pal_hey5_description:/root/tiago_public_ws/install/pal_gripper_description:/root/tiago_public_ws/install/urdf_test:/root/tiago_public_ws/install/tiago_laser_sensors:/root/tiago_public_ws/install/play_motion2_msgs:/root/tiago_public_ws/install/pal_urdf_utils:/root/tiago_public_ws/install/pal_robotiq_description:/root/tiago_public_ws/install/pal_robotiq_controller_configuration:/root/tiago_public_ws/install/pal_hey5_controller_configuration:/root/tiago_public_ws/install/pal_gripper_controller_configuration:/root/tiago_public_ws/install/pal_gazebo_worlds:/opt/ros/humble LD_LIBRARY_PATH=/root/tiago_public_ws/install/play_motion2/lib:/root/tiago_public_ws/install/play_motion2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/tiago_public_ws/install/tiago_description/local/lib/python3.10/dist-packages:/root/tiago_public_ws/install/pmb2_description/local/lib/python3.10/dist-packages:/root/tiago_public_ws/install/urdf_test/local/lib/python3.10/dist-packages:/root/tiago_public_ws/install/play_motion2_msgs/local/lib/python3.10/dist-packages:/root/tiago_public_ws/build/launch_pal:/root/tiago_public_ws/install/launch_pal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /root/tiago_public_ws/build/tiago_gazebo

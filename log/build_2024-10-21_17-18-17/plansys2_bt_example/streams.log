@@ -1,0 +1,45 @@
+[0.331s] Invoking command in '/root/tiago_public_ws/build/plansys2_bt_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/tiago_public_ws/install/launch_pal:/opt/ros/humble /usr/bin/cmake --build /root/tiago_public_ws/build/plansys2_bt_example -- -j8 -l8
+[0.466s] [ 12%] Built target plansys2_close_gripper_bt_node
+[0.485s] [ 25%] Built target assemble_action_node
+[0.486s] [ 37%] Built target plansys2_open_gripper_bt_node
+[0.501s] [ 50%] Built target plansys2_approach_object_bt_node
+[0.502s] [ 62%] Built target plansys2_move_bt_node
+[0.504s] [ 75%] Built target plansys2_recharge_bt_node
+[0.526s] [ 93%] Built target assemble_controller_node
+[0.530s] [100%] Built target nav2_sim_node
+[0.597s] Invoked command in '/root/tiago_public_ws/build/plansys2_bt_example' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/tiago_public_ws/install/launch_pal:/opt/ros/humble /usr/bin/cmake --build /root/tiago_public_ws/build/plansys2_bt_example -- -j8 -l8
+[0.768s] Invoking command in '/root/tiago_public_ws/build/plansys2_bt_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/tiago_public_ws/install/launch_pal:/opt/ros/humble /usr/bin/cmake --install /root/tiago_public_ws/build/plansys2_bt_example
+[0.793s] -- Install configuration: ""
+[0.793s] -- Execute custom install script
+[0.793s] -- Up-to-date symlink: /root/tiago_public_ws/install/plansys2_bt_example/share/plansys2_bt_example/launch/commands
+[0.794s] -- Up-to-date symlink: /root/tiago_public_ws/install/plansys2_bt_example/share/plansys2_bt_example/launch/plansys2_bt_example_launch.py
+[0.795s] -- Up-to-date symlink: /root/tiago_public_ws/install/plansys2_bt_example/share/plansys2_bt_example/pddl/bt_example.pddl
+[0.797s] -- Up-to-date symlink: /root/tiago_public_ws/install/plansys2_bt_example/share/plansys2_bt_example/behavior_trees_xml/move.xml
+[0.798s] -- Up-to-date symlink: /root/tiago_public_ws/install/plansys2_bt_example/share/plansys2_bt_example/behavior_trees_xml/recharge.xml
+[0.798s] -- Up-to-date symlink: /root/tiago_public_ws/install/plansys2_bt_example/share/plansys2_bt_example/behavior_trees_xml/transport.xml
+[0.800s] -- Up-to-date symlink: /root/tiago_public_ws/install/plansys2_bt_example/share/plansys2_bt_example/config/params.yaml
+[0.801s] -- Up-to-date symlink: /root/tiago_public_ws/install/plansys2_bt_example/lib/plansys2_bt_example/assemble_action_node
+[0.802s] -- Up-to-date symlink: /root/tiago_public_ws/install/plansys2_bt_example/lib/plansys2_bt_example/assemble_controller_node
+[0.804s] -- Up-to-date symlink: /root/tiago_public_ws/install/plansys2_bt_example/lib/plansys2_bt_example/nav2_sim_node
+[0.808s] -- Up-to-date symlink: /root/tiago_public_ws/install/plansys2_bt_example/lib/libplansys2_recharge_bt_node.so
+[0.808s] -- Up-to-date symlink: /root/tiago_public_ws/install/plansys2_bt_example/lib/libplansys2_close_gripper_bt_node.so
+[0.809s] -- Up-to-date symlink: /root/tiago_public_ws/install/plansys2_bt_example/lib/libplansys2_open_gripper_bt_node.so
+[0.809s] -- Up-to-date symlink: /root/tiago_public_ws/install/plansys2_bt_example/lib/libplansys2_move_bt_node.so
+[0.809s] -- Up-to-date symlink: /root/tiago_public_ws/install/plansys2_bt_example/lib/libplansys2_approach_object_bt_node.so
+[0.810s] -- Up-to-date symlink: /root/tiago_public_ws/install/plansys2_bt_example/share/ament_index/resource_index/package_run_dependencies/plansys2_bt_example
+[0.810s] -- Up-to-date symlink: /root/tiago_public_ws/install/plansys2_bt_example/share/ament_index/resource_index/parent_prefix_path/plansys2_bt_example
+[0.818s] -- Up-to-date symlink: /root/tiago_public_ws/install/plansys2_bt_example/share/plansys2_bt_example/environment/ament_prefix_path.sh
+[0.818s] -- Up-to-date symlink: /root/tiago_public_ws/install/plansys2_bt_example/share/plansys2_bt_example/environment/ament_prefix_path.dsv
+[0.819s] -- Up-to-date symlink: /root/tiago_public_ws/install/plansys2_bt_example/share/plansys2_bt_example/environment/path.sh
+[0.819s] -- Up-to-date symlink: /root/tiago_public_ws/install/plansys2_bt_example/share/plansys2_bt_example/environment/path.dsv
+[0.819s] -- Up-to-date symlink: /root/tiago_public_ws/install/plansys2_bt_example/share/plansys2_bt_example/local_setup.bash
+[0.819s] -- Up-to-date symlink: /root/tiago_public_ws/install/plansys2_bt_example/share/plansys2_bt_example/local_setup.sh
+[0.819s] -- Up-to-date symlink: /root/tiago_public_ws/install/plansys2_bt_example/share/plansys2_bt_example/local_setup.zsh
+[0.819s] -- Up-to-date symlink: /root/tiago_public_ws/install/plansys2_bt_example/share/plansys2_bt_example/local_setup.dsv
+[0.819s] -- Symlinking: /root/tiago_public_ws/install/plansys2_bt_example/share/plansys2_bt_example/package.dsv
+[0.841s] -- Up-to-date symlink: /root/tiago_public_ws/install/plansys2_bt_example/share/ament_index/resource_index/packages/plansys2_bt_example
+[0.844s] -- Up-to-date symlink: /root/tiago_public_ws/install/plansys2_bt_example/share/plansys2_bt_example/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.844s] -- Up-to-date symlink: /root/tiago_public_ws/install/plansys2_bt_example/share/plansys2_bt_example/cmake/plansys2_bt_exampleConfig.cmake
+[0.847s] -- Up-to-date symlink: /root/tiago_public_ws/install/plansys2_bt_example/share/plansys2_bt_example/cmake/plansys2_bt_exampleConfig-version.cmake
+[0.849s] -- Up-to-date symlink: /root/tiago_public_ws/install/plansys2_bt_example/share/plansys2_bt_example/package.xml
+[0.897s] Invoked command in '/root/tiago_public_ws/build/plansys2_bt_example' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/tiago_public_ws/install/launch_pal:/opt/ros/humble /usr/bin/cmake --install /root/tiago_public_ws/build/plansys2_bt_example

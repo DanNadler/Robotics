@@ -1,0 +1,126 @@
+[  5%] Built target gtest_main
+[  8%] Built target tiago_gazebo__cpp
+[ 16%] Built target tiago_gazebo__rosidl_generator_c
+[ 21%] Built target gtest
+[ 21%] Built target ament_cmake_python_symlink_tiago_gazebo
+[ 29%] Built target tiago_gazebo__rosidl_typesupport_introspection_cpp
+[ 37%] Built target tiago_gazebo__rosidl_typesupport_fastrtps_c
+[ 45%] Built target tiago_gazebo__rosidl_typesupport_cpp
+[ 54%] Built target tiago_gazebo__rosidl_typesupport_fastrtps_cpp
+[ 62%] Built target tiago_gazebo__rosidl_typesupport_introspection_c
+[ 70%] Built target tiago_gazebo__rosidl_typesupport_c
+[ 75%] Built target tuck_arm_test
+[ 75%] Built target tiago_gazebo
+[ 78%] Built target tiago_gazebo__py
+[ 83%] Built target tiago_gazebo__rosidl_generator_py
+[ 89%] Built target tiago_gazebo__rosidl_typesupport_fastrtps_c__pyext
+[ 94%] Built target tiago_gazebo__rosidl_typesupport_c__pyext
+[100%] Built target tiago_gazebo__rosidl_typesupport_introspection_c__pyext
+running egg_info
+writing tiago_gazebo.egg-info/PKG-INFO
+writing dependency_links to tiago_gazebo.egg-info/dependency_links.txt
+writing top-level names to tiago_gazebo.egg-info/top_level.txt
+reading manifest file 'tiago_gazebo.egg-info/SOURCES.txt'
+writing manifest file 'tiago_gazebo.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_tiago_gazebo_egg
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/share/ament_index/resource_index/rosidl_interfaces/tiago_gazebo
+-- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/include/tiago_gazebo/tiago_gazebo/msg/detail/order__functions.h
+-- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/include/tiago_gazebo/tiago_gazebo/msg/detail/order__struct.h
+-- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/include/tiago_gazebo/tiago_gazebo/msg/detail/order__type_support.h
+-- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/include/tiago_gazebo/tiago_gazebo/msg/order.h
+-- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/include/tiago_gazebo/tiago_gazebo/msg/rosidl_generator_c__visibility_control.h
+-- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/share/tiago_gazebo/environment/library_path.sh
+-- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/share/tiago_gazebo/environment/library_path.dsv
+-- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/include/tiago_gazebo/tiago_gazebo/msg/detail/order__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/include/tiago_gazebo/tiago_gazebo/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/include/tiago_gazebo/tiago_gazebo/msg/detail/order__rosidl_typesupport_introspection_c.h
+-- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/include/tiago_gazebo/tiago_gazebo/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/include/tiago_gazebo/tiago_gazebo/msg/detail/order__builder.hpp
+-- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/include/tiago_gazebo/tiago_gazebo/msg/detail/order__struct.hpp
+-- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/include/tiago_gazebo/tiago_gazebo/msg/detail/order__traits.hpp
+-- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/include/tiago_gazebo/tiago_gazebo/msg/order.hpp
+-- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/include/tiago_gazebo/tiago_gazebo/msg/detail/order__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/include/tiago_gazebo/tiago_gazebo/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/include/tiago_gazebo/tiago_gazebo/msg/detail/order__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/share/tiago_gazebo/environment/pythonpath.sh
+-- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/share/tiago_gazebo/environment/pythonpath.dsv
+-- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/local/lib/python3.10/dist-packages/tiago_gazebo-4.2.0-py3.10.egg-info/PKG-INFO
+-- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/local/lib/python3.10/dist-packages/tiago_gazebo-4.2.0-py3.10.egg-info/SOURCES.txt
+-- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/local/lib/python3.10/dist-packages/tiago_gazebo-4.2.0-py3.10.egg-info/dependency_links.txt
+-- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/local/lib/python3.10/dist-packages/tiago_gazebo-4.2.0-py3.10.egg-info/top_level.txt
+-- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/local/lib/python3.10/dist-packages/tiago_gazebo/__init__.py
+-- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/local/lib/python3.10/dist-packages/tiago_gazebo/_tiago_gazebo_s.ep.rosidl_typesupport_c.c
+-- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/local/lib/python3.10/dist-packages/tiago_gazebo/_tiago_gazebo_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/local/lib/python3.10/dist-packages/tiago_gazebo/_tiago_gazebo_s.ep.rosidl_typesupport_introspection_c.c
+-- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/local/lib/python3.10/dist-packages/tiago_gazebo/libtiago_gazebo__rosidl_generator_py.so
+-- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/local/lib/python3.10/dist-packages/tiago_gazebo/msg/__init__.py
+-- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/local/lib/python3.10/dist-packages/tiago_gazebo/msg/_order.py
+-- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/local/lib/python3.10/dist-packages/tiago_gazebo/msg/_order_s.c
+-- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/local/lib/python3.10/dist-packages/tiago_gazebo/tiago_gazebo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/local/lib/python3.10/dist-packages/tiago_gazebo/tiago_gazebo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/local/lib/python3.10/dist-packages/tiago_gazebo/tiago_gazebo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/local/lib/python3.10/dist-packages/tiago_gazebo/tiago_gazebo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/local/lib/python3.10/dist-packages/tiago_gazebo/tiago_gazebo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/local/lib/python3.10/dist-packages/tiago_gazebo/tiago_gazebo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/share/tiago_gazebo/msg/Order.idl
+-- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/share/tiago_gazebo/msg/Order.msg
+-- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/lib/tiago_gazebo/tuck_arm.py
+-- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/lib/tiago_gazebo/talker.py
+-- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/lib/tiago_gazebo/listener.py
+-- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/share/tiago_gazebo/test/tuck_arm_test
+-- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/share/tiago_gazebo/launch/.tiago_gazebo.launch.py.swo
+-- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/share/tiago_gazebo/launch/robot_spawn.launch.py
+-- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/share/tiago_gazebo/launch/tiago_cafe.launch.py
+-- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/share/tiago_gazebo/launch/tiago_cafe.launch.py:Zone.Identifier
+-- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/share/tiago_gazebo/launch/tiago_gazebo.launch.py
+-- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/share/ament_index/resource_index/package_run_dependencies/tiago_gazebo
+-- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/share/ament_index/resource_index/parent_prefix_path/tiago_gazebo
+-- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/share/tiago_gazebo/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/share/tiago_gazebo/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/share/tiago_gazebo/environment/path.sh
+-- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/share/tiago_gazebo/environment/path.dsv
+-- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/share/tiago_gazebo/local_setup.bash
+-- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/share/tiago_gazebo/local_setup.sh
+-- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/share/tiago_gazebo/local_setup.zsh
+-- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/share/tiago_gazebo/local_setup.dsv
+-- Symlinking: /root/tiago_public_ws/install/tiago_gazebo/share/tiago_gazebo/package.dsv
+-- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/share/ament_index/resource_index/packages/tiago_gazebo
+-- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/share/tiago_gazebo/cmake/rosidl_cmake-extras.cmake
+-- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/share/tiago_gazebo/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/share/tiago_gazebo/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/share/tiago_gazebo/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/share/tiago_gazebo/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/share/tiago_gazebo/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/share/tiago_gazebo/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/share/tiago_gazebo/cmake/tiago_gazeboConfig.cmake
+-- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/share/tiago_gazebo/cmake/tiago_gazeboConfig-version.cmake
+-- Up-to-date symlink: /root/tiago_public_ws/install/tiago_gazebo/share/tiago_gazebo/package.xml
+-- Up-to-date: /root/tiago_public_ws/install/tiago_gazebo/lib/libtiago_gazebo__rosidl_generator_c.so
+-- Up-to-date: /root/tiago_public_ws/install/tiago_gazebo/lib/libtiago_gazebo__rosidl_typesupport_fastrtps_c.so
+-- Up-to-date: /root/tiago_public_ws/install/tiago_gazebo/lib/libtiago_gazebo__rosidl_typesupport_introspection_c.so
+-- Up-to-date: /root/tiago_public_ws/install/tiago_gazebo/lib/libtiago_gazebo__rosidl_typesupport_c.so
+-- Up-to-date: /root/tiago_public_ws/install/tiago_gazebo/lib/libtiago_gazebo__rosidl_typesupport_fastrtps_cpp.so
+-- Up-to-date: /root/tiago_public_ws/install/tiago_gazebo/lib/libtiago_gazebo__rosidl_typesupport_introspection_cpp.so
+-- Up-to-date: /root/tiago_public_ws/install/tiago_gazebo/lib/libtiago_gazebo__rosidl_typesupport_cpp.so
+Listing '/root/tiago_public_ws/install/tiago_gazebo/local/lib/python3.10/dist-packages/tiago_gazebo'...
+Listing '/root/tiago_public_ws/install/tiago_gazebo/local/lib/python3.10/dist-packages/tiago_gazebo/msg'...
+-- Up-to-date: /root/tiago_public_ws/install/tiago_gazebo/lib/libtiago_gazebo__rosidl_generator_py.so
+-- Up-to-date: /root/tiago_public_ws/install/tiago_gazebo/share/tiago_gazebo/cmake/export_tiago_gazebo__rosidl_generator_cExport.cmake
+-- Up-to-date: /root/tiago_public_ws/install/tiago_gazebo/share/tiago_gazebo/cmake/export_tiago_gazebo__rosidl_generator_cExport-noconfig.cmake
+-- Up-to-date: /root/tiago_public_ws/install/tiago_gazebo/share/tiago_gazebo/cmake/export_tiago_gazebo__rosidl_typesupport_fastrtps_cExport.cmake
+-- Up-to-date: /root/tiago_public_ws/install/tiago_gazebo/share/tiago_gazebo/cmake/export_tiago_gazebo__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Up-to-date: /root/tiago_public_ws/install/tiago_gazebo/share/tiago_gazebo/cmake/tiago_gazebo__rosidl_typesupport_introspection_cExport.cmake
+-- Up-to-date: /root/tiago_public_ws/install/tiago_gazebo/share/tiago_gazebo/cmake/tiago_gazebo__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Up-to-date: /root/tiago_public_ws/install/tiago_gazebo/share/tiago_gazebo/cmake/tiago_gazebo__rosidl_typesupport_cExport.cmake
+-- Up-to-date: /root/tiago_public_ws/install/tiago_gazebo/share/tiago_gazebo/cmake/tiago_gazebo__rosidl_typesupport_cExport-noconfig.cmake
+-- Up-to-date: /root/tiago_public_ws/install/tiago_gazebo/share/tiago_gazebo/cmake/export_tiago_gazebo__rosidl_generator_cppExport.cmake
+-- Up-to-date: /root/tiago_public_ws/install/tiago_gazebo/share/tiago_gazebo/cmake/export_tiago_gazebo__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Up-to-date: /root/tiago_public_ws/install/tiago_gazebo/share/tiago_gazebo/cmake/export_tiago_gazebo__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Up-to-date: /root/tiago_public_ws/install/tiago_gazebo/share/tiago_gazebo/cmake/tiago_gazebo__rosidl_typesupport_introspection_cppExport.cmake
+-- Up-to-date: /root/tiago_public_ws/install/tiago_gazebo/share/tiago_gazebo/cmake/tiago_gazebo__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Up-to-date: /root/tiago_public_ws/install/tiago_gazebo/share/tiago_gazebo/cmake/tiago_gazebo__rosidl_typesupport_cppExport.cmake
+-- Up-to-date: /root/tiago_public_ws/install/tiago_gazebo/share/tiago_gazebo/cmake/tiago_gazebo__rosidl_typesupport_cppExport-noconfig.cmake
+-- Up-to-date: /root/tiago_public_ws/install/tiago_gazebo/share/tiago_gazebo/cmake/export_tiago_gazebo__rosidl_generator_pyExport.cmake
+-- Up-to-date: /root/tiago_public_ws/install/tiago_gazebo/share/tiago_gazebo/cmake/export_tiago_gazebo__rosidl_generator_pyExport-noconfig.cmake

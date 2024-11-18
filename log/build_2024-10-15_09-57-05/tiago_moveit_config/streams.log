@@ -1,0 +1,112 @@
+[0.287s] Invoking command in '/root/tiago_public_ws/build/tiago_moveit_config': AMENT_PREFIX_PATH=/root/tiago_public_ws/install/tiago_description:/root/tiago_public_ws/install/pmb2_description:/root/tiago_public_ws/install/pal_hey5_description:/root/tiago_public_ws/install/pal_gripper_description:/root/tiago_public_ws/install/urdf_test:/root/tiago_public_ws/install/pal_urdf_utils:/root/tiago_public_ws/install/pal_robotiq_description:/root/tiago_public_ws/install/launch_pal:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/tiago_public_ws/install/tiago_description:/root/tiago_public_ws/install/pmb2_description:/root/tiago_public_ws/install/pal_hey5_description:/root/tiago_public_ws/install/pal_gripper_description:/root/tiago_public_ws/install/urdf_test:/root/tiago_public_ws/install/pal_urdf_utils:/root/tiago_public_ws/install/pal_robotiq_description:/opt/ros/humble PYTHONPATH=/root/tiago_public_ws/install/tiago_description/local/lib/python3.10/dist-packages:/root/tiago_public_ws/install/pmb2_description/local/lib/python3.10/dist-packages:/root/tiago_public_ws/install/urdf_test/local/lib/python3.10/dist-packages:/root/tiago_public_ws/build/launch_pal:/root/tiago_public_ws/install/launch_pal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /root/tiago_public_ws/src/tiago_moveit_config -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/tiago_public_ws/install/tiago_moveit_config
+[0.424s] -- The C compiler identification is GNU 11.4.0
+[0.923s] -- The CXX compiler identification is GNU 11.4.0
+[1.276s] -- Detecting C compiler ABI info
+[1.396s] -- Detecting C compiler ABI info - done
+[1.407s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.408s] -- Detecting C compile features
+[1.409s] -- Detecting C compile features - done
+[1.412s] -- Detecting CXX compiler ABI info
+[1.556s] -- Detecting CXX compiler ABI info - done
+[1.565s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.565s] -- Detecting CXX compile features
+[1.565s] -- Detecting CXX compile features - done
+[1.568s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.744s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.818s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.130s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.231s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.238s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.239s] -- Added test 'lint_cmake' to check CMake code style
+[3.241s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.246s] -- Added test 'xmllint' to check XML markup files
+[3.248s] -- Configuring done
+[3.251s] -- Generating done
+[3.251s] -- Build files have been written to: /root/tiago_public_ws/build/tiago_moveit_config
+[3.256s] Invoked command in '/root/tiago_public_ws/build/tiago_moveit_config' returned '0': AMENT_PREFIX_PATH=/root/tiago_public_ws/install/tiago_description:/root/tiago_public_ws/install/pmb2_description:/root/tiago_public_ws/install/pal_hey5_description:/root/tiago_public_ws/install/pal_gripper_description:/root/tiago_public_ws/install/urdf_test:/root/tiago_public_ws/install/pal_urdf_utils:/root/tiago_public_ws/install/pal_robotiq_description:/root/tiago_public_ws/install/launch_pal:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/tiago_public_ws/install/tiago_description:/root/tiago_public_ws/install/pmb2_description:/root/tiago_public_ws/install/pal_hey5_description:/root/tiago_public_ws/install/pal_gripper_description:/root/tiago_public_ws/install/urdf_test:/root/tiago_public_ws/install/pal_urdf_utils:/root/tiago_public_ws/install/pal_robotiq_description:/opt/ros/humble PYTHONPATH=/root/tiago_public_ws/install/tiago_description/local/lib/python3.10/dist-packages:/root/tiago_public_ws/install/pmb2_description/local/lib/python3.10/dist-packages:/root/tiago_public_ws/install/urdf_test/local/lib/python3.10/dist-packages:/root/tiago_public_ws/build/launch_pal:/root/tiago_public_ws/install/launch_pal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /root/tiago_public_ws/src/tiago_moveit_config -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/tiago_public_ws/install/tiago_moveit_config
+[3.258s] Invoking command in '/root/tiago_public_ws/build/tiago_moveit_config': AMENT_PREFIX_PATH=/root/tiago_public_ws/install/tiago_description:/root/tiago_public_ws/install/pmb2_description:/root/tiago_public_ws/install/pal_hey5_description:/root/tiago_public_ws/install/pal_gripper_description:/root/tiago_public_ws/install/urdf_test:/root/tiago_public_ws/install/pal_urdf_utils:/root/tiago_public_ws/install/pal_robotiq_description:/root/tiago_public_ws/install/launch_pal:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/tiago_public_ws/install/tiago_description:/root/tiago_public_ws/install/pmb2_description:/root/tiago_public_ws/install/pal_hey5_description:/root/tiago_public_ws/install/pal_gripper_description:/root/tiago_public_ws/install/urdf_test:/root/tiago_public_ws/install/pal_urdf_utils:/root/tiago_public_ws/install/pal_robotiq_description:/opt/ros/humble PYTHONPATH=/root/tiago_public_ws/install/tiago_description/local/lib/python3.10/dist-packages:/root/tiago_public_ws/install/pmb2_description/local/lib/python3.10/dist-packages:/root/tiago_public_ws/install/urdf_test/local/lib/python3.10/dist-packages:/root/tiago_public_ws/build/launch_pal:/root/tiago_public_ws/install/launch_pal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /root/tiago_public_ws/build/tiago_moveit_config -- -j8 -l8
+[3.298s] Invoked command in '/root/tiago_public_ws/build/tiago_moveit_config' returned '0': AMENT_PREFIX_PATH=/root/tiago_public_ws/install/tiago_description:/root/tiago_public_ws/install/pmb2_description:/root/tiago_public_ws/install/pal_hey5_description:/root/tiago_public_ws/install/pal_gripper_description:/root/tiago_public_ws/install/urdf_test:/root/tiago_public_ws/install/pal_urdf_utils:/root/tiago_public_ws/install/pal_robotiq_description:/root/tiago_public_ws/install/launch_pal:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/tiago_public_ws/install/tiago_description:/root/tiago_public_ws/install/pmb2_description:/root/tiago_public_ws/install/pal_hey5_description:/root/tiago_public_ws/install/pal_gripper_description:/root/tiago_public_ws/install/urdf_test:/root/tiago_public_ws/install/pal_urdf_utils:/root/tiago_public_ws/install/pal_robotiq_description:/opt/ros/humble PYTHONPATH=/root/tiago_public_ws/install/tiago_description/local/lib/python3.10/dist-packages:/root/tiago_public_ws/install/pmb2_description/local/lib/python3.10/dist-packages:/root/tiago_public_ws/install/urdf_test/local/lib/python3.10/dist-packages:/root/tiago_public_ws/build/launch_pal:/root/tiago_public_ws/install/launch_pal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /root/tiago_public_ws/build/tiago_moveit_config -- -j8 -l8
+[3.318s] Invoking command in '/root/tiago_public_ws/build/tiago_moveit_config': AMENT_PREFIX_PATH=/root/tiago_public_ws/install/tiago_description:/root/tiago_public_ws/install/pmb2_description:/root/tiago_public_ws/install/pal_hey5_description:/root/tiago_public_ws/install/pal_gripper_description:/root/tiago_public_ws/install/urdf_test:/root/tiago_public_ws/install/pal_urdf_utils:/root/tiago_public_ws/install/pal_robotiq_description:/root/tiago_public_ws/install/launch_pal:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/tiago_public_ws/install/tiago_description:/root/tiago_public_ws/install/pmb2_description:/root/tiago_public_ws/install/pal_hey5_description:/root/tiago_public_ws/install/pal_gripper_description:/root/tiago_public_ws/install/urdf_test:/root/tiago_public_ws/install/pal_urdf_utils:/root/tiago_public_ws/install/pal_robotiq_description:/opt/ros/humble PYTHONPATH=/root/tiago_public_ws/install/tiago_description/local/lib/python3.10/dist-packages:/root/tiago_public_ws/install/pmb2_description/local/lib/python3.10/dist-packages:/root/tiago_public_ws/install/urdf_test/local/lib/python3.10/dist-packages:/root/tiago_public_ws/build/launch_pal:/root/tiago_public_ws/install/launch_pal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /root/tiago_public_ws/build/tiago_moveit_config
+[3.323s] -- Install configuration: ""
+[3.323s] -- Execute custom install script
+[3.324s] -- Symlinking: /root/tiago_public_ws/install/tiago_moveit_config/share/ament_index/resource_index/package_run_dependencies/tiago_moveit_config
+[3.332s] -- Symlinking: /root/tiago_public_ws/install/tiago_moveit_config/share/ament_index/resource_index/parent_prefix_path/tiago_moveit_config
+[3.341s] -- Symlinking: /root/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/environment/ament_prefix_path.sh
+[3.349s] -- Symlinking: /root/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/environment/ament_prefix_path.dsv
+[3.356s] -- Symlinking: /root/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/environment/path.sh
+[3.363s] -- Symlinking: /root/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/environment/path.dsv
+[3.371s] -- Symlinking: /root/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/local_setup.bash
+[3.379s] -- Symlinking: /root/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/local_setup.sh
+[3.388s] -- Symlinking: /root/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/local_setup.zsh
+[3.395s] -- Symlinking: /root/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/local_setup.dsv
+[3.403s] -- Symlinking: /root/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/package.dsv
+[3.410s] -- Symlinking: /root/tiago_public_ws/install/tiago_moveit_config/share/ament_index/resource_index/packages/tiago_moveit_config
+[3.416s] -- Symlinking: /root/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/cmake/tiago_moveit_configConfig.cmake
+[3.422s] -- Symlinking: /root/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/cmake/tiago_moveit_configConfig-version.cmake
+[3.430s] -- Symlinking: /root/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/package.xml
+[3.436s] -- Symlinking: /root/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/launch/move_group.launch.py
+[3.444s] -- Symlinking: /root/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/launch/moveit_rviz.launch.py
+[3.452s] -- Symlinking: /root/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/controllers/controllers.yaml.em
+[3.460s] -- Symlinking: /root/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/controllers/controllers_custom.yaml
+[3.468s] -- Symlinking: /root/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/controllers/controllers_no-arm.yaml
+[3.475s] -- Symlinking: /root/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/controllers/controllers_no-ee.yaml
+[3.483s] -- Symlinking: /root/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/controllers/controllers_pal-gripper.yaml
+[3.490s] -- Symlinking: /root/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/controllers/controllers_pal-hey5.yaml
+[3.497s] -- Symlinking: /root/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/controllers/controllers_robotiq-2f-140.yaml
+[3.504s] -- Symlinking: /root/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/controllers/controllers_robotiq-2f-85.yaml
+[3.512s] -- Symlinking: /root/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/controllers/controllers_robotiq-epick.yaml
+[3.518s] -- Symlinking: /root/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/joint_limits.yaml
+[3.525s] -- Symlinking: /root/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/kinematics_kdl.yaml
+[3.532s] -- Symlinking: /root/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/kinematics_trac_ik.yaml
+[3.539s] -- Symlinking: /root/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/ompl_planning.yaml
+[3.546s] -- Symlinking: /root/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/pilz_cartesian_limits.yaml
+[3.554s] -- Symlinking: /root/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/rviz/moveit.rviz
+[3.561s] -- Symlinking: /root/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/sensors_3d.yaml
+[3.568s] -- Symlinking: /root/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/srdf/disable_collisions/custom.srdf.xacro
+[3.574s] -- Symlinking: /root/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/srdf/disable_collisions/custom_schunk-ft.srdf.xacro
+[3.581s] -- Symlinking: /root/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/srdf/disable_collisions/no-ee.srdf.xacro
+[3.588s] -- Symlinking: /root/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/srdf/disable_collisions/no-ee_schunk-ft.srdf.xacro
+[3.595s] -- Symlinking: /root/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/srdf/disable_collisions/pal-gripper.srdf.xacro
+[3.602s] -- Symlinking: /root/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/srdf/disable_collisions/pal-gripper_schunk-ft.srdf.xacro
+[3.609s] -- Symlinking: /root/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/srdf/disable_collisions/pal-hey5.srdf.xacro
+[3.615s] -- Symlinking: /root/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/srdf/disable_collisions/pal-hey5_schunk-ft.srdf.xacro
+[3.622s] -- Symlinking: /root/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/srdf/disable_collisions/robotiq-2f-140.srdf.xacro
+[3.631s] -- Symlinking: /root/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/srdf/disable_collisions/robotiq-2f-140_schunk-ft.srdf.xacro
+[3.638s] -- Symlinking: /root/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/srdf/disable_collisions/robotiq-2f-85.srdf.xacro
+[3.644s] -- Symlinking: /root/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/srdf/disable_collisions/robotiq-2f-85_schunk-ft.srdf.xacro
+[3.651s] -- Symlinking: /root/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/srdf/disable_collisions/tiago_custom.srdf.xacro
+[3.656s] -- Symlinking: /root/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/srdf/disable_collisions/tiago_custom_schunk-ft.srdf.xacro
+[3.662s] -- Symlinking: /root/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/srdf/disable_collisions/tiago_no-arm.srdf.xacro
+[3.668s] -- Symlinking: /root/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/srdf/disable_collisions/tiago_no-ee.srdf.xacro
+[3.676s] -- Symlinking: /root/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/srdf/disable_collisions/tiago_no-ee_schunk-ft.srdf.xacro
+[3.683s] -- Symlinking: /root/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/srdf/disable_collisions/tiago_omni_custom.srdf.xacro
+[3.689s] -- Symlinking: /root/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/srdf/disable_collisions/tiago_omni_custom_schunk-ft.srdf.xacro
+[3.694s] -- Symlinking: /root/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/srdf/disable_collisions/tiago_omni_no-arm.srdf.xacro
+[3.701s] -- Symlinking: /root/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/srdf/disable_collisions/tiago_omni_no-ee.srdf.xacro
+[3.711s] -- Symlinking: /root/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/srdf/disable_collisions/tiago_omni_no-ee_schunk-ft.srdf.xacro
+[3.719s] -- Symlinking: /root/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/srdf/disable_collisions/tiago_omni_pal-gripper.srdf.xacro
+[3.729s] -- Symlinking: /root/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/srdf/disable_collisions/tiago_omni_pal-gripper_schunk-ft.srdf.xacro
+[3.737s] -- Symlinking: /root/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/srdf/disable_collisions/tiago_omni_pal-hey5.srdf.xacro
+[3.744s] -- Symlinking: /root/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/srdf/disable_collisions/tiago_omni_pal-hey5_schunk-ft.srdf.xacro
+[3.751s] -- Symlinking: /root/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/srdf/disable_collisions/tiago_omni_robotiq-2f-140.srdf.xacro
+[3.760s] -- Symlinking: /root/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/srdf/disable_collisions/tiago_omni_robotiq-2f-140_schunk-ft.srdf.xacro
+[3.778s] -- Symlinking: /root/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/srdf/disable_collisions/tiago_omni_robotiq-2f-85.srdf.xacro
+[3.786s] -- Symlinking: /root/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/srdf/disable_collisions/tiago_omni_robotiq-2f-85_schunk-ft.srdf.xacro
+[3.796s] -- Symlinking: /root/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/srdf/disable_collisions/tiago_pal-gripper.srdf.xacro
+[3.803s] -- Symlinking: /root/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/srdf/disable_collisions/tiago_pal-gripper_schunk-ft.srdf.xacro
+[3.811s] -- Symlinking: /root/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/srdf/disable_collisions/tiago_pal-hey5.srdf.xacro
+[3.819s] -- Symlinking: /root/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/srdf/disable_collisions/tiago_pal-hey5_schunk-ft.srdf.xacro
+[3.826s] -- Symlinking: /root/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/srdf/disable_collisions/tiago_robotiq-2f-140.srdf.xacro
+[3.832s] -- Symlinking: /root/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/srdf/disable_collisions/tiago_robotiq-2f-140_schunk-ft.srdf.xacro
+[3.840s] -- Symlinking: /root/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/srdf/disable_collisions/tiago_robotiq-2f-85.srdf.xacro
+[3.846s] -- Symlinking: /root/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/srdf/disable_collisions/tiago_robotiq-2f-85_schunk-ft.srdf.xacro
+[3.851s] -- Symlinking: /root/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/srdf/end_effectors/custom.srdf.xacro
+[3.858s] -- Symlinking: /root/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/srdf/end_effectors/no-end-effector.srdf.xacro
+[3.867s] -- Symlinking: /root/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/srdf/end_effectors/pal-gripper.srdf.xacro
+[3.874s] -- Symlinking: /root/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/srdf/end_effectors/pal-hey5.srdf.xacro
+[3.880s] -- Symlinking: /root/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/srdf/end_effectors/robotiq-2f-140.srdf.xacro
+[3.885s] -- Symlinking: /root/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/srdf/end_effectors/robotiq-2f-85.srdf.xacro
+[3.891s] -- Symlinking: /root/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/srdf/end_effectors/shared/robotiq-2f.srdf.xacro
+[3.897s] -- Symlinking: /root/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/srdf/scripts/update.sh
+[3.902s] -- Symlinking: /root/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/srdf/tiago.srdf.xacro
+[3.911s] Invoked command in '/root/tiago_public_ws/build/tiago_moveit_config' returned '0': AMENT_PREFIX_PATH=/root/tiago_public_ws/install/tiago_description:/root/tiago_public_ws/install/pmb2_description:/root/tiago_public_ws/install/pal_hey5_description:/root/tiago_public_ws/install/pal_gripper_description:/root/tiago_public_ws/install/urdf_test:/root/tiago_public_ws/install/pal_urdf_utils:/root/tiago_public_ws/install/pal_robotiq_description:/root/tiago_public_ws/install/launch_pal:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/tiago_public_ws/install/tiago_description:/root/tiago_public_ws/install/pmb2_description:/root/tiago_public_ws/install/pal_hey5_description:/root/tiago_public_ws/install/pal_gripper_description:/root/tiago_public_ws/install/urdf_test:/root/tiago_public_ws/install/pal_urdf_utils:/root/tiago_public_ws/install/pal_robotiq_description:/opt/ros/humble PYTHONPATH=/root/tiago_public_ws/install/tiago_description/local/lib/python3.10/dist-packages:/root/tiago_public_ws/install/pmb2_description/local/lib/python3.10/dist-packages:/root/tiago_public_ws/install/urdf_test/local/lib/python3.10/dist-packages:/root/tiago_public_ws/build/launch_pal:/root/tiago_public_ws/install/launch_pal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /root/tiago_public_ws/build/tiago_moveit_config

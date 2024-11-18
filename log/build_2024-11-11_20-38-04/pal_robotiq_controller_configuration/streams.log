@@ -1,0 +1,23 @@
+[1.030s] Invoking command in '/root/tiago_public_ws/build/pal_robotiq_controller_configuration': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/tiago_public_ws/install/launch_pal:/opt/ros/humble /usr/bin/cmake --build /root/tiago_public_ws/build/pal_robotiq_controller_configuration -- -j8 -l8
+[1.284s] Invoked command in '/root/tiago_public_ws/build/pal_robotiq_controller_configuration' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/tiago_public_ws/install/launch_pal:/opt/ros/humble /usr/bin/cmake --build /root/tiago_public_ws/build/pal_robotiq_controller_configuration -- -j8 -l8
+[1.469s] Invoking command in '/root/tiago_public_ws/build/pal_robotiq_controller_configuration': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/tiago_public_ws/install/launch_pal:/opt/ros/humble /usr/bin/cmake --install /root/tiago_public_ws/build/pal_robotiq_controller_configuration
+[1.494s] -- Install configuration: ""
+[1.496s] -- Execute custom install script
+[1.501s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_robotiq_controller_configuration/share/pal_robotiq_controller_configuration/config/robotiq_gripper_controller.yaml
+[1.501s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_robotiq_controller_configuration/share/pal_robotiq_controller_configuration/launch/robotiq_gripper_controller.launch.py
+[1.501s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_robotiq_controller_configuration/share/ament_index/resource_index/package_run_dependencies/pal_robotiq_controller_configuration
+[1.502s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_robotiq_controller_configuration/share/ament_index/resource_index/parent_prefix_path/pal_robotiq_controller_configuration
+[1.503s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_robotiq_controller_configuration/share/pal_robotiq_controller_configuration/environment/ament_prefix_path.sh
+[1.504s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_robotiq_controller_configuration/share/pal_robotiq_controller_configuration/environment/ament_prefix_path.dsv
+[1.504s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_robotiq_controller_configuration/share/pal_robotiq_controller_configuration/environment/path.sh
+[1.505s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_robotiq_controller_configuration/share/pal_robotiq_controller_configuration/environment/path.dsv
+[1.505s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_robotiq_controller_configuration/share/pal_robotiq_controller_configuration/local_setup.bash
+[1.512s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_robotiq_controller_configuration/share/pal_robotiq_controller_configuration/local_setup.sh
+[1.514s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_robotiq_controller_configuration/share/pal_robotiq_controller_configuration/local_setup.zsh
+[1.514s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_robotiq_controller_configuration/share/pal_robotiq_controller_configuration/local_setup.dsv
+[1.515s] -- Symlinking: /root/tiago_public_ws/install/pal_robotiq_controller_configuration/share/pal_robotiq_controller_configuration/package.dsv
+[1.567s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_robotiq_controller_configuration/share/ament_index/resource_index/packages/pal_robotiq_controller_configuration
+[1.568s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_robotiq_controller_configuration/share/pal_robotiq_controller_configuration/cmake/pal_robotiq_controller_configurationConfig.cmake
+[1.568s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_robotiq_controller_configuration/share/pal_robotiq_controller_configuration/cmake/pal_robotiq_controller_configurationConfig-version.cmake
+[1.568s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_robotiq_controller_configuration/share/pal_robotiq_controller_configuration/package.xml
+[1.636s] Invoked command in '/root/tiago_public_ws/build/pal_robotiq_controller_configuration' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/tiago_public_ws/install/launch_pal:/opt/ros/humble /usr/bin/cmake --install /root/tiago_public_ws/build/pal_robotiq_controller_configuration

@@ -1,0 +1,18 @@
+[0.236s] Invoking command in '/root/tiago_public_ws/build/pal_robotiq_gripper': CMAKE_PREFIX_PATH=/root/tiago_public_ws/install/pal_robotiq_description:/root/tiago_public_ws/install/pal_robotiq_controller_configuration:/root/tiago_public_ws/install/urdf_test:/root/tiago_public_ws/install/tiago_simulation:/root/tiago_public_ws/install/tiago_robot:/root/tiago_public_ws/install/tiago_navigation:/root/tiago_public_ws/install/tiago_gazebo:/root/tiago_public_ws/install/tiago_moveit_config:/root/tiago_public_ws/install/tiago_2dnav:/root/tiago_public_ws/install/tiago_laser_sensors:/root/tiago_public_ws/install/tiago_bringup:/root/tiago_public_ws/install/tiago_description:/root/tiago_public_ws/install/tiago_controller_configuration:/root/tiago_public_ws/install/pmb2_robot:/root/tiago_public_ws/install/pmb2_navigation:/root/tiago_public_ws/install/pmb2_2dnav:/root/tiago_public_ws/install/pmb2_laser_sensors:/root/tiago_public_ws/install/pmb2_bringup:/root/tiago_public_ws/install/pmb2_description:/root/tiago_public_ws/install/pmb2_controller_configuration:/root/tiago_public_ws/install/play_motion2:/root/tiago_public_ws/install/play_motion2_msgs:/root/tiago_public_ws/install/pal_hey5:/root/tiago_public_ws/install/pal_hey5_description:/root/tiago_public_ws/install/pal_gripper_simulation:/root/tiago_public_ws/install/pal_gripper:/root/tiago_public_ws/install/pal_gripper_description:/root/tiago_public_ws/install/pal_urdf_utils:/root/tiago_public_ws/install/pal_robotiq_gripper:/root/tiago_public_ws/install/pal_navigation_cfg:/root/tiago_public_ws/install/pal_navigation_cfg_bringup:/root/tiago_public_ws/install/pal_navigation_cfg_params:/root/tiago_public_ws/install/pal_hey5_controller_configuration:/root/tiago_public_ws/install/pal_gripper_controller_configuration:/root/tiago_public_ws/install/pal_gazebo_worlds:/root/tiago_public_ws/install/launch_pal:/opt/ros/humble /usr/bin/cmake /root/tiago_public_ws/src/pal_robotiq_gripper/pal_robotiq_gripper -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/tiago_public_ws/install/pal_robotiq_gripper
+[0.270s] -- Found ament_cmake_auto: 1.3.10 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.564s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.077s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.080s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.090s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.124s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.163s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.251s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.259s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[14.133s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[14.631s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[14.752s] -- Added test 'copyright' to check source files copyright and LICENSE
+[14.757s] -- Added test 'lint_cmake' to check CMake code style
+[14.758s] -- Added test 'xmllint' to check XML markup files
+[14.768s] -- Configuring done
+[14.836s] -- Generating done
+[14.836s] -- Build files have been written to: /root/tiago_public_ws/build/pal_robotiq_gripper

@@ -1,0 +1,1 @@
+/root/tiago_public_ws/build/plansys2_patrol_navigation_example/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake

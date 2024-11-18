@@ -1,0 +1,228 @@
+[1.120s] Invoking command in '/root/tiago_public_ws/build/play_motion2_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/tiago_public_ws/install/launch_pal:/opt/ros/humble /usr/bin/cmake --build /root/tiago_public_ws/build/play_motion2_msgs -- -j8 -l8
+[1.294s] [  1%] Built target play_motion2_msgs__cpp
+[1.370s] [  1%] Built target ament_cmake_python_symlink_play_motion2_msgs
+[1.540s] [ 12%] Built target play_motion2_msgs__rosidl_typesupport_introspection_cpp
+[2.823s] running egg_info
+[2.823s] writing play_motion2_msgs.egg-info/PKG-INFO
+[2.839s] writing dependency_links to play_motion2_msgs.egg-info/dependency_links.txt
+[2.840s] writing top-level names to play_motion2_msgs.egg-info/top_level.txt
+[2.840s] reading manifest file 'play_motion2_msgs.egg-info/SOURCES.txt'
+[2.840s] writing manifest file 'play_motion2_msgs.egg-info/SOURCES.txt'
+[3.019s] [ 12%] Built target ament_cmake_python_build_play_motion2_msgs_egg
+[3.188s] [ 24%] Built target play_motion2_msgs__rosidl_typesupport_fastrtps_cpp
+[3.239s] [ 35%] Built target play_motion2_msgs__rosidl_typesupport_cpp
+[3.310s] [ 46%] Built target play_motion2_msgs__rosidl_generator_c
+[3.381s] [ 58%] Built target play_motion2_msgs__rosidl_typesupport_fastrtps_c
+[3.461s] [ 69%] Built target play_motion2_msgs__rosidl_typesupport_c
+[3.554s] [ 81%] Built target play_motion2_msgs__rosidl_typesupport_introspection_c
+[3.660s] [ 81%] Built target play_motion2_msgs
+[3.736s] [ 82%] Built target play_motion2_msgs__py
+[3.934s] [ 92%] Built target play_motion2_msgs__rosidl_generator_py
+[4.057s] [ 94%] Built target play_motion2_msgs__rosidl_typesupport_fastrtps_c__pyext
+[4.188s] [ 97%] Built target play_motion2_msgs__rosidl_typesupport_c__pyext
+[4.289s] [100%] Built target play_motion2_msgs__rosidl_typesupport_introspection_c__pyext
+[4.363s] Invoked command in '/root/tiago_public_ws/build/play_motion2_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/tiago_public_ws/install/launch_pal:/opt/ros/humble /usr/bin/cmake --build /root/tiago_public_ws/build/play_motion2_msgs -- -j8 -l8
+[5.840s] Invoking command in '/root/tiago_public_ws/build/play_motion2_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/tiago_public_ws/install/launch_pal:/opt/ros/humble /usr/bin/cmake --install /root/tiago_public_ws/build/play_motion2_msgs
+[5.911s] -- Install configuration: ""
+[5.912s] -- Execute custom install script
+[5.912s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/share/ament_index/resource_index/rosidl_interfaces/play_motion2_msgs
+[5.912s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/action/detail/play_motion2__functions.h
+[5.912s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/action/detail/play_motion2__struct.h
+[5.912s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/action/detail/play_motion2__type_support.h
+[5.912s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/action/play_motion2.h
+[5.913s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/msg/detail/motion__functions.h
+[5.918s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/msg/detail/motion__struct.h
+[5.919s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/msg/detail/motion__type_support.h
+[5.919s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/msg/motion.h
+[5.919s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/msg/rosidl_generator_c__visibility_control.h
+[5.919s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/add_motion.h
+[5.919s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/detail/add_motion__functions.h
+[5.919s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/detail/add_motion__struct.h
+[5.919s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/detail/add_motion__type_support.h
+[5.919s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/detail/get_motion_info__functions.h
+[5.920s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/detail/get_motion_info__struct.h
+[5.920s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/detail/get_motion_info__type_support.h
+[5.920s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/detail/is_motion_ready__functions.h
+[5.921s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/detail/is_motion_ready__struct.h
+[5.921s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/detail/is_motion_ready__type_support.h
+[5.921s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/detail/list_motions__functions.h
+[5.921s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/detail/list_motions__struct.h
+[5.921s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/detail/list_motions__type_support.h
+[5.922s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/detail/remove_motion__functions.h
+[5.922s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/detail/remove_motion__struct.h
+[5.929s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/detail/remove_motion__type_support.h
+[5.929s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/get_motion_info.h
+[5.929s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/is_motion_ready.h
+[5.929s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/list_motions.h
+[5.929s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/remove_motion.h
+[5.930s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/share/play_motion2_msgs/environment/library_path.sh
+[5.930s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/share/play_motion2_msgs/environment/library_path.dsv
+[5.940s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/action/detail/play_motion2__rosidl_typesupport_fastrtps_c.h
+[5.941s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/msg/detail/motion__rosidl_typesupport_fastrtps_c.h
+[5.941s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.941s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/detail/add_motion__rosidl_typesupport_fastrtps_c.h
+[5.950s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/detail/get_motion_info__rosidl_typesupport_fastrtps_c.h
+[5.953s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/detail/is_motion_ready__rosidl_typesupport_fastrtps_c.h
+[5.953s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/detail/list_motions__rosidl_typesupport_fastrtps_c.h
+[5.954s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/detail/remove_motion__rosidl_typesupport_fastrtps_c.h
+[5.954s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/action/detail/play_motion2__builder.hpp
+[5.954s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/action/detail/play_motion2__struct.hpp
+[5.954s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/action/detail/play_motion2__traits.hpp
+[5.954s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/action/play_motion2.hpp
+[5.954s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/msg/detail/motion__builder.hpp
+[5.955s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/msg/detail/motion__struct.hpp
+[5.955s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/msg/detail/motion__traits.hpp
+[5.956s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/msg/motion.hpp
+[5.956s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/add_motion.hpp
+[5.956s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/detail/add_motion__builder.hpp
+[5.956s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/detail/add_motion__struct.hpp
+[5.956s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/detail/add_motion__traits.hpp
+[5.956s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/detail/get_motion_info__builder.hpp
+[5.956s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/detail/get_motion_info__struct.hpp
+[5.959s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/detail/get_motion_info__traits.hpp
+[6.000s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/detail/is_motion_ready__builder.hpp
+[6.000s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/detail/is_motion_ready__struct.hpp
+[6.000s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/detail/is_motion_ready__traits.hpp
+[6.000s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/detail/list_motions__builder.hpp
+[6.000s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/detail/list_motions__struct.hpp
+[6.000s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/detail/list_motions__traits.hpp
+[6.000s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/detail/remove_motion__builder.hpp
+[6.000s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/detail/remove_motion__struct.hpp
+[6.001s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/detail/remove_motion__traits.hpp
+[6.001s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/get_motion_info.hpp
+[6.001s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/is_motion_ready.hpp
+[6.001s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/list_motions.hpp
+[6.001s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/remove_motion.hpp
+[6.001s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/action/detail/play_motion2__rosidl_typesupport_fastrtps_cpp.hpp
+[6.001s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/msg/detail/motion__rosidl_typesupport_fastrtps_cpp.hpp
+[6.001s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.001s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/detail/add_motion__rosidl_typesupport_fastrtps_cpp.hpp
+[6.001s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/detail/get_motion_info__rosidl_typesupport_fastrtps_cpp.hpp
+[6.001s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/detail/is_motion_ready__rosidl_typesupport_fastrtps_cpp.hpp
+[6.002s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/detail/list_motions__rosidl_typesupport_fastrtps_cpp.hpp
+[6.002s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/detail/remove_motion__rosidl_typesupport_fastrtps_cpp.hpp
+[6.002s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/action/detail/play_motion2__rosidl_typesupport_introspection_c.h
+[6.002s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/msg/detail/motion__rosidl_typesupport_introspection_c.h
+[6.002s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.002s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/detail/add_motion__rosidl_typesupport_introspection_c.h
+[6.002s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/detail/get_motion_info__rosidl_typesupport_introspection_c.h
+[6.002s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/detail/is_motion_ready__rosidl_typesupport_introspection_c.h
+[6.002s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/detail/list_motions__rosidl_typesupport_introspection_c.h
+[6.002s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/detail/remove_motion__rosidl_typesupport_introspection_c.h
+[6.002s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/action/detail/play_motion2__rosidl_typesupport_introspection_cpp.hpp
+[6.003s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/msg/detail/motion__rosidl_typesupport_introspection_cpp.hpp
+[6.003s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/detail/add_motion__rosidl_typesupport_introspection_cpp.hpp
+[6.003s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/detail/get_motion_info__rosidl_typesupport_introspection_cpp.hpp
+[6.003s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/detail/is_motion_ready__rosidl_typesupport_introspection_cpp.hpp
+[6.003s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/detail/list_motions__rosidl_typesupport_introspection_cpp.hpp
+[6.003s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/include/play_motion2_msgs/play_motion2_msgs/srv/detail/remove_motion__rosidl_typesupport_introspection_cpp.hpp
+[6.012s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/share/play_motion2_msgs/environment/pythonpath.sh
+[6.016s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/share/play_motion2_msgs/environment/pythonpath.dsv
+[6.016s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/local/lib/python3.10/dist-packages/play_motion2_msgs-1.3.0-py3.10.egg-info/PKG-INFO
+[6.017s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/local/lib/python3.10/dist-packages/play_motion2_msgs-1.3.0-py3.10.egg-info/SOURCES.txt
+[6.017s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/local/lib/python3.10/dist-packages/play_motion2_msgs-1.3.0-py3.10.egg-info/dependency_links.txt
+[6.017s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/local/lib/python3.10/dist-packages/play_motion2_msgs-1.3.0-py3.10.egg-info/top_level.txt
+[6.017s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/local/lib/python3.10/dist-packages/play_motion2_msgs/__init__.py
+[6.017s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/local/lib/python3.10/dist-packages/play_motion2_msgs/_play_motion2_msgs_s.ep.rosidl_typesupport_c.c
+[6.017s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/local/lib/python3.10/dist-packages/play_motion2_msgs/_play_motion2_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[6.017s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/local/lib/python3.10/dist-packages/play_motion2_msgs/_play_motion2_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[6.017s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/local/lib/python3.10/dist-packages/play_motion2_msgs/action/__init__.py
+[6.018s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/local/lib/python3.10/dist-packages/play_motion2_msgs/action/_play_motion2.py
+[6.018s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/local/lib/python3.10/dist-packages/play_motion2_msgs/action/_play_motion2_s.c
+[6.018s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/local/lib/python3.10/dist-packages/play_motion2_msgs/libplay_motion2_msgs__rosidl_generator_py.so
+[6.018s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/local/lib/python3.10/dist-packages/play_motion2_msgs/msg/__init__.py
+[6.018s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/local/lib/python3.10/dist-packages/play_motion2_msgs/msg/_motion.py
+[6.018s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/local/lib/python3.10/dist-packages/play_motion2_msgs/msg/_motion_s.c
+[6.018s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/local/lib/python3.10/dist-packages/play_motion2_msgs/play_motion2_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.018s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/local/lib/python3.10/dist-packages/play_motion2_msgs/play_motion2_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.019s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/local/lib/python3.10/dist-packages/play_motion2_msgs/play_motion2_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.021s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/local/lib/python3.10/dist-packages/play_motion2_msgs/srv/__init__.py
+[6.023s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/local/lib/python3.10/dist-packages/play_motion2_msgs/srv/_add_motion.py
+[6.026s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/local/lib/python3.10/dist-packages/play_motion2_msgs/srv/_add_motion_s.c
+[6.034s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/local/lib/python3.10/dist-packages/play_motion2_msgs/srv/_get_motion_info.py
+[6.035s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/local/lib/python3.10/dist-packages/play_motion2_msgs/srv/_get_motion_info_s.c
+[6.035s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/local/lib/python3.10/dist-packages/play_motion2_msgs/srv/_is_motion_ready.py
+[6.035s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/local/lib/python3.10/dist-packages/play_motion2_msgs/srv/_is_motion_ready_s.c
+[6.035s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/local/lib/python3.10/dist-packages/play_motion2_msgs/srv/_list_motions.py
+[6.035s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/local/lib/python3.10/dist-packages/play_motion2_msgs/srv/_list_motions_s.c
+[6.035s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/local/lib/python3.10/dist-packages/play_motion2_msgs/srv/_remove_motion.py
+[6.035s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/local/lib/python3.10/dist-packages/play_motion2_msgs/srv/_remove_motion_s.c
+[6.036s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/local/lib/python3.10/dist-packages/play_motion2_msgs/play_motion2_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.036s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/local/lib/python3.10/dist-packages/play_motion2_msgs/play_motion2_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.036s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/local/lib/python3.10/dist-packages/play_motion2_msgs/play_motion2_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.036s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/share/play_motion2_msgs/action/PlayMotion2.idl
+[6.036s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/share/play_motion2_msgs/msg/Motion.idl
+[6.036s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/share/play_motion2_msgs/srv/AddMotion.idl
+[6.036s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/share/play_motion2_msgs/srv/GetMotionInfo.idl
+[6.036s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/share/play_motion2_msgs/srv/IsMotionReady.idl
+[6.036s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/share/play_motion2_msgs/srv/ListMotions.idl
+[6.037s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/share/play_motion2_msgs/srv/RemoveMotion.idl
+[6.037s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/share/play_motion2_msgs/action/PlayMotion2.action
+[6.037s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/share/play_motion2_msgs/msg/Motion.msg
+[6.040s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/share/play_motion2_msgs/srv/AddMotion.srv
+[6.041s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/share/play_motion2_msgs/srv/AddMotion_Request.msg
+[6.044s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/share/play_motion2_msgs/srv/AddMotion_Response.msg
+[6.044s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/share/play_motion2_msgs/srv/GetMotionInfo.srv
+[6.044s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/share/play_motion2_msgs/srv/GetMotionInfo_Request.msg
+[6.044s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/share/play_motion2_msgs/srv/GetMotionInfo_Response.msg
+[6.044s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/share/play_motion2_msgs/srv/IsMotionReady.srv
+[6.044s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/share/play_motion2_msgs/srv/IsMotionReady_Request.msg
+[6.045s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/share/play_motion2_msgs/srv/IsMotionReady_Response.msg
+[6.045s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/share/play_motion2_msgs/srv/ListMotions.srv
+[6.069s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/share/play_motion2_msgs/srv/ListMotions_Request.msg
+[6.070s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/share/play_motion2_msgs/srv/ListMotions_Response.msg
+[6.070s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/share/play_motion2_msgs/srv/RemoveMotion.srv
+[6.070s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/share/play_motion2_msgs/srv/RemoveMotion_Request.msg
+[6.070s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/share/play_motion2_msgs/srv/RemoveMotion_Response.msg
+[6.070s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/share/ament_index/resource_index/package_run_dependencies/play_motion2_msgs
+[6.070s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/share/ament_index/resource_index/parent_prefix_path/play_motion2_msgs
+[6.070s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/share/play_motion2_msgs/environment/ament_prefix_path.sh
+[6.071s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/share/play_motion2_msgs/environment/ament_prefix_path.dsv
+[6.071s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/share/play_motion2_msgs/environment/path.sh
+[6.071s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/share/play_motion2_msgs/environment/path.dsv
+[6.071s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/share/play_motion2_msgs/local_setup.bash
+[6.071s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/share/play_motion2_msgs/local_setup.sh
+[6.071s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/share/play_motion2_msgs/local_setup.zsh
+[6.071s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/share/play_motion2_msgs/local_setup.dsv
+[6.072s] -- Symlinking: /root/tiago_public_ws/install/play_motion2_msgs/share/play_motion2_msgs/package.dsv
+[6.077s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/share/ament_index/resource_index/packages/play_motion2_msgs
+[6.077s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/share/play_motion2_msgs/cmake/rosidl_cmake-extras.cmake
+[6.077s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/share/play_motion2_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.079s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/share/play_motion2_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.082s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/share/play_motion2_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[6.082s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/share/play_motion2_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[6.082s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/share/play_motion2_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.082s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/share/play_motion2_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.082s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/share/play_motion2_msgs/cmake/play_motion2_msgsConfig.cmake
+[6.082s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/share/play_motion2_msgs/cmake/play_motion2_msgsConfig-version.cmake
+[6.082s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2_msgs/share/play_motion2_msgs/package.xml
+[6.083s] -- Up-to-date: /root/tiago_public_ws/install/play_motion2_msgs/lib/libplay_motion2_msgs__rosidl_generator_c.so
+[6.083s] -- Up-to-date: /root/tiago_public_ws/install/play_motion2_msgs/lib/libplay_motion2_msgs__rosidl_typesupport_fastrtps_c.so
+[6.083s] -- Up-to-date: /root/tiago_public_ws/install/play_motion2_msgs/lib/libplay_motion2_msgs__rosidl_typesupport_fastrtps_cpp.so
+[6.083s] -- Up-to-date: /root/tiago_public_ws/install/play_motion2_msgs/lib/libplay_motion2_msgs__rosidl_typesupport_introspection_c.so
+[6.083s] -- Up-to-date: /root/tiago_public_ws/install/play_motion2_msgs/lib/libplay_motion2_msgs__rosidl_typesupport_c.so
+[6.083s] -- Up-to-date: /root/tiago_public_ws/install/play_motion2_msgs/lib/libplay_motion2_msgs__rosidl_typesupport_introspection_cpp.so
+[6.083s] -- Up-to-date: /root/tiago_public_ws/install/play_motion2_msgs/lib/libplay_motion2_msgs__rosidl_typesupport_cpp.so
+[6.265s] Listing '/root/tiago_public_ws/install/play_motion2_msgs/local/lib/python3.10/dist-packages/play_motion2_msgs'...
+[6.265s] Listing '/root/tiago_public_ws/install/play_motion2_msgs/local/lib/python3.10/dist-packages/play_motion2_msgs/action'...
+[6.265s] Listing '/root/tiago_public_ws/install/play_motion2_msgs/local/lib/python3.10/dist-packages/play_motion2_msgs/msg'...
+[6.265s] Listing '/root/tiago_public_ws/install/play_motion2_msgs/local/lib/python3.10/dist-packages/play_motion2_msgs/srv'...
+[6.290s] -- Up-to-date: /root/tiago_public_ws/install/play_motion2_msgs/lib/libplay_motion2_msgs__rosidl_generator_py.so
+[6.291s] -- Up-to-date: /root/tiago_public_ws/install/play_motion2_msgs/share/play_motion2_msgs/cmake/export_play_motion2_msgs__rosidl_generator_cExport.cmake
+[6.292s] -- Up-to-date: /root/tiago_public_ws/install/play_motion2_msgs/share/play_motion2_msgs/cmake/export_play_motion2_msgs__rosidl_generator_cExport-noconfig.cmake
+[6.294s] -- Up-to-date: /root/tiago_public_ws/install/play_motion2_msgs/share/play_motion2_msgs/cmake/export_play_motion2_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[6.294s] -- Up-to-date: /root/tiago_public_ws/install/play_motion2_msgs/share/play_motion2_msgs/cmake/export_play_motion2_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[6.294s] -- Up-to-date: /root/tiago_public_ws/install/play_motion2_msgs/share/play_motion2_msgs/cmake/export_play_motion2_msgs__rosidl_generator_cppExport.cmake
+[6.294s] -- Up-to-date: /root/tiago_public_ws/install/play_motion2_msgs/share/play_motion2_msgs/cmake/export_play_motion2_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[6.294s] -- Up-to-date: /root/tiago_public_ws/install/play_motion2_msgs/share/play_motion2_msgs/cmake/export_play_motion2_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[6.294s] -- Up-to-date: /root/tiago_public_ws/install/play_motion2_msgs/share/play_motion2_msgs/cmake/play_motion2_msgs__rosidl_typesupport_introspection_cExport.cmake
+[6.295s] -- Up-to-date: /root/tiago_public_ws/install/play_motion2_msgs/share/play_motion2_msgs/cmake/play_motion2_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[6.295s] -- Up-to-date: /root/tiago_public_ws/install/play_motion2_msgs/share/play_motion2_msgs/cmake/play_motion2_msgs__rosidl_typesupport_cExport.cmake
+[6.295s] -- Up-to-date: /root/tiago_public_ws/install/play_motion2_msgs/share/play_motion2_msgs/cmake/play_motion2_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[6.295s] -- Up-to-date: /root/tiago_public_ws/install/play_motion2_msgs/share/play_motion2_msgs/cmake/play_motion2_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[6.295s] -- Up-to-date: /root/tiago_public_ws/install/play_motion2_msgs/share/play_motion2_msgs/cmake/play_motion2_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[6.295s] -- Up-to-date: /root/tiago_public_ws/install/play_motion2_msgs/share/play_motion2_msgs/cmake/play_motion2_msgs__rosidl_typesupport_cppExport.cmake
+[6.295s] -- Up-to-date: /root/tiago_public_ws/install/play_motion2_msgs/share/play_motion2_msgs/cmake/play_motion2_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[6.295s] -- Up-to-date: /root/tiago_public_ws/install/play_motion2_msgs/share/play_motion2_msgs/cmake/export_play_motion2_msgs__rosidl_generator_pyExport.cmake
+[6.295s] -- Up-to-date: /root/tiago_public_ws/install/play_motion2_msgs/share/play_motion2_msgs/cmake/export_play_motion2_msgs__rosidl_generator_pyExport-noconfig.cmake
+[6.506s] Invoked command in '/root/tiago_public_ws/build/play_motion2_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/tiago_public_ws/install/launch_pal:/opt/ros/humble /usr/bin/cmake --install /root/tiago_public_ws/build/play_motion2_msgs

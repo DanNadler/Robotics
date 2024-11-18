@@ -1,0 +1,6 @@
+{
+  "package_name": "tiago_gazebo",
+  "non_idl_tuples": [
+    "/root/tiago_public_ws/src/tiago_simulation/tiago_gazebo:msg/Order.msg"
+  ]
+}

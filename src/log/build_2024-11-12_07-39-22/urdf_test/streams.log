@@ -1,0 +1,1 @@
+[0.822s] Invoking command in '/root/tiago_public_ws/src/build/urdf_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/tiago_public_ws/install/launch_pal:/opt/ros/humble /usr/bin/cmake /root/tiago_public_ws/src/urdf_test -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/tiago_public_ws/src/install/urdf_test

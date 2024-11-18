@@ -1,0 +1,3 @@
+gmake[2]: *** No rule to make target '/opt/ros/humble/lib/libsrdfdom.so.2.0.4', needed by 'libplay_motion2.so'.  Stop.
+gmake[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/play_motion2.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,10 @@
+[  9%] Built target gtest_main
+[ 18%] Built target gtest
+[ 27%] Built target play_motion2_node_test
+[ 45%] Built target play_motion2
+[ 54%] Built target client
+[ 63%] Built target rrbot_system
+[ 72%] Built target run_motion
+[ 81%] Built target play_motion2_node
+[ 90%] Built target motion_loader_test
+[100%] Built target play_motion2_test

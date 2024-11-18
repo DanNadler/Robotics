@@ -1,0 +1,81 @@
+[0.286s] Invoking command in '/root/tiago_public_ws/build/pal_robotiq_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/tiago_public_ws/src/pal_robotiq_gripper/pal_robotiq_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/tiago_public_ws/install/pal_robotiq_description
+[0.541s] -- The C compiler identification is GNU 11.4.0
+[1.000s] -- The CXX compiler identification is GNU 11.4.0
+[1.370s] -- Detecting C compiler ABI info
+[1.512s] -- Detecting C compiler ABI info - done
+[1.523s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.523s] -- Detecting C compile features
+[1.523s] -- Detecting C compile features - done
+[1.527s] -- Detecting CXX compiler ABI info
+[1.676s] -- Detecting CXX compiler ABI info - done
+[1.686s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.686s] -- Detecting CXX compile features
+[1.687s] -- Detecting CXX compile features - done
+[1.689s] -- Found ament_cmake_auto: 1.3.10 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[1.868s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.947s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.069s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.095s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.099s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.104s] -- Added test 'lint_cmake' to check CMake code style
+[2.104s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.107s] -- Added test 'xmllint' to check XML markup files
+[2.108s] -- Configuring done
+[2.110s] -- Generating done
+[2.110s] -- Build files have been written to: /root/tiago_public_ws/build/pal_robotiq_description
+[2.156s] Invoked command in '/root/tiago_public_ws/build/pal_robotiq_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/tiago_public_ws/src/pal_robotiq_gripper/pal_robotiq_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/tiago_public_ws/install/pal_robotiq_description
+[2.159s] Invoking command in '/root/tiago_public_ws/build/pal_robotiq_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/tiago_public_ws/build/pal_robotiq_description -- -j8 -l8
+[2.207s] Invoked command in '/root/tiago_public_ws/build/pal_robotiq_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/tiago_public_ws/build/pal_robotiq_description -- -j8 -l8
+[2.236s] Invoking command in '/root/tiago_public_ws/build/pal_robotiq_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/tiago_public_ws/build/pal_robotiq_description
+[2.243s] -- Install configuration: ""
+[2.244s] -- Execute custom install script
+[2.247s] -- Symlinking: /root/tiago_public_ws/install/pal_robotiq_description/share/pal_robotiq_description/meshes/collision/robotiq_140_inner_finger.stl
+[2.254s] -- Symlinking: /root/tiago_public_ws/install/pal_robotiq_description/share/pal_robotiq_description/meshes/collision/robotiq_140_inner_knuckle.stl
+[2.264s] -- Symlinking: /root/tiago_public_ws/install/pal_robotiq_description/share/pal_robotiq_description/meshes/collision/robotiq_140_outer_finger.stl
+[2.273s] -- Symlinking: /root/tiago_public_ws/install/pal_robotiq_description/share/pal_robotiq_description/meshes/collision/robotiq_140_outer_knuckle.stl
+[2.281s] -- Symlinking: /root/tiago_public_ws/install/pal_robotiq_description/share/pal_robotiq_description/meshes/collision/robotiq_85_base_link.stl
+[2.291s] -- Symlinking: /root/tiago_public_ws/install/pal_robotiq_description/share/pal_robotiq_description/meshes/collision/robotiq_85_inner_finger.dae
+[2.303s] -- Symlinking: /root/tiago_public_ws/install/pal_robotiq_description/share/pal_robotiq_description/meshes/collision/robotiq_85_inner_knuckle.dae
+[2.309s] -- Symlinking: /root/tiago_public_ws/install/pal_robotiq_description/share/pal_robotiq_description/meshes/collision/robotiq_85_outer_finger.dae
+[2.319s] -- Symlinking: /root/tiago_public_ws/install/pal_robotiq_description/share/pal_robotiq_description/meshes/collision/robotiq_85_outer_knuckle.dae
+[2.327s] -- Symlinking: /root/tiago_public_ws/install/pal_robotiq_description/share/pal_robotiq_description/meshes/collision/robotiq_base_link.stl
+[2.334s] -- Symlinking: /root/tiago_public_ws/install/pal_robotiq_description/share/pal_robotiq_description/meshes/collision/robotiq_coupling.stl
+[2.346s] -- Symlinking: /root/tiago_public_ws/install/pal_robotiq_description/share/pal_robotiq_description/meshes/visual/pal_robotiq_coupling.stl
+[2.351s] -- Symlinking: /root/tiago_public_ws/install/pal_robotiq_description/share/pal_robotiq_description/meshes/visual/robotiq_140_inner_finger.stl
+[2.358s] -- Symlinking: /root/tiago_public_ws/install/pal_robotiq_description/share/pal_robotiq_description/meshes/visual/robotiq_140_inner_knuckle.stl
+[2.373s] -- Symlinking: /root/tiago_public_ws/install/pal_robotiq_description/share/pal_robotiq_description/meshes/visual/robotiq_140_outer_finger.stl
+[2.376s] -- Symlinking: /root/tiago_public_ws/install/pal_robotiq_description/share/pal_robotiq_description/meshes/visual/robotiq_140_outer_knuckle.stl
+[2.380s] -- Symlinking: /root/tiago_public_ws/install/pal_robotiq_description/share/pal_robotiq_description/meshes/visual/robotiq_85_inner_finger.dae
+[2.392s] -- Symlinking: /root/tiago_public_ws/install/pal_robotiq_description/share/pal_robotiq_description/meshes/visual/robotiq_85_inner_knuckle.dae
+[2.401s] -- Symlinking: /root/tiago_public_ws/install/pal_robotiq_description/share/pal_robotiq_description/meshes/visual/robotiq_85_outer_finger.dae
+[2.410s] -- Symlinking: /root/tiago_public_ws/install/pal_robotiq_description/share/pal_robotiq_description/meshes/visual/robotiq_85_outer_knuckle.dae
+[2.416s] -- Symlinking: /root/tiago_public_ws/install/pal_robotiq_description/share/pal_robotiq_description/meshes/visual/robotiq_85_pad.dae
+[2.422s] -- Symlinking: /root/tiago_public_ws/install/pal_robotiq_description/share/pal_robotiq_description/meshes/visual/robotiq_base_link.stl
+[2.429s] -- Symlinking: /root/tiago_public_ws/install/pal_robotiq_description/share/pal_robotiq_description/meshes/visual/robotiq_coupling.stl
+[2.440s] -- Symlinking: /root/tiago_public_ws/install/pal_robotiq_description/share/pal_robotiq_description/robots/pal_robotiq_2f_140_gripper.urdf.xacro
+[2.459s] -- Symlinking: /root/tiago_public_ws/install/pal_robotiq_description/share/pal_robotiq_description/robots/pal_robotiq_2f_85_gripper.urdf.xacro
+[2.459s] -- Symlinking: /root/tiago_public_ws/install/pal_robotiq_description/share/pal_robotiq_description/robots/pal_robotiq_epick_gripper.urdf.xacro
+[2.463s] -- Symlinking: /root/tiago_public_ws/install/pal_robotiq_description/share/pal_robotiq_description/urdf/grasping_frames.xacro
+[2.478s] -- Symlinking: /root/tiago_public_ws/install/pal_robotiq_description/share/pal_robotiq_description/urdf/robotiq.ros2_control.xacro
+[2.487s] -- Symlinking: /root/tiago_public_ws/install/pal_robotiq_description/share/pal_robotiq_description/urdf/robotiq.transmission.xacro
+[2.497s] -- Symlinking: /root/tiago_public_ws/install/pal_robotiq_description/share/pal_robotiq_description/urdf/robotiq_140_gripper.urdf.xacro
+[2.504s] -- Symlinking: /root/tiago_public_ws/install/pal_robotiq_description/share/pal_robotiq_description/urdf/robotiq_85_gripper.urdf.xacro
+[2.512s] -- Symlinking: /root/tiago_public_ws/install/pal_robotiq_description/share/pal_robotiq_description/launch/robot_state_publisher.launch.py
+[2.519s] -- Symlinking: /root/tiago_public_ws/install/pal_robotiq_description/share/pal_robotiq_description/launch/show.launch.py
+[2.527s] -- Symlinking: /root/tiago_public_ws/install/pal_robotiq_description/share/pal_robotiq_description/config/pal_robotiq_urdf.rviz
+[2.536s] -- Symlinking: /root/tiago_public_ws/install/pal_robotiq_description/share/ament_index/resource_index/package_run_dependencies/pal_robotiq_description
+[2.545s] -- Symlinking: /root/tiago_public_ws/install/pal_robotiq_description/share/ament_index/resource_index/parent_prefix_path/pal_robotiq_description
+[2.553s] -- Symlinking: /root/tiago_public_ws/install/pal_robotiq_description/share/pal_robotiq_description/environment/ament_prefix_path.sh
+[2.565s] -- Symlinking: /root/tiago_public_ws/install/pal_robotiq_description/share/pal_robotiq_description/environment/ament_prefix_path.dsv
+[2.573s] -- Symlinking: /root/tiago_public_ws/install/pal_robotiq_description/share/pal_robotiq_description/environment/path.sh
+[2.582s] -- Symlinking: /root/tiago_public_ws/install/pal_robotiq_description/share/pal_robotiq_description/environment/path.dsv
+[2.591s] -- Symlinking: /root/tiago_public_ws/install/pal_robotiq_description/share/pal_robotiq_description/local_setup.bash
+[2.599s] -- Symlinking: /root/tiago_public_ws/install/pal_robotiq_description/share/pal_robotiq_description/local_setup.sh
+[2.607s] -- Symlinking: /root/tiago_public_ws/install/pal_robotiq_description/share/pal_robotiq_description/local_setup.zsh
+[2.614s] -- Symlinking: /root/tiago_public_ws/install/pal_robotiq_description/share/pal_robotiq_description/local_setup.dsv
+[2.622s] -- Symlinking: /root/tiago_public_ws/install/pal_robotiq_description/share/pal_robotiq_description/package.dsv
+[2.630s] -- Symlinking: /root/tiago_public_ws/install/pal_robotiq_description/share/ament_index/resource_index/packages/pal_robotiq_description
+[2.637s] -- Symlinking: /root/tiago_public_ws/install/pal_robotiq_description/share/pal_robotiq_description/cmake/pal_robotiq_descriptionConfig.cmake
+[2.645s] -- Symlinking: /root/tiago_public_ws/install/pal_robotiq_description/share/pal_robotiq_description/cmake/pal_robotiq_descriptionConfig-version.cmake
+[2.654s] -- Symlinking: /root/tiago_public_ws/install/pal_robotiq_description/share/pal_robotiq_description/package.xml
+[2.666s] Invoked command in '/root/tiago_public_ws/build/pal_robotiq_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/tiago_public_ws/build/pal_robotiq_description

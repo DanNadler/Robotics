@@ -1,0 +1,32 @@
+[0.130s] Invoking command in '/root/tiago_public_ws/build/plansys2_patrol_navigation_example': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/tiago_public_ws/build/plansys2_patrol_navigation_example -- -j8 -l8
+[0.559s] [ 33%] Built target move_action_node
+[0.616s] [ 66%] Built target patrol_action_node
+[0.648s] [100%] Built target patrolling_controller_node
+[0.734s] Invoked command in '/root/tiago_public_ws/build/plansys2_patrol_navigation_example' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/tiago_public_ws/build/plansys2_patrol_navigation_example -- -j8 -l8
+[0.898s] Invoking command in '/root/tiago_public_ws/build/plansys2_patrol_navigation_example': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/tiago_public_ws/build/plansys2_patrol_navigation_example
+[0.919s] -- Install configuration: ""
+[0.920s] -- Execute custom install script
+[0.920s] -- Up-to-date symlink: /root/tiago_public_ws/install/plansys2_patrol_navigation_example/share/plansys2_patrol_navigation_example/launch/patrol_example_fakesim_launch.py
+[0.920s] -- Up-to-date symlink: /root/tiago_public_ws/install/plansys2_patrol_navigation_example/share/plansys2_patrol_navigation_example/launch/patrol_example_launch.py
+[0.920s] -- Up-to-date symlink: /root/tiago_public_ws/install/plansys2_patrol_navigation_example/share/plansys2_patrol_navigation_example/pddl/patrol.pddl
+[0.920s] -- Up-to-date symlink: /root/tiago_public_ws/install/plansys2_patrol_navigation_example/share/plansys2_patrol_navigation_example/params/nav2_params.yaml
+[0.920s] -- Up-to-date symlink: /root/tiago_public_ws/install/plansys2_patrol_navigation_example/lib/plansys2_patrol_navigation_example/move_action_node
+[0.920s] -- Up-to-date symlink: /root/tiago_public_ws/install/plansys2_patrol_navigation_example/lib/plansys2_patrol_navigation_example/patrol_action_node
+[0.920s] -- Up-to-date symlink: /root/tiago_public_ws/install/plansys2_patrol_navigation_example/lib/plansys2_patrol_navigation_example/patrolling_controller_node
+[0.920s] -- Up-to-date symlink: /root/tiago_public_ws/install/plansys2_patrol_navigation_example/share/ament_index/resource_index/package_run_dependencies/plansys2_patrol_navigation_example
+[0.921s] -- Up-to-date symlink: /root/tiago_public_ws/install/plansys2_patrol_navigation_example/share/ament_index/resource_index/parent_prefix_path/plansys2_patrol_navigation_example
+[0.921s] -- Up-to-date symlink: /root/tiago_public_ws/install/plansys2_patrol_navigation_example/share/plansys2_patrol_navigation_example/environment/ament_prefix_path.sh
+[0.921s] -- Up-to-date symlink: /root/tiago_public_ws/install/plansys2_patrol_navigation_example/share/plansys2_patrol_navigation_example/environment/ament_prefix_path.dsv
+[0.922s] -- Up-to-date symlink: /root/tiago_public_ws/install/plansys2_patrol_navigation_example/share/plansys2_patrol_navigation_example/environment/path.sh
+[0.922s] -- Up-to-date symlink: /root/tiago_public_ws/install/plansys2_patrol_navigation_example/share/plansys2_patrol_navigation_example/environment/path.dsv
+[0.922s] -- Up-to-date symlink: /root/tiago_public_ws/install/plansys2_patrol_navigation_example/share/plansys2_patrol_navigation_example/local_setup.bash
+[0.922s] -- Up-to-date symlink: /root/tiago_public_ws/install/plansys2_patrol_navigation_example/share/plansys2_patrol_navigation_example/local_setup.sh
+[0.922s] -- Up-to-date symlink: /root/tiago_public_ws/install/plansys2_patrol_navigation_example/share/plansys2_patrol_navigation_example/local_setup.zsh
+[0.922s] -- Up-to-date symlink: /root/tiago_public_ws/install/plansys2_patrol_navigation_example/share/plansys2_patrol_navigation_example/local_setup.dsv
+[0.922s] -- Symlinking: /root/tiago_public_ws/install/plansys2_patrol_navigation_example/share/plansys2_patrol_navigation_example/package.dsv
+[0.945s] -- Up-to-date symlink: /root/tiago_public_ws/install/plansys2_patrol_navigation_example/share/ament_index/resource_index/packages/plansys2_patrol_navigation_example
+[0.945s] -- Up-to-date symlink: /root/tiago_public_ws/install/plansys2_patrol_navigation_example/share/plansys2_patrol_navigation_example/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.945s] -- Up-to-date symlink: /root/tiago_public_ws/install/plansys2_patrol_navigation_example/share/plansys2_patrol_navigation_example/cmake/plansys2_patrol_navigation_exampleConfig.cmake
+[0.945s] -- Up-to-date symlink: /root/tiago_public_ws/install/plansys2_patrol_navigation_example/share/plansys2_patrol_navigation_example/cmake/plansys2_patrol_navigation_exampleConfig-version.cmake
+[0.946s] -- Up-to-date symlink: /root/tiago_public_ws/install/plansys2_patrol_navigation_example/share/plansys2_patrol_navigation_example/package.xml
+[0.978s] Invoked command in '/root/tiago_public_ws/build/plansys2_patrol_navigation_example' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/tiago_public_ws/build/plansys2_patrol_navigation_example

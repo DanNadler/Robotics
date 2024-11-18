@@ -1,0 +1,40 @@
+[0.144s] Invoking command in '/root/tiago_public_ws/build/pal_robotiq_gripper': AMENT_PREFIX_PATH=/root/tiago_public_ws/install/pal_robotiq_description:/root/tiago_public_ws/install/pal_robotiq_controller_configuration:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/tiago_public_ws/install/pal_robotiq_description:/root/tiago_public_ws/install/pal_robotiq_controller_configuration:/opt/ros/humble /usr/bin/cmake /root/tiago_public_ws/src/pal_robotiq_gripper/pal_robotiq_gripper -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/tiago_public_ws/install/pal_robotiq_gripper
+[1.520s] -- Found ament_cmake_auto: 1.3.10 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[1.521s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.521s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.521s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.521s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.521s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.521s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.521s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.521s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[6.856s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.919s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[6.930s] -- Added test 'copyright' to check source files copyright and LICENSE
+[6.931s] -- Added test 'lint_cmake' to check CMake code style
+[6.931s] -- Added test 'xmllint' to check XML markup files
+[6.934s] -- Configuring done
+[6.943s] -- Generating done
+[6.944s] -- Build files have been written to: /root/tiago_public_ws/build/pal_robotiq_gripper
+[6.955s] Invoked command in '/root/tiago_public_ws/build/pal_robotiq_gripper' returned '0': AMENT_PREFIX_PATH=/root/tiago_public_ws/install/pal_robotiq_description:/root/tiago_public_ws/install/pal_robotiq_controller_configuration:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/tiago_public_ws/install/pal_robotiq_description:/root/tiago_public_ws/install/pal_robotiq_controller_configuration:/opt/ros/humble /usr/bin/cmake /root/tiago_public_ws/src/pal_robotiq_gripper/pal_robotiq_gripper -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/tiago_public_ws/install/pal_robotiq_gripper
+[6.957s] Invoking command in '/root/tiago_public_ws/build/pal_robotiq_gripper': AMENT_PREFIX_PATH=/root/tiago_public_ws/install/pal_robotiq_description:/root/tiago_public_ws/install/pal_robotiq_controller_configuration:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/tiago_public_ws/install/pal_robotiq_description:/root/tiago_public_ws/install/pal_robotiq_controller_configuration:/opt/ros/humble /usr/bin/cmake --build /root/tiago_public_ws/build/pal_robotiq_gripper -- -j8 -l8
+[6.995s] Invoked command in '/root/tiago_public_ws/build/pal_robotiq_gripper' returned '0': AMENT_PREFIX_PATH=/root/tiago_public_ws/install/pal_robotiq_description:/root/tiago_public_ws/install/pal_robotiq_controller_configuration:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/tiago_public_ws/install/pal_robotiq_description:/root/tiago_public_ws/install/pal_robotiq_controller_configuration:/opt/ros/humble /usr/bin/cmake --build /root/tiago_public_ws/build/pal_robotiq_gripper -- -j8 -l8
+[7.015s] Invoking command in '/root/tiago_public_ws/build/pal_robotiq_gripper': AMENT_PREFIX_PATH=/root/tiago_public_ws/install/pal_robotiq_description:/root/tiago_public_ws/install/pal_robotiq_controller_configuration:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/tiago_public_ws/install/pal_robotiq_description:/root/tiago_public_ws/install/pal_robotiq_controller_configuration:/opt/ros/humble /usr/bin/cmake --install /root/tiago_public_ws/build/pal_robotiq_gripper
+[7.022s] -- Install configuration: ""
+[7.022s] -- Execute custom install script
+[7.023s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_robotiq_gripper/share/ament_index/resource_index/package_run_dependencies/pal_robotiq_gripper
+[7.023s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_robotiq_gripper/share/ament_index/resource_index/parent_prefix_path/pal_robotiq_gripper
+[7.023s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_robotiq_gripper/share/pal_robotiq_gripper/environment/ament_prefix_path.sh
+[7.023s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_robotiq_gripper/share/pal_robotiq_gripper/environment/ament_prefix_path.dsv
+[7.024s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_robotiq_gripper/share/pal_robotiq_gripper/environment/path.sh
+[7.024s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_robotiq_gripper/share/pal_robotiq_gripper/environment/path.dsv
+[7.024s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_robotiq_gripper/share/pal_robotiq_gripper/local_setup.bash
+[7.024s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_robotiq_gripper/share/pal_robotiq_gripper/local_setup.sh
+[7.024s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_robotiq_gripper/share/pal_robotiq_gripper/local_setup.zsh
+[7.025s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_robotiq_gripper/share/pal_robotiq_gripper/local_setup.dsv
+[7.025s] -- Symlinking: /root/tiago_public_ws/install/pal_robotiq_gripper/share/pal_robotiq_gripper/package.dsv
+[7.033s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_robotiq_gripper/share/ament_index/resource_index/packages/pal_robotiq_gripper
+[7.034s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_robotiq_gripper/share/pal_robotiq_gripper/cmake/pal_robotiq_gripperConfig.cmake
+[7.034s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_robotiq_gripper/share/pal_robotiq_gripper/cmake/pal_robotiq_gripperConfig-version.cmake
+[7.034s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_robotiq_gripper/share/pal_robotiq_gripper/package.xml
+[7.038s] Invoked command in '/root/tiago_public_ws/build/pal_robotiq_gripper' returned '0': AMENT_PREFIX_PATH=/root/tiago_public_ws/install/pal_robotiq_description:/root/tiago_public_ws/install/pal_robotiq_controller_configuration:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/tiago_public_ws/install/pal_robotiq_description:/root/tiago_public_ws/install/pal_robotiq_controller_configuration:/opt/ros/humble /usr/bin/cmake --install /root/tiago_public_ws/build/pal_robotiq_gripper

@@ -1,0 +1,35 @@
+[0.186s] Invoking command in '/root/tiago_public_ws/build/pal_navigation_cfg_bringup': AMENT_PREFIX_PATH=/root/tiago_public_ws/install/pal_navigation_cfg_params:/root/tiago_public_ws/install/launch_pal:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/tiago_public_ws/install/pal_navigation_cfg_params:/opt/ros/humble PYTHONPATH=/root/tiago_public_ws/build/launch_pal:/root/tiago_public_ws/install/launch_pal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /root/tiago_public_ws/src/pal_navigation_cfg_public/pal_navigation_cfg_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/tiago_public_ws/install/pal_navigation_cfg_bringup
+[0.308s] -- Found ament_cmake_auto: 1.3.10 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.490s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.607s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.622s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.624s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.625s] -- Added test 'lint_cmake' to check CMake code style
+[0.625s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.625s] -- Added test 'xmllint' to check XML markup files
+[0.631s] -- Configuring done
+[0.642s] -- Generating done
+[0.643s] -- Build files have been written to: /root/tiago_public_ws/build/pal_navigation_cfg_bringup
+[0.648s] Invoked command in '/root/tiago_public_ws/build/pal_navigation_cfg_bringup' returned '0': AMENT_PREFIX_PATH=/root/tiago_public_ws/install/pal_navigation_cfg_params:/root/tiago_public_ws/install/launch_pal:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/tiago_public_ws/install/pal_navigation_cfg_params:/opt/ros/humble PYTHONPATH=/root/tiago_public_ws/build/launch_pal:/root/tiago_public_ws/install/launch_pal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /root/tiago_public_ws/src/pal_navigation_cfg_public/pal_navigation_cfg_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/tiago_public_ws/install/pal_navigation_cfg_bringup
+[0.650s] Invoking command in '/root/tiago_public_ws/build/pal_navigation_cfg_bringup': AMENT_PREFIX_PATH=/root/tiago_public_ws/install/pal_navigation_cfg_params:/root/tiago_public_ws/install/launch_pal:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/tiago_public_ws/install/pal_navigation_cfg_params:/opt/ros/humble PYTHONPATH=/root/tiago_public_ws/build/launch_pal:/root/tiago_public_ws/install/launch_pal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /root/tiago_public_ws/build/pal_navigation_cfg_bringup -- -j8 -l8
+[0.700s] Invoked command in '/root/tiago_public_ws/build/pal_navigation_cfg_bringup' returned '0': AMENT_PREFIX_PATH=/root/tiago_public_ws/install/pal_navigation_cfg_params:/root/tiago_public_ws/install/launch_pal:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/tiago_public_ws/install/pal_navigation_cfg_params:/opt/ros/humble PYTHONPATH=/root/tiago_public_ws/build/launch_pal:/root/tiago_public_ws/install/launch_pal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /root/tiago_public_ws/build/pal_navigation_cfg_bringup -- -j8 -l8
+[0.732s] Invoking command in '/root/tiago_public_ws/build/pal_navigation_cfg_bringup': AMENT_PREFIX_PATH=/root/tiago_public_ws/install/pal_navigation_cfg_params:/root/tiago_public_ws/install/launch_pal:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/tiago_public_ws/install/pal_navigation_cfg_params:/opt/ros/humble PYTHONPATH=/root/tiago_public_ws/build/launch_pal:/root/tiago_public_ws/install/launch_pal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /root/tiago_public_ws/build/pal_navigation_cfg_bringup
+[0.749s] -- Install configuration: ""
+[0.749s] -- Execute custom install script
+[0.749s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_navigation_cfg_bringup/share/pal_navigation_cfg_bringup/launch/nav_bringup.launch.py
+[0.750s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_navigation_cfg_bringup/share/ament_index/resource_index/package_run_dependencies/pal_navigation_cfg_bringup
+[0.750s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_navigation_cfg_bringup/share/ament_index/resource_index/parent_prefix_path/pal_navigation_cfg_bringup
+[0.750s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_navigation_cfg_bringup/share/pal_navigation_cfg_bringup/environment/ament_prefix_path.sh
+[0.750s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_navigation_cfg_bringup/share/pal_navigation_cfg_bringup/environment/ament_prefix_path.dsv
+[0.750s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_navigation_cfg_bringup/share/pal_navigation_cfg_bringup/environment/path.sh
+[0.750s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_navigation_cfg_bringup/share/pal_navigation_cfg_bringup/environment/path.dsv
+[0.750s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_navigation_cfg_bringup/share/pal_navigation_cfg_bringup/local_setup.bash
+[0.750s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_navigation_cfg_bringup/share/pal_navigation_cfg_bringup/local_setup.sh
+[0.750s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_navigation_cfg_bringup/share/pal_navigation_cfg_bringup/local_setup.zsh
+[0.750s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_navigation_cfg_bringup/share/pal_navigation_cfg_bringup/local_setup.dsv
+[0.751s] -- Symlinking: /root/tiago_public_ws/install/pal_navigation_cfg_bringup/share/pal_navigation_cfg_bringup/package.dsv
+[0.786s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_navigation_cfg_bringup/share/ament_index/resource_index/packages/pal_navigation_cfg_bringup
+[0.787s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_navigation_cfg_bringup/share/pal_navigation_cfg_bringup/cmake/pal_navigation_cfg_bringupConfig.cmake
+[0.787s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_navigation_cfg_bringup/share/pal_navigation_cfg_bringup/cmake/pal_navigation_cfg_bringupConfig-version.cmake
+[0.787s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_navigation_cfg_bringup/share/pal_navigation_cfg_bringup/package.xml
+[0.789s] Invoked command in '/root/tiago_public_ws/build/pal_navigation_cfg_bringup' returned '0': AMENT_PREFIX_PATH=/root/tiago_public_ws/install/pal_navigation_cfg_params:/root/tiago_public_ws/install/launch_pal:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/tiago_public_ws/install/pal_navigation_cfg_params:/opt/ros/humble PYTHONPATH=/root/tiago_public_ws/build/launch_pal:/root/tiago_public_ws/install/launch_pal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /root/tiago_public_ws/build/pal_navigation_cfg_bringup

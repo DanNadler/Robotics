@@ -1,0 +1,60 @@
+[0.136s] Invoking command in '/root/tiago_public_ws/build/pal_gripper_description': AMENT_PREFIX_PATH=/root/tiago_public_ws/install/urdf_test:/root/tiago_public_ws/install/pal_urdf_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/tiago_public_ws/install/urdf_test:/root/tiago_public_ws/install/pal_urdf_utils:/opt/ros/humble PYTHONPATH=/root/tiago_public_ws/install/urdf_test/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /root/tiago_public_ws/src/pal_gripper/pal_gripper_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/tiago_public_ws/install/pal_gripper_description
+[0.397s] -- The C compiler identification is GNU 11.4.0
+[0.896s] -- The CXX compiler identification is GNU 11.4.0
+[1.139s] -- Detecting C compiler ABI info
+[1.342s] -- Detecting C compiler ABI info - done
+[1.348s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.348s] -- Detecting C compile features
+[1.348s] -- Detecting C compile features - done
+[1.350s] -- Detecting CXX compiler ABI info
+[1.554s] -- Detecting CXX compiler ABI info - done
+[1.555s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.555s] -- Detecting CXX compile features
+[1.556s] -- Detecting CXX compile features - done
+[1.560s] -- Found ament_cmake_auto: 1.3.10 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[1.797s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.924s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.976s] -- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)
+[3.792s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.850s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.867s] -- Added test 'lint_cmake' to check CMake code style
+[3.868s] -- Added test 'xmllint' to check XML markup files
+[3.868s] -- Configuring done
+[3.870s] -- Generating done
+[3.876s] -- Build files have been written to: /root/tiago_public_ws/build/pal_gripper_description
+[3.894s] Invoked command in '/root/tiago_public_ws/build/pal_gripper_description' returned '0': AMENT_PREFIX_PATH=/root/tiago_public_ws/install/urdf_test:/root/tiago_public_ws/install/pal_urdf_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/tiago_public_ws/install/urdf_test:/root/tiago_public_ws/install/pal_urdf_utils:/opt/ros/humble PYTHONPATH=/root/tiago_public_ws/install/urdf_test/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /root/tiago_public_ws/src/pal_gripper/pal_gripper_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/tiago_public_ws/install/pal_gripper_description
+[3.894s] Invoking command in '/root/tiago_public_ws/build/pal_gripper_description': AMENT_PREFIX_PATH=/root/tiago_public_ws/install/urdf_test:/root/tiago_public_ws/install/pal_urdf_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/tiago_public_ws/install/urdf_test:/root/tiago_public_ws/install/pal_urdf_utils:/opt/ros/humble PYTHONPATH=/root/tiago_public_ws/install/urdf_test/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/tiago_public_ws/build/pal_gripper_description -- -j8 -l8
+[4.237s] Invoked command in '/root/tiago_public_ws/build/pal_gripper_description' returned '0': AMENT_PREFIX_PATH=/root/tiago_public_ws/install/urdf_test:/root/tiago_public_ws/install/pal_urdf_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/tiago_public_ws/install/urdf_test:/root/tiago_public_ws/install/pal_urdf_utils:/opt/ros/humble PYTHONPATH=/root/tiago_public_ws/install/urdf_test/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/tiago_public_ws/build/pal_gripper_description -- -j8 -l8
+[4.383s] Invoking command in '/root/tiago_public_ws/build/pal_gripper_description': AMENT_PREFIX_PATH=/root/tiago_public_ws/install/urdf_test:/root/tiago_public_ws/install/pal_urdf_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/tiago_public_ws/install/urdf_test:/root/tiago_public_ws/install/pal_urdf_utils:/opt/ros/humble PYTHONPATH=/root/tiago_public_ws/install/urdf_test/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/tiago_public_ws/build/pal_gripper_description
+[4.409s] -- Install configuration: ""
+[4.413s] -- Execute custom install script
+[4.424s] -- Symlinking: /root/tiago_public_ws/install/pal_gripper_description/share/pal_gripper_description/gazebo/gazebo.urdf.xacro
+[4.460s] -- Symlinking: /root/tiago_public_ws/install/pal_gripper_description/share/pal_gripper_description/meshes/gripper_finger_link.stl
+[4.485s] -- Symlinking: /root/tiago_public_ws/install/pal_gripper_description/share/pal_gripper_description/meshes/gripper_finger_link_collision.stl
+[4.516s] -- Symlinking: /root/tiago_public_ws/install/pal_gripper_description/share/pal_gripper_description/meshes/gripper_link.stl
+[4.584s] -- Symlinking: /root/tiago_public_ws/install/pal_gripper_description/share/pal_gripper_description/meshes/gripper_link_collision.stl
+[4.585s] -- Symlinking: /root/tiago_public_ws/install/pal_gripper_description/share/pal_gripper_description/robots/gripper_test.urdf.xacro
+[4.597s] -- Symlinking: /root/tiago_public_ws/install/pal_gripper_description/share/pal_gripper_description/robots/upload.launch
+[4.607s] -- Symlinking: /root/tiago_public_ws/install/pal_gripper_description/share/pal_gripper_description/robots/upload_gripper.launch
+[4.634s] -- Symlinking: /root/tiago_public_ws/install/pal_gripper_description/share/pal_gripper_description/urdf/gripper.gazebo.xacro
+[4.663s] -- Symlinking: /root/tiago_public_ws/install/pal_gripper_description/share/pal_gripper_description/urdf/gripper.ros2_control.xacro
+[4.679s] -- Symlinking: /root/tiago_public_ws/install/pal_gripper_description/share/pal_gripper_description/urdf/gripper.transmission.xacro
+[4.692s] -- Symlinking: /root/tiago_public_ws/install/pal_gripper_description/share/pal_gripper_description/urdf/gripper.urdf.xacro
+[4.707s] -- Symlinking: /root/tiago_public_ws/install/pal_gripper_description/share/pal_gripper_description/ros2_control/ros2_control.urdf.xacro
+[4.728s] -- Symlinking: /root/tiago_public_ws/install/pal_gripper_description/share/ament_index/resource_index/package_run_dependencies/pal_gripper_description
+[4.737s] -- Symlinking: /root/tiago_public_ws/install/pal_gripper_description/share/ament_index/resource_index/parent_prefix_path/pal_gripper_description
+[4.758s] -- Symlinking: /root/tiago_public_ws/install/pal_gripper_description/share/pal_gripper_description/environment/ament_prefix_path.sh
+[4.774s] -- Symlinking: /root/tiago_public_ws/install/pal_gripper_description/share/pal_gripper_description/environment/ament_prefix_path.dsv
+[4.789s] -- Symlinking: /root/tiago_public_ws/install/pal_gripper_description/share/pal_gripper_description/environment/path.sh
+[4.820s] -- Symlinking: /root/tiago_public_ws/install/pal_gripper_description/share/pal_gripper_description/environment/path.dsv
+[4.877s] -- Symlinking: /root/tiago_public_ws/install/pal_gripper_description/share/pal_gripper_description/local_setup.bash
+[4.930s] -- Symlinking: /root/tiago_public_ws/install/pal_gripper_description/share/pal_gripper_description/local_setup.sh
+[4.956s] -- Symlinking: /root/tiago_public_ws/install/pal_gripper_description/share/pal_gripper_description/local_setup.zsh
+[4.972s] -- Symlinking: /root/tiago_public_ws/install/pal_gripper_description/share/pal_gripper_description/local_setup.dsv
+[5.012s] -- Symlinking: /root/tiago_public_ws/install/pal_gripper_description/share/pal_gripper_description/package.dsv
+[5.052s] -- Symlinking: /root/tiago_public_ws/install/pal_gripper_description/share/ament_index/resource_index/packages/pal_gripper_description
+[5.073s] -- Symlinking: /root/tiago_public_ws/install/pal_gripper_description/share/pal_gripper_description/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.107s] -- Symlinking: /root/tiago_public_ws/install/pal_gripper_description/share/pal_gripper_description/cmake/pal_gripper_descriptionConfig.cmake
+[5.134s] -- Symlinking: /root/tiago_public_ws/install/pal_gripper_description/share/pal_gripper_description/cmake/pal_gripper_descriptionConfig-version.cmake
+[5.152s] -- Symlinking: /root/tiago_public_ws/install/pal_gripper_description/share/pal_gripper_description/package.xml
+[5.174s] Invoked command in '/root/tiago_public_ws/build/pal_gripper_description' returned '0': AMENT_PREFIX_PATH=/root/tiago_public_ws/install/urdf_test:/root/tiago_public_ws/install/pal_urdf_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/tiago_public_ws/install/urdf_test:/root/tiago_public_ws/install/pal_urdf_utils:/opt/ros/humble PYTHONPATH=/root/tiago_public_ws/install/urdf_test/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/tiago_public_ws/build/pal_gripper_description

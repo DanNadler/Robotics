@@ -1,0 +1,148 @@
+[0.386s] Invoking command in '/root/tiago_public_ws/build/tiago_description': AMENT_PREFIX_PATH=/root/tiago_public_ws/install/pmb2_description:/root/tiago_public_ws/install/pal_hey5_description:/root/tiago_public_ws/install/pal_gripper_description:/root/tiago_public_ws/install/urdf_test:/root/tiago_public_ws/install/pal_urdf_utils:/root/tiago_public_ws/install/pal_robotiq_description:/root/tiago_public_ws/install/launch_pal:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/tiago_public_ws/install/pmb2_description:/root/tiago_public_ws/install/pal_hey5_description:/root/tiago_public_ws/install/pal_gripper_description:/root/tiago_public_ws/install/urdf_test:/root/tiago_public_ws/install/pal_urdf_utils:/root/tiago_public_ws/install/pal_robotiq_description:/opt/ros/humble PYTHONPATH=/root/tiago_public_ws/install/pmb2_description/local/lib/python3.10/dist-packages:/root/tiago_public_ws/install/urdf_test/local/lib/python3.10/dist-packages:/root/tiago_public_ws/build/launch_pal:/root/tiago_public_ws/install/launch_pal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /root/tiago_public_ws/src/tiago_robot/tiago_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/tiago_public_ws/install/tiago_description
+[0.489s] -- The C compiler identification is GNU 11.4.0
+[0.894s] -- The CXX compiler identification is GNU 11.4.0
+[1.184s] -- Detecting C compiler ABI info
+[1.319s] -- Detecting C compiler ABI info - done
+[1.324s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.324s] -- Detecting C compile features
+[1.324s] -- Detecting C compile features - done
+[1.327s] -- Detecting CXX compiler ABI info
+[1.458s] -- Detecting CXX compiler ABI info - done
+[1.467s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.468s] -- Detecting CXX compile features
+[1.468s] -- Detecting CXX compile features - done
+[1.472s] -- Found ament_cmake_auto: 1.3.10 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[1.642s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.716s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.814s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.840s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.947s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.357s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.357s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.357s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.357s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.381s] -- Found PythonExtra: .so  
+[2.417s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.423s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.424s] -- Added test 'lint_cmake' to check CMake code style
+[2.425s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.427s] -- Added test 'xmllint' to check XML markup files
+[2.428s] -- Configuring done
+[2.432s] -- Generating done
+[2.433s] -- Build files have been written to: /root/tiago_public_ws/build/tiago_description
+[2.440s] Invoked command in '/root/tiago_public_ws/build/tiago_description' returned '0': AMENT_PREFIX_PATH=/root/tiago_public_ws/install/pmb2_description:/root/tiago_public_ws/install/pal_hey5_description:/root/tiago_public_ws/install/pal_gripper_description:/root/tiago_public_ws/install/urdf_test:/root/tiago_public_ws/install/pal_urdf_utils:/root/tiago_public_ws/install/pal_robotiq_description:/root/tiago_public_ws/install/launch_pal:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/tiago_public_ws/install/pmb2_description:/root/tiago_public_ws/install/pal_hey5_description:/root/tiago_public_ws/install/pal_gripper_description:/root/tiago_public_ws/install/urdf_test:/root/tiago_public_ws/install/pal_urdf_utils:/root/tiago_public_ws/install/pal_robotiq_description:/opt/ros/humble PYTHONPATH=/root/tiago_public_ws/install/pmb2_description/local/lib/python3.10/dist-packages:/root/tiago_public_ws/install/urdf_test/local/lib/python3.10/dist-packages:/root/tiago_public_ws/build/launch_pal:/root/tiago_public_ws/install/launch_pal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /root/tiago_public_ws/src/tiago_robot/tiago_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/tiago_public_ws/install/tiago_description
+[2.442s] Invoking command in '/root/tiago_public_ws/build/tiago_description': AMENT_PREFIX_PATH=/root/tiago_public_ws/install/pmb2_description:/root/tiago_public_ws/install/pal_hey5_description:/root/tiago_public_ws/install/pal_gripper_description:/root/tiago_public_ws/install/urdf_test:/root/tiago_public_ws/install/pal_urdf_utils:/root/tiago_public_ws/install/pal_robotiq_description:/root/tiago_public_ws/install/launch_pal:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/tiago_public_ws/install/pmb2_description:/root/tiago_public_ws/install/pal_hey5_description:/root/tiago_public_ws/install/pal_gripper_description:/root/tiago_public_ws/install/urdf_test:/root/tiago_public_ws/install/pal_urdf_utils:/root/tiago_public_ws/install/pal_robotiq_description:/opt/ros/humble PYTHONPATH=/root/tiago_public_ws/install/pmb2_description/local/lib/python3.10/dist-packages:/root/tiago_public_ws/install/urdf_test/local/lib/python3.10/dist-packages:/root/tiago_public_ws/build/launch_pal:/root/tiago_public_ws/install/launch_pal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /root/tiago_public_ws/build/tiago_description -- -j8 -l8
+[2.483s] Built target ament_cmake_python_symlink_tiago_description
+[2.936s] running egg_info
+[2.936s] creating tiago_description.egg-info
+[2.937s] writing tiago_description.egg-info/PKG-INFO
+[2.938s] writing dependency_links to tiago_description.egg-info/dependency_links.txt
+[2.938s] writing top-level names to tiago_description.egg-info/top_level.txt
+[2.938s] writing manifest file 'tiago_description.egg-info/SOURCES.txt'
+[2.943s] reading manifest file 'tiago_description.egg-info/SOURCES.txt'
+[2.945s] writing manifest file 'tiago_description.egg-info/SOURCES.txt'
+[2.988s] Built target ament_cmake_python_build_tiago_description_egg
+[3.000s] Invoked command in '/root/tiago_public_ws/build/tiago_description' returned '0': AMENT_PREFIX_PATH=/root/tiago_public_ws/install/pmb2_description:/root/tiago_public_ws/install/pal_hey5_description:/root/tiago_public_ws/install/pal_gripper_description:/root/tiago_public_ws/install/urdf_test:/root/tiago_public_ws/install/pal_urdf_utils:/root/tiago_public_ws/install/pal_robotiq_description:/root/tiago_public_ws/install/launch_pal:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/tiago_public_ws/install/pmb2_description:/root/tiago_public_ws/install/pal_hey5_description:/root/tiago_public_ws/install/pal_gripper_description:/root/tiago_public_ws/install/urdf_test:/root/tiago_public_ws/install/pal_urdf_utils:/root/tiago_public_ws/install/pal_robotiq_description:/opt/ros/humble PYTHONPATH=/root/tiago_public_ws/install/pmb2_description/local/lib/python3.10/dist-packages:/root/tiago_public_ws/install/urdf_test/local/lib/python3.10/dist-packages:/root/tiago_public_ws/build/launch_pal:/root/tiago_public_ws/install/launch_pal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /root/tiago_public_ws/build/tiago_description -- -j8 -l8
+[3.051s] Invoking command in '/root/tiago_public_ws/build/tiago_description': AMENT_PREFIX_PATH=/root/tiago_public_ws/install/pmb2_description:/root/tiago_public_ws/install/pal_hey5_description:/root/tiago_public_ws/install/pal_gripper_description:/root/tiago_public_ws/install/urdf_test:/root/tiago_public_ws/install/pal_urdf_utils:/root/tiago_public_ws/install/pal_robotiq_description:/root/tiago_public_ws/install/launch_pal:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/tiago_public_ws/install/pmb2_description:/root/tiago_public_ws/install/pal_hey5_description:/root/tiago_public_ws/install/pal_gripper_description:/root/tiago_public_ws/install/urdf_test:/root/tiago_public_ws/install/pal_urdf_utils:/root/tiago_public_ws/install/pal_robotiq_description:/opt/ros/humble PYTHONPATH=/root/tiago_public_ws/install/pmb2_description/local/lib/python3.10/dist-packages:/root/tiago_public_ws/install/urdf_test/local/lib/python3.10/dist-packages:/root/tiago_public_ws/build/launch_pal:/root/tiago_public_ws/install/launch_pal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /root/tiago_public_ws/build/tiago_description
+[3.056s] -- Install configuration: ""
+[3.056s] -- Execute custom install script
+[3.057s] -- Symlinking: /root/tiago_public_ws/install/tiago_description/share/tiago_description/environment/pythonpath.sh
+[3.065s] -- Symlinking: /root/tiago_public_ws/install/tiago_description/share/tiago_description/environment/pythonpath.dsv
+[3.073s] -- Symlinking: /root/tiago_public_ws/install/tiago_description/local/lib/python3.10/dist-packages/tiago_description-4.6.0-py3.10.egg-info/PKG-INFO
+[3.079s] -- Symlinking: /root/tiago_public_ws/install/tiago_description/local/lib/python3.10/dist-packages/tiago_description-4.6.0-py3.10.egg-info/SOURCES.txt
+[3.086s] -- Symlinking: /root/tiago_public_ws/install/tiago_description/local/lib/python3.10/dist-packages/tiago_description-4.6.0-py3.10.egg-info/dependency_links.txt
+[3.094s] -- Symlinking: /root/tiago_public_ws/install/tiago_description/local/lib/python3.10/dist-packages/tiago_description-4.6.0-py3.10.egg-info/top_level.txt
+[3.106s] -- Symlinking: /root/tiago_public_ws/install/tiago_description/local/lib/python3.10/dist-packages/tiago_description/__init__.py
+[3.114s] -- Symlinking: /root/tiago_public_ws/install/tiago_description/local/lib/python3.10/dist-packages/tiago_description/launch_arguments.py
+[3.123s] -- Symlinking: /root/tiago_public_ws/install/tiago_description/local/lib/python3.10/dist-packages/tiago_description/tiago_launch_utils.py
+[3.147s] -- Symlinking: /root/tiago_public_ws/install/tiago_description/share/tiago_description/launch/robot_state_publisher.launch.py
+[3.164s] -- Symlinking: /root/tiago_public_ws/install/tiago_description/share/tiago_description/launch/show.launch.py
+[3.174s] -- Symlinking: /root/tiago_public_ws/install/tiago_description/share/tiago_description/meshes/arm/arm_1.stl
+[3.181s] -- Symlinking: /root/tiago_public_ws/install/tiago_description/share/tiago_description/meshes/arm/arm_1_collision.dae
+[3.191s] -- Symlinking: /root/tiago_public_ws/install/tiago_description/share/tiago_description/meshes/arm/arm_1_color.png
+[3.197s] -- Symlinking: /root/tiago_public_ws/install/tiago_description/share/tiago_description/meshes/arm/arm_1_normals.png
+[3.206s] -- Symlinking: /root/tiago_public_ws/install/tiago_description/share/tiago_description/meshes/arm/arm_1_specular.png
+[3.214s] -- Symlinking: /root/tiago_public_ws/install/tiago_description/share/tiago_description/meshes/arm/arm_2.stl
+[3.222s] -- Symlinking: /root/tiago_public_ws/install/tiago_description/share/tiago_description/meshes/arm/arm_2_collision.dae
+[3.228s] -- Symlinking: /root/tiago_public_ws/install/tiago_description/share/tiago_description/meshes/arm/arm_2_color.png
+[3.236s] -- Symlinking: /root/tiago_public_ws/install/tiago_description/share/tiago_description/meshes/arm/arm_2_normals.png
+[3.242s] -- Symlinking: /root/tiago_public_ws/install/tiago_description/share/tiago_description/meshes/arm/arm_2_specular.png
+[3.250s] -- Symlinking: /root/tiago_public_ws/install/tiago_description/share/tiago_description/meshes/arm/arm_3.stl
+[3.258s] -- Symlinking: /root/tiago_public_ws/install/tiago_description/share/tiago_description/meshes/arm/arm_3_collision.dae
+[3.266s] -- Symlinking: /root/tiago_public_ws/install/tiago_description/share/tiago_description/meshes/arm/arm_3_color.png
+[3.272s] -- Symlinking: /root/tiago_public_ws/install/tiago_description/share/tiago_description/meshes/arm/arm_3_normals.png
+[3.280s] -- Symlinking: /root/tiago_public_ws/install/tiago_description/share/tiago_description/meshes/arm/arm_3_specular.png
+[3.288s] -- Symlinking: /root/tiago_public_ws/install/tiago_description/share/tiago_description/meshes/arm/arm_4.stl
+[3.296s] -- Symlinking: /root/tiago_public_ws/install/tiago_description/share/tiago_description/meshes/arm/arm_4_collision.dae
+[3.304s] -- Symlinking: /root/tiago_public_ws/install/tiago_description/share/tiago_description/meshes/arm/arm_4_collision.stl
+[3.311s] -- Symlinking: /root/tiago_public_ws/install/tiago_description/share/tiago_description/meshes/arm/arm_4_color.png
+[3.318s] -- Symlinking: /root/tiago_public_ws/install/tiago_description/share/tiago_description/meshes/arm/arm_4_normals.png
+[3.325s] -- Symlinking: /root/tiago_public_ws/install/tiago_description/share/tiago_description/meshes/arm/arm_4_specular.png
+[3.331s] -- Symlinking: /root/tiago_public_ws/install/tiago_description/share/tiago_description/meshes/arm/arm_5-wrist-2010.stl
+[3.338s] -- Symlinking: /root/tiago_public_ws/install/tiago_description/share/tiago_description/meshes/arm/arm_5-wrist-2017.stl
+[3.346s] -- Symlinking: /root/tiago_public_ws/install/tiago_description/share/tiago_description/meshes/arm/arm_5_collision-wrist-2010.dae
+[3.353s] -- Symlinking: /root/tiago_public_ws/install/tiago_description/share/tiago_description/meshes/arm/arm_5_collision-wrist-2017.dae
+[3.359s] -- Symlinking: /root/tiago_public_ws/install/tiago_description/share/tiago_description/meshes/arm/arm_6-wrist-2010.stl
+[3.365s] -- Symlinking: /root/tiago_public_ws/install/tiago_description/share/tiago_description/meshes/arm/arm_6-wrist-2017.stl
+[3.373s] -- Symlinking: /root/tiago_public_ws/install/tiago_description/share/tiago_description/meshes/arm/arm_6_collision-wrist-2010.dae
+[3.380s] -- Symlinking: /root/tiago_public_ws/install/tiago_description/share/tiago_description/meshes/arm/arm_6_collision-wrist-2017.dae
+[3.389s] -- Symlinking: /root/tiago_public_ws/install/tiago_description/share/tiago_description/meshes/arm/arm_6_color.png
+[3.397s] -- Symlinking: /root/tiago_public_ws/install/tiago_description/share/tiago_description/meshes/arm/arm_6_normals.png
+[3.407s] -- Symlinking: /root/tiago_public_ws/install/tiago_description/share/tiago_description/meshes/arm/arm_6_specular.png
+[3.415s] -- Symlinking: /root/tiago_public_ws/install/tiago_description/share/tiago_description/meshes/head/head_1.stl
+[3.422s] -- Symlinking: /root/tiago_public_ws/install/tiago_description/share/tiago_description/meshes/head/head_1_collision.dae
+[3.428s] -- Symlinking: /root/tiago_public_ws/install/tiago_description/share/tiago_description/meshes/head/head_2.stl
+[3.435s] -- Symlinking: /root/tiago_public_ws/install/tiago_description/share/tiago_description/meshes/head/head_2_collision.dae
+[3.441s] -- Symlinking: /root/tiago_public_ws/install/tiago_description/share/tiago_description/meshes/sensors/xtion_pro_live/xtion_pro_live.dae
+[3.447s] -- Symlinking: /root/tiago_public_ws/install/tiago_description/share/tiago_description/meshes/sensors/xtion_pro_live/xtion_pro_live.png
+[3.456s] -- Symlinking: /root/tiago_public_ws/install/tiago_description/share/tiago_description/meshes/torso/torso_fix.stl
+[3.463s] -- Symlinking: /root/tiago_public_ws/install/tiago_description/share/tiago_description/meshes/torso/torso_lift_collision.dae
+[3.472s] -- Symlinking: /root/tiago_public_ws/install/tiago_description/share/tiago_description/meshes/torso/torso_lift_collision_core.dae
+[3.478s] -- Symlinking: /root/tiago_public_ws/install/tiago_description/share/tiago_description/meshes/torso/torso_lift_collision_neck.dae
+[3.487s] -- Symlinking: /root/tiago_public_ws/install/tiago_description/share/tiago_description/meshes/torso/torso_lift_collision_shoulder.dae
+[3.493s] -- Symlinking: /root/tiago_public_ws/install/tiago_description/share/tiago_description/meshes/torso/torso_lift_with_arm.stl
+[3.499s] -- Symlinking: /root/tiago_public_ws/install/tiago_description/share/tiago_description/meshes/torso/torso_lift_without_arm.stl
+[3.506s] -- Symlinking: /root/tiago_public_ws/install/tiago_description/share/tiago_description/robots/tiago.urdf.xacro
+[3.512s] -- Symlinking: /root/tiago_public_ws/install/tiago_description/share/tiago_description/ros2_control/gazebo_controller_manager_cfg.yaml
+[3.520s] -- Symlinking: /root/tiago_public_ws/install/tiago_description/share/tiago_description/ros2_control/ros2_control.urdf.xacro
+[3.527s] -- Symlinking: /root/tiago_public_ws/install/tiago_description/share/tiago_description/ros2_control/transmissions.urdf.xacro
+[3.536s] -- Symlinking: /root/tiago_public_ws/install/tiago_description/share/tiago_description/urdf/arm/arm.ros2_control.xacro
+[3.542s] -- Symlinking: /root/tiago_public_ws/install/tiago_description/share/tiago_description/urdf/arm/arm.urdf.xacro
+[3.549s] -- Symlinking: /root/tiago_public_ws/install/tiago_description/share/tiago_description/urdf/arm/wrist.ros2_control.xacro
+[3.556s] -- Symlinking: /root/tiago_public_ws/install/tiago_description/share/tiago_description/urdf/arm/wrist.urdf.xacro
+[3.562s] -- Symlinking: /root/tiago_public_ws/install/tiago_description/share/tiago_description/urdf/calibration/calibration_constants.urdf.xacro
+[3.568s] -- Symlinking: /root/tiago_public_ws/install/tiago_description/share/tiago_description/urdf/calibration/extrinsic_camera_calibration_constants.urdf.xacro
+[3.574s] -- Symlinking: /root/tiago_public_ws/install/tiago_description/share/tiago_description/urdf/end_effector/end_effector.urdf.xacro
+[3.580s] -- Symlinking: /root/tiago_public_ws/install/tiago_description/share/tiago_description/urdf/head/head.ros2_control.xacro
+[3.588s] -- Symlinking: /root/tiago_public_ws/install/tiago_description/share/tiago_description/urdf/head/head.urdf.xacro
+[3.594s] -- Symlinking: /root/tiago_public_ws/install/tiago_description/share/tiago_description/urdf/sensors/ftsensor.gazebo.xacro
+[3.601s] -- Symlinking: /root/tiago_public_ws/install/tiago_description/share/tiago_description/urdf/sensors/ftsensor.ros2_control.xacro
+[3.608s] -- Symlinking: /root/tiago_public_ws/install/tiago_description/share/tiago_description/urdf/sensors/ftsensor.urdf.xacro
+[3.614s] -- Symlinking: /root/tiago_public_ws/install/tiago_description/share/tiago_description/urdf/sensors/openni.gazebo.xacro
+[3.620s] -- Symlinking: /root/tiago_public_ws/install/tiago_description/share/tiago_description/urdf/sensors/orbbec_astra.urdf.xacro
+[3.626s] -- Symlinking: /root/tiago_public_ws/install/tiago_description/share/tiago_description/urdf/sensors/xtion_pro_live.urdf.xacro
+[3.635s] -- Symlinking: /root/tiago_public_ws/install/tiago_description/share/tiago_description/urdf/torso/torso.ros2_control.xacro
+[3.643s] -- Symlinking: /root/tiago_public_ws/install/tiago_description/share/tiago_description/urdf/torso/torso.urdf.xacro
+[3.652s] -- Symlinking: /root/tiago_public_ws/install/tiago_description/share/tiago_description/config/tiago.rviz
+[3.657s] -- Symlinking: /root/tiago_public_ws/install/tiago_description/share/tiago_description/config/tiago_configuration.yaml
+[3.664s] -- Symlinking: /root/tiago_public_ws/install/tiago_description/share/tiago_description/config/urdf.rviz
+[3.673s] -- Symlinking: /root/tiago_public_ws/install/tiago_description/share/ament_index/resource_index/package_run_dependencies/tiago_description
+[3.680s] -- Symlinking: /root/tiago_public_ws/install/tiago_description/share/ament_index/resource_index/parent_prefix_path/tiago_description
+[3.689s] -- Symlinking: /root/tiago_public_ws/install/tiago_description/share/tiago_description/environment/ament_prefix_path.sh
+[3.697s] -- Symlinking: /root/tiago_public_ws/install/tiago_description/share/tiago_description/environment/ament_prefix_path.dsv
+[3.707s] -- Symlinking: /root/tiago_public_ws/install/tiago_description/share/tiago_description/environment/path.sh
+[3.714s] -- Symlinking: /root/tiago_public_ws/install/tiago_description/share/tiago_description/environment/path.dsv
+[3.720s] -- Symlinking: /root/tiago_public_ws/install/tiago_description/share/tiago_description/local_setup.bash
+[3.727s] -- Symlinking: /root/tiago_public_ws/install/tiago_description/share/tiago_description/local_setup.sh
+[3.732s] -- Symlinking: /root/tiago_public_ws/install/tiago_description/share/tiago_description/local_setup.zsh
+[3.740s] -- Symlinking: /root/tiago_public_ws/install/tiago_description/share/tiago_description/local_setup.dsv
+[3.748s] -- Symlinking: /root/tiago_public_ws/install/tiago_description/share/tiago_description/package.dsv
+[3.753s] -- Symlinking: /root/tiago_public_ws/install/tiago_description/share/ament_index/resource_index/packages/tiago_description
+[3.761s] -- Symlinking: /root/tiago_public_ws/install/tiago_description/share/tiago_description/cmake/tiago_descriptionConfig.cmake
+[3.767s] -- Symlinking: /root/tiago_public_ws/install/tiago_description/share/tiago_description/cmake/tiago_descriptionConfig-version.cmake
+[3.774s] -- Symlinking: /root/tiago_public_ws/install/tiago_description/share/tiago_description/package.xml
+[3.810s] Listing '/root/tiago_public_ws/install/tiago_description/local/lib/python3.10/dist-packages/tiago_description'...
+[3.810s] Compiling '/root/tiago_public_ws/install/tiago_description/local/lib/python3.10/dist-packages/tiago_description/__init__.py'...
+[3.810s] Compiling '/root/tiago_public_ws/install/tiago_description/local/lib/python3.10/dist-packages/tiago_description/launch_arguments.py'...
+[3.810s] Compiling '/root/tiago_public_ws/install/tiago_description/local/lib/python3.10/dist-packages/tiago_description/tiago_launch_utils.py'...
+[3.815s] Invoked command in '/root/tiago_public_ws/build/tiago_description' returned '0': AMENT_PREFIX_PATH=/root/tiago_public_ws/install/pmb2_description:/root/tiago_public_ws/install/pal_hey5_description:/root/tiago_public_ws/install/pal_gripper_description:/root/tiago_public_ws/install/urdf_test:/root/tiago_public_ws/install/pal_urdf_utils:/root/tiago_public_ws/install/pal_robotiq_description:/root/tiago_public_ws/install/launch_pal:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/tiago_public_ws/install/pmb2_description:/root/tiago_public_ws/install/pal_hey5_description:/root/tiago_public_ws/install/pal_gripper_description:/root/tiago_public_ws/install/urdf_test:/root/tiago_public_ws/install/pal_urdf_utils:/root/tiago_public_ws/install/pal_robotiq_description:/opt/ros/humble PYTHONPATH=/root/tiago_public_ws/install/pmb2_description/local/lib/python3.10/dist-packages:/root/tiago_public_ws/install/urdf_test/local/lib/python3.10/dist-packages:/root/tiago_public_ws/build/launch_pal:/root/tiago_public_ws/install/launch_pal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /root/tiago_public_ws/build/tiago_description

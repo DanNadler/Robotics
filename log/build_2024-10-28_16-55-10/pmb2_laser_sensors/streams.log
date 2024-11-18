@@ -1,0 +1,24 @@
+[0.112s] Invoking command in '/root/tiago_public_ws/build/pmb2_laser_sensors': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/tiago_public_ws/install/launch_pal:/opt/ros/humble /usr/bin/cmake --build /root/tiago_public_ws/build/pmb2_laser_sensors -- -j8 -l8
+[0.466s] Invoked command in '/root/tiago_public_ws/build/pmb2_laser_sensors' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/tiago_public_ws/install/launch_pal:/opt/ros/humble /usr/bin/cmake --build /root/tiago_public_ws/build/pmb2_laser_sensors -- -j8 -l8
+[0.970s] Invoking command in '/root/tiago_public_ws/build/pmb2_laser_sensors': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/tiago_public_ws/install/launch_pal:/opt/ros/humble /usr/bin/cmake --install /root/tiago_public_ws/build/pmb2_laser_sensors
+[1.006s] -- Install configuration: ""
+[1.006s] -- Execute custom install script
+[1.006s] -- Up-to-date symlink: /root/tiago_public_ws/install/pmb2_laser_sensors/share/pmb2_laser_sensors/params/laser_pipeline.yaml
+[1.006s] -- Up-to-date symlink: /root/tiago_public_ws/install/pmb2_laser_sensors/share/pmb2_laser_sensors/params/laser_pipeline_sim.yaml
+[1.006s] -- Up-to-date symlink: /root/tiago_public_ws/install/pmb2_laser_sensors/share/pmb2_laser_sensors/params/laser_pipeline_w_composition.yaml
+[1.006s] -- Up-to-date symlink: /root/tiago_public_ws/install/pmb2_laser_sensors/share/ament_index/resource_index/package_run_dependencies/pmb2_laser_sensors
+[1.006s] -- Up-to-date symlink: /root/tiago_public_ws/install/pmb2_laser_sensors/share/ament_index/resource_index/parent_prefix_path/pmb2_laser_sensors
+[1.006s] -- Up-to-date symlink: /root/tiago_public_ws/install/pmb2_laser_sensors/share/pmb2_laser_sensors/environment/ament_prefix_path.sh
+[1.006s] -- Up-to-date symlink: /root/tiago_public_ws/install/pmb2_laser_sensors/share/pmb2_laser_sensors/environment/ament_prefix_path.dsv
+[1.007s] -- Up-to-date symlink: /root/tiago_public_ws/install/pmb2_laser_sensors/share/pmb2_laser_sensors/environment/path.sh
+[1.007s] -- Up-to-date symlink: /root/tiago_public_ws/install/pmb2_laser_sensors/share/pmb2_laser_sensors/environment/path.dsv
+[1.007s] -- Up-to-date symlink: /root/tiago_public_ws/install/pmb2_laser_sensors/share/pmb2_laser_sensors/local_setup.bash
+[1.007s] -- Up-to-date symlink: /root/tiago_public_ws/install/pmb2_laser_sensors/share/pmb2_laser_sensors/local_setup.sh
+[1.007s] -- Up-to-date symlink: /root/tiago_public_ws/install/pmb2_laser_sensors/share/pmb2_laser_sensors/local_setup.zsh
+[1.007s] -- Up-to-date symlink: /root/tiago_public_ws/install/pmb2_laser_sensors/share/pmb2_laser_sensors/local_setup.dsv
+[1.007s] -- Symlinking: /root/tiago_public_ws/install/pmb2_laser_sensors/share/pmb2_laser_sensors/package.dsv
+[1.007s] -- Up-to-date symlink: /root/tiago_public_ws/install/pmb2_laser_sensors/share/ament_index/resource_index/packages/pmb2_laser_sensors
+[1.007s] -- Up-to-date symlink: /root/tiago_public_ws/install/pmb2_laser_sensors/share/pmb2_laser_sensors/cmake/pmb2_laser_sensorsConfig.cmake
+[1.008s] -- Up-to-date symlink: /root/tiago_public_ws/install/pmb2_laser_sensors/share/pmb2_laser_sensors/cmake/pmb2_laser_sensorsConfig-version.cmake
+[1.008s] -- Up-to-date symlink: /root/tiago_public_ws/install/pmb2_laser_sensors/share/pmb2_laser_sensors/package.xml
+[1.044s] Invoked command in '/root/tiago_public_ws/build/pmb2_laser_sensors' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/tiago_public_ws/install/launch_pal:/opt/ros/humble /usr/bin/cmake --install /root/tiago_public_ws/build/pmb2_laser_sensors

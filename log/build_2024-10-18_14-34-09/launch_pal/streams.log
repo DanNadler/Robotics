@@ -1,0 +1,61 @@
+[5.743s] Invoking command in '/root/tiago_public_ws/build/launch_pal': PYTHONPATH=/root/tiago_public_ws/build/launch_pal/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/tiago_public_ws/install/launch_pal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /root/tiago_public_ws/build/launch_pal/build
+[7.336s] running develop
+[7.338s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[7.338s]   warnings.warn(
+[8.641s] Removing /root/tiago_public_ws/install/launch_pal/lib/python3.10/site-packages/launch-pal.egg-link (link to .)
+[9.161s] Invoked command in '/root/tiago_public_ws/build/launch_pal' returned '0': PYTHONPATH=/root/tiago_public_ws/build/launch_pal/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/tiago_public_ws/install/launch_pal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /root/tiago_public_ws/build/launch_pal/build
+[9.165s] Invoking command in '/root/tiago_public_ws/src/launch_pal': PYTHONPATH=/root/tiago_public_ws/build/launch_pal/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/tiago_public_ws/install/launch_pal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/launch_pal build --build-base /root/tiago_public_ws/build/launch_pal/build install --record /root/tiago_public_ws/build/launch_pal/install.log --single-version-externally-managed install_data --force
+[10.918s] running egg_info
+[10.924s] writing ../../build/launch_pal/launch_pal.egg-info/PKG-INFO
+[10.925s] writing dependency_links to ../../build/launch_pal/launch_pal.egg-info/dependency_links.txt
+[10.925s] writing entry points to ../../build/launch_pal/launch_pal.egg-info/entry_points.txt
+[10.927s] writing requirements to ../../build/launch_pal/launch_pal.egg-info/requires.txt
+[10.927s] writing top-level names to ../../build/launch_pal/launch_pal.egg-info/top_level.txt
+[10.928s] reading manifest file '../../build/launch_pal/launch_pal.egg-info/SOURCES.txt'
+[10.928s] adding license file 'LICENSE'
+[10.936s] writing manifest file '../../build/launch_pal/launch_pal.egg-info/SOURCES.txt'
+[10.936s] running build
+[10.937s] running build_py
+[10.957s] running install
+[10.958s] running install_lib
+[10.958s] creating /root/tiago_public_ws/install/launch_pal/lib/python3.10/site-packages/launch_pal
+[10.958s] creating /root/tiago_public_ws/install/launch_pal/lib/python3.10/site-packages/launch_pal/substitutions
+[10.958s] copying /root/tiago_public_ws/build/launch_pal/build/lib/launch_pal/substitutions/load_file.py -> /root/tiago_public_ws/install/launch_pal/lib/python3.10/site-packages/launch_pal/substitutions
+[10.958s] copying /root/tiago_public_ws/build/launch_pal/build/lib/launch_pal/substitutions/__init__.py -> /root/tiago_public_ws/install/launch_pal/lib/python3.10/site-packages/launch_pal/substitutions
+[10.958s] copying /root/tiago_public_ws/build/launch_pal/build/lib/launch_pal/include_utils.py -> /root/tiago_public_ws/install/launch_pal/lib/python3.10/site-packages/launch_pal
+[10.965s] creating /root/tiago_public_ws/install/launch_pal/lib/python3.10/site-packages/launch_pal/robot_arguments
+[10.965s] copying /root/tiago_public_ws/build/launch_pal/build/lib/launch_pal/robot_arguments/__init__.py -> /root/tiago_public_ws/install/launch_pal/lib/python3.10/site-packages/launch_pal/robot_arguments
+[10.967s] copying /root/tiago_public_ws/build/launch_pal/build/lib/launch_pal/robot_arguments/common.py -> /root/tiago_public_ws/install/launch_pal/lib/python3.10/site-packages/launch_pal/robot_arguments
+[10.968s] copying /root/tiago_public_ws/build/launch_pal/build/lib/launch_pal/robot_arguments/robot.py -> /root/tiago_public_ws/install/launch_pal/lib/python3.10/site-packages/launch_pal/robot_arguments
+[10.968s] copying /root/tiago_public_ws/build/launch_pal/build/lib/launch_pal/__init__.py -> /root/tiago_public_ws/install/launch_pal/lib/python3.10/site-packages/launch_pal
+[10.974s] creating /root/tiago_public_ws/install/launch_pal/lib/python3.10/site-packages/launch_pal/actions
+[10.975s] copying /root/tiago_public_ws/build/launch_pal/build/lib/launch_pal/actions/__init__.py -> /root/tiago_public_ws/install/launch_pal/lib/python3.10/site-packages/launch_pal/actions
+[10.975s] copying /root/tiago_public_ws/build/launch_pal/build/lib/launch_pal/actions/check_public_sim.py -> /root/tiago_public_ws/install/launch_pal/lib/python3.10/site-packages/launch_pal/actions
+[10.984s] copying /root/tiago_public_ws/build/launch_pal/build/lib/launch_pal/robot_utils.py -> /root/tiago_public_ws/install/launch_pal/lib/python3.10/site-packages/launch_pal
+[10.984s] copying /root/tiago_public_ws/build/launch_pal/build/lib/launch_pal/composition_utils.py -> /root/tiago_public_ws/install/launch_pal/lib/python3.10/site-packages/launch_pal
+[10.984s] copying /root/tiago_public_ws/build/launch_pal/build/lib/launch_pal/param_utils.py -> /root/tiago_public_ws/install/launch_pal/lib/python3.10/site-packages/launch_pal
+[10.985s] copying /root/tiago_public_ws/build/launch_pal/build/lib/launch_pal/pal_parameters.py -> /root/tiago_public_ws/install/launch_pal/lib/python3.10/site-packages/launch_pal
+[10.986s] copying /root/tiago_public_ws/build/launch_pal/build/lib/launch_pal/arg_utils.py -> /root/tiago_public_ws/install/launch_pal/lib/python3.10/site-packages/launch_pal
+[10.988s] byte-compiling /root/tiago_public_ws/install/launch_pal/lib/python3.10/site-packages/launch_pal/substitutions/load_file.py to load_file.cpython-310.pyc
+[10.996s] byte-compiling /root/tiago_public_ws/install/launch_pal/lib/python3.10/site-packages/launch_pal/substitutions/__init__.py to __init__.cpython-310.pyc
+[10.996s] byte-compiling /root/tiago_public_ws/install/launch_pal/lib/python3.10/site-packages/launch_pal/include_utils.py to include_utils.cpython-310.pyc
+[11.015s] byte-compiling /root/tiago_public_ws/install/launch_pal/lib/python3.10/site-packages/launch_pal/robot_arguments/__init__.py to __init__.cpython-310.pyc
+[11.021s] byte-compiling /root/tiago_public_ws/install/launch_pal/lib/python3.10/site-packages/launch_pal/robot_arguments/common.py to common.cpython-310.pyc
+[11.021s] byte-compiling /root/tiago_public_ws/install/launch_pal/lib/python3.10/site-packages/launch_pal/robot_arguments/robot.py to robot.cpython-310.pyc
+[11.026s] byte-compiling /root/tiago_public_ws/install/launch_pal/lib/python3.10/site-packages/launch_pal/__init__.py to __init__.cpython-310.pyc
+[11.036s] byte-compiling /root/tiago_public_ws/install/launch_pal/lib/python3.10/site-packages/launch_pal/actions/__init__.py to __init__.cpython-310.pyc
+[11.037s] byte-compiling /root/tiago_public_ws/install/launch_pal/lib/python3.10/site-packages/launch_pal/actions/check_public_sim.py to check_public_sim.cpython-310.pyc
+[11.037s] byte-compiling /root/tiago_public_ws/install/launch_pal/lib/python3.10/site-packages/launch_pal/robot_utils.py to robot_utils.cpython-310.pyc
+[11.081s] byte-compiling /root/tiago_public_ws/install/launch_pal/lib/python3.10/site-packages/launch_pal/composition_utils.py to composition_utils.cpython-310.pyc
+[11.081s] byte-compiling /root/tiago_public_ws/install/launch_pal/lib/python3.10/site-packages/launch_pal/param_utils.py to param_utils.cpython-310.pyc
+[11.082s] byte-compiling /root/tiago_public_ws/install/launch_pal/lib/python3.10/site-packages/launch_pal/pal_parameters.py to pal_parameters.cpython-310.pyc
+[11.092s] byte-compiling /root/tiago_public_ws/install/launch_pal/lib/python3.10/site-packages/launch_pal/arg_utils.py to arg_utils.cpython-310.pyc
+[11.097s] running install_data
+[11.098s] copying resource/launch_pal -> /root/tiago_public_ws/install/launch_pal/share/ament_index/resource_index/packages
+[11.098s] copying package.xml -> /root/tiago_public_ws/install/launch_pal/share/launch_pal
+[11.099s] copying config/robot_configuration.yaml -> /root/tiago_public_ws/install/launch_pal/share/launch_pal/config
+[11.099s] running install_egg_info
+[11.100s] Copying ../../build/launch_pal/launch_pal.egg-info to /root/tiago_public_ws/install/launch_pal/lib/python3.10/site-packages/launch_pal-0.1.15-py3.10.egg-info
+[11.114s] running install_scripts
+[11.252s] writing list of installed files to '/root/tiago_public_ws/build/launch_pal/install.log'
+[11.394s] Invoked command in '/root/tiago_public_ws/src/launch_pal' returned '0': PYTHONPATH=/root/tiago_public_ws/build/launch_pal/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/tiago_public_ws/install/launch_pal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/launch_pal build --build-base /root/tiago_public_ws/build/launch_pal/build install --record /root/tiago_public_ws/build/launch_pal/install.log --single-version-externally-managed install_data --force

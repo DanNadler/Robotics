@@ -1,0 +1,52 @@
+[0.029s] Invoking command in '/root/tiago_public_ws/build/plansys2_patrol_navigation_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/tiago_public_ws/install/launch_pal:/opt/ros/humble /usr/bin/cmake /root/tiago_public_ws/src/ros2_planning_system_examples/plansys2_patrol_navigation_example -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/tiago_public_ws/install/plansys2_patrol_navigation_example
+[1.204s] -- The C compiler identification is GNU 11.4.0
+[1.361s] -- The CXX compiler identification is GNU 11.4.0
+[1.892s] -- Detecting C compiler ABI info
+[2.223s] -- Detecting C compiler ABI info - done
+[2.244s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.245s] -- Detecting C compile features
+[2.245s] -- Detecting C compile features - done
+[2.250s] -- Detecting CXX compiler ABI info
+[2.583s] -- Detecting CXX compiler ABI info - done
+[2.586s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.596s] -- Detecting CXX compile features
+[2.596s] -- Detecting CXX compile features - done
+[2.605s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.107s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.305s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.425s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[4.054s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.074s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.074s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.075s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.108s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.286s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.312s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[7.002s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[8.481s] -- Found FastRTPS: /opt/ros/humble/include  
+[10.974s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[11.008s] -- Looking for pthread.h
+[11.255s] -- Looking for pthread.h - found
+[11.258s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[11.524s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[11.531s] -- Found Threads: TRUE  
+[11.700s] -- Found rclcpp_action: 16.0.10 (/opt/ros/humble/share/rclcpp_action/cmake)
+[14.176s] [31mCMake Error at CMakeLists.txt:8 (find_package):
+[14.177s]   By not providing "Findplansys2_msgs.cmake" in CMAKE_MODULE_PATH this
+[14.177s]   project has asked CMake to find a package configuration file provided by
+[14.177s]   "plansys2_msgs", but CMake did not find one.
+[14.177s] 
+[14.177s]   Could not find a package configuration file provided by "plansys2_msgs"
+[14.177s]   with any of the following names:
+[14.177s] 
+[14.178s]     plansys2_msgsConfig.cmake
+[14.178s]     plansys2_msgs-config.cmake
+[14.178s] 
+[14.178s]   Add the installation prefix of "plansys2_msgs" to CMAKE_PREFIX_PATH or set
+[14.178s]   "plansys2_msgs_DIR" to a directory containing one of the above files.  If
+[14.178s]   "plansys2_msgs" provides a separate development package or SDK, be sure it
+[14.178s]   has been installed.
+[14.178s] 
+[14.179s] [0m
+[14.179s] -- Configuring incomplete, errors occurred!
+[14.179s] See also "/root/tiago_public_ws/build/plansys2_patrol_navigation_example/CMakeFiles/CMakeOutput.log".

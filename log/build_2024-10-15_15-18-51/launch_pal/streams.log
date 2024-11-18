@@ -1,0 +1,18 @@
+[0.964s] Invoking command in '/root/tiago_public_ws/build/launch_pal': PYTHONPATH=/root/tiago_public_ws/build/launch_pal/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/tiago_public_ws/install/launch_pal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /root/tiago_public_ws/build/launch_pal/build --no-deps symlink_data
+[1.235s] running develop
+[1.235s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.235s]   warnings.warn(
+[1.393s] running egg_info
+[1.394s] writing launch_pal.egg-info/PKG-INFO
+[1.394s] writing dependency_links to launch_pal.egg-info/dependency_links.txt
+[1.394s] writing entry points to launch_pal.egg-info/entry_points.txt
+[1.394s] writing requirements to launch_pal.egg-info/requires.txt
+[1.394s] writing top-level names to launch_pal.egg-info/top_level.txt
+[1.399s] reading manifest file 'launch_pal.egg-info/SOURCES.txt'
+[1.399s] writing manifest file 'launch_pal.egg-info/SOURCES.txt'
+[1.400s] running build_ext
+[1.400s] Creating /root/tiago_public_ws/install/launch_pal/lib/python3.10/site-packages/launch-pal.egg-link (link to .)
+[1.400s] 
+[1.400s] Installed /root/tiago_public_ws/build/launch_pal
+[1.400s] running symlink_data
+[1.427s] Invoked command in '/root/tiago_public_ws/build/launch_pal' returned '0': PYTHONPATH=/root/tiago_public_ws/build/launch_pal/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/tiago_public_ws/install/launch_pal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /root/tiago_public_ws/build/launch_pal/build --no-deps symlink_data

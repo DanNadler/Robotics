@@ -1,0 +1,58 @@
+[0.102s] Invoking command in '/root/tiago_public_ws/build/plansys2_bt_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/tiago_public_ws/install/launch_pal:/opt/ros/humble /usr/bin/cmake /root/tiago_public_ws/src/ros2_planning_system_examples/plansys2_bt_example -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/tiago_public_ws/install/plansys2_bt_example
+[0.560s] -- The C compiler identification is GNU 11.4.0
+[1.471s] -- The CXX compiler identification is GNU 11.4.0
+[2.018s] -- Detecting C compiler ABI info
+[2.323s] -- Detecting C compiler ABI info - done
+[2.343s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.345s] -- Detecting C compile features
+[2.348s] -- Detecting C compile features - done
+[2.354s] -- Detecting CXX compiler ABI info
+[2.679s] -- Detecting CXX compiler ABI info - done
+[2.700s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.702s] -- Detecting CXX compile features
+[2.704s] -- Detecting CXX compile features - done
+[2.710s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.228s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.488s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.625s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[4.104s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.125s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.155s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.224s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.376s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.442s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.459s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[7.307s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[8.780s] -- Found FastRTPS: /opt/ros/humble/include  
+[11.290s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[11.323s] -- Looking for pthread.h
+[11.561s] -- Looking for pthread.h - found
+[11.563s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[11.822s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[11.823s] -- Found Threads: TRUE  
+[11.989s] -- Found rclcpp_action: 16.0.10 (/opt/ros/humble/share/rclcpp_action/cmake)
+[12.099s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[12.141s] -- Found tf2_geometry_msgs: 0.25.8 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[12.236s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[12.241s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[12.241s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[12.429s] -- Found nav2_msgs: 1.1.16 (/opt/ros/humble/share/nav2_msgs/cmake)
+[14.677s] [31mCMake Error at CMakeLists.txt:11 (find_package):
+[14.677s]   By not providing "Findplansys2_msgs.cmake" in CMAKE_MODULE_PATH this
+[14.677s]   project has asked CMake to find a package configuration file provided by
+[14.678s]   "plansys2_msgs", but CMake did not find one.
+[14.678s] 
+[14.678s]   Could not find a package configuration file provided by "plansys2_msgs"
+[14.678s]   with any of the following names:
+[14.678s] 
+[14.678s]     plansys2_msgsConfig.cmake
+[14.678s]     plansys2_msgs-config.cmake
+[14.678s] 
+[14.678s]   Add the installation prefix of "plansys2_msgs" to CMAKE_PREFIX_PATH or set
+[14.678s]   "plansys2_msgs_DIR" to a directory containing one of the above files.  If
+[14.678s]   "plansys2_msgs" provides a separate development package or SDK, be sure it
+[14.678s]   has been installed.
+[14.679s] 
+[14.679s] [0m
+[14.679s] -- Configuring incomplete, errors occurred!
+[14.679s] See also "/root/tiago_public_ws/build/plansys2_bt_example/CMakeFiles/CMakeOutput.log".

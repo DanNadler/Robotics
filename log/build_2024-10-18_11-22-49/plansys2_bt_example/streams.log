@@ -1,0 +1,45 @@
+[0.179s] Invoking command in '/root/tiago_public_ws/build/plansys2_bt_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/tiago_public_ws/install/launch_pal:/opt/ros/humble /usr/bin/cmake /root/tiago_public_ws/src/ros2_planning_system_examples/plansys2_bt_example -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/tiago_public_ws/install/plansys2_bt_example
+[0.204s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.614s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.628s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.962s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.970s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.987s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.008s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.044s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.138s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.142s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[6.984s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.119s] -- Found rclcpp_action: 16.0.10 (/opt/ros/humble/share/rclcpp_action/cmake)
+[7.195s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[7.228s] -- Found tf2_geometry_msgs: 0.25.8 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[7.237s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[7.240s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[7.423s] -- Found nav2_msgs: 1.1.16 (/opt/ros/humble/share/nav2_msgs/cmake)
+[7.543s] -- Found plansys2_msgs: 2.0.9 (/opt/ros/humble/share/plansys2_msgs/cmake)
+[7.589s] -- Found plansys2_domain_expert: 2.0.9 (/opt/ros/humble/share/plansys2_domain_expert/cmake)
+[10.846s] -- Found plansys2_executor: 2.0.9 (/opt/ros/humble/share/plansys2_executor/cmake)
+[11.209s] -- Found plansys2_bt_actions: 2.0.9 (/opt/ros/humble/share/plansys2_bt_actions/cmake)
+[16.104s] [31mCMake Error at /opt/ros/humble/share/plansys2_bt_actions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package):
+[16.104s]   By not providing "Findtest_msgs.cmake" in CMAKE_MODULE_PATH this project
+[16.104s]   has asked CMake to find a package configuration file provided by
+[16.105s]   "test_msgs", but CMake did not find one.
+[16.105s] 
+[16.105s]   Could not find a package configuration file provided by "test_msgs" with
+[16.105s]   any of the following names:
+[16.105s] 
+[16.105s]     test_msgsConfig.cmake
+[16.105s]     test_msgs-config.cmake
+[16.105s] 
+[16.105s]   Add the installation prefix of "test_msgs" to CMAKE_PREFIX_PATH or set
+[16.106s]   "test_msgs_DIR" to a directory containing one of the above files.  If
+[16.106s]   "test_msgs" provides a separate development package or SDK, be sure it has
+[16.106s]   been installed.
+[16.107s] Call Stack (most recent call first):
+[16.107s]   /opt/ros/humble/share/plansys2_bt_actions/cmake/plansys2_bt_actionsConfig.cmake:41 (include)
+[16.107s]   CMakeLists.txt:18 (find_package)
+[16.107s] 
+[16.107s] [0m
+[16.107s] -- Configuring incomplete, errors occurred!
+[16.108s] See also "/root/tiago_public_ws/build/plansys2_bt_example/CMakeFiles/CMakeOutput.log".
+[16.168s] Invoked command in '/root/tiago_public_ws/build/plansys2_bt_example' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/tiago_public_ws/install/launch_pal:/opt/ros/humble /usr/bin/cmake /root/tiago_public_ws/src/ros2_planning_system_examples/plansys2_bt_example -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/tiago_public_ws/install/plansys2_bt_example

@@ -1,0 +1,24 @@
+[0.283s] Invoking command in '/root/tiago_public_ws/build/pal_urdf_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/tiago_public_ws/install/launch_pal:/opt/ros/humble /usr/bin/cmake --build /root/tiago_public_ws/build/pal_urdf_utils -- -j8 -l8
+[0.406s] Invoked command in '/root/tiago_public_ws/build/pal_urdf_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/tiago_public_ws/install/launch_pal:/opt/ros/humble /usr/bin/cmake --build /root/tiago_public_ws/build/pal_urdf_utils -- -j8 -l8
+[0.458s] Invoking command in '/root/tiago_public_ws/build/pal_urdf_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/tiago_public_ws/install/launch_pal:/opt/ros/humble /usr/bin/cmake --install /root/tiago_public_ws/build/pal_urdf_utils
+[0.484s] -- Install configuration: ""
+[0.484s] -- Execute custom install script
+[0.484s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_urdf_utils/share/pal_urdf_utils/urdf/deg_to_rad.urdf.xacro
+[0.484s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_urdf_utils/share/pal_urdf_utils/urdf/materials.urdf.xacro
+[0.484s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_urdf_utils/share/pal_urdf_utils/urdf/pi.urdf.xacro
+[0.484s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_urdf_utils/share/ament_index/resource_index/package_run_dependencies/pal_urdf_utils
+[0.484s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_urdf_utils/share/ament_index/resource_index/parent_prefix_path/pal_urdf_utils
+[0.484s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_urdf_utils/share/pal_urdf_utils/environment/ament_prefix_path.sh
+[0.485s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_urdf_utils/share/pal_urdf_utils/environment/ament_prefix_path.dsv
+[0.485s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_urdf_utils/share/pal_urdf_utils/environment/path.sh
+[0.485s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_urdf_utils/share/pal_urdf_utils/environment/path.dsv
+[0.486s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_urdf_utils/share/pal_urdf_utils/local_setup.bash
+[0.486s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_urdf_utils/share/pal_urdf_utils/local_setup.sh
+[0.487s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_urdf_utils/share/pal_urdf_utils/local_setup.zsh
+[0.487s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_urdf_utils/share/pal_urdf_utils/local_setup.dsv
+[0.487s] -- Symlinking: /root/tiago_public_ws/install/pal_urdf_utils/share/pal_urdf_utils/package.dsv
+[0.491s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_urdf_utils/share/ament_index/resource_index/packages/pal_urdf_utils
+[0.492s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_urdf_utils/share/pal_urdf_utils/cmake/pal_urdf_utilsConfig.cmake
+[0.492s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_urdf_utils/share/pal_urdf_utils/cmake/pal_urdf_utilsConfig-version.cmake
+[0.493s] -- Up-to-date symlink: /root/tiago_public_ws/install/pal_urdf_utils/share/pal_urdf_utils/package.xml
+[0.531s] Invoked command in '/root/tiago_public_ws/build/pal_urdf_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/tiago_public_ws/install/launch_pal:/opt/ros/humble /usr/bin/cmake --install /root/tiago_public_ws/build/pal_urdf_utils

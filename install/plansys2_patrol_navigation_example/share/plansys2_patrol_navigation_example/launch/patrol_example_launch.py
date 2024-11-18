@@ -1,0 +1,1 @@
+/root/tiago_public_ws/src/ros2_planning_system_examples/plansys2_patrol_navigation_example/launch/patrol_example_launch.py

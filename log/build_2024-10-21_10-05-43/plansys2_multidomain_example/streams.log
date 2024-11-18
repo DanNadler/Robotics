@@ -1,0 +1,36 @@
+[0.125s] Invoking command in '/root/tiago_public_ws/build/plansys2_multidomain_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/tiago_public_ws/install/launch_pal:/root/nav2_ws/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake --build /root/tiago_public_ws/build/plansys2_multidomain_example -- -j8 -l8
+[0.375s] [ 20%] Built target move_action_node
+[0.378s] [ 40%] Built target ask_charge_action_node
+[0.424s] [ 60%] Built target pick_object_action_node
+[0.437s] [ 80%] Built target charge_action_node
+[0.463s] [100%] Built target place_object_action_node
+[0.544s] Invoked command in '/root/tiago_public_ws/build/plansys2_multidomain_example' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/tiago_public_ws/install/launch_pal:/root/nav2_ws/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake --build /root/tiago_public_ws/build/plansys2_multidomain_example -- -j8 -l8
+[0.711s] Invoking command in '/root/tiago_public_ws/build/plansys2_multidomain_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/tiago_public_ws/install/launch_pal:/root/nav2_ws/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake --install /root/tiago_public_ws/build/plansys2_multidomain_example
+[0.723s] -- Install configuration: ""
+[0.727s] -- Execute custom install script
+[0.732s] -- Up-to-date symlink: /root/tiago_public_ws/install/plansys2_multidomain_example/share/plansys2_multidomain_example/launch/commands
+[0.732s] -- Up-to-date symlink: /root/tiago_public_ws/install/plansys2_multidomain_example/share/plansys2_multidomain_example/launch/plansys2_multidomain_example_launch.py
+[0.735s] -- Up-to-date symlink: /root/tiago_public_ws/install/plansys2_multidomain_example/share/plansys2_multidomain_example/pddl_1/domain_1.pddl
+[0.738s] -- Up-to-date symlink: /root/tiago_public_ws/install/plansys2_multidomain_example/share/plansys2_multidomain_example/pddl_2/domain_2.pddl
+[0.741s] -- Up-to-date symlink: /root/tiago_public_ws/install/plansys2_multidomain_example/lib/plansys2_multidomain_example/move_action_node
+[0.742s] -- Up-to-date symlink: /root/tiago_public_ws/install/plansys2_multidomain_example/lib/plansys2_multidomain_example/charge_action_node
+[0.742s] -- Up-to-date symlink: /root/tiago_public_ws/install/plansys2_multidomain_example/lib/plansys2_multidomain_example/ask_charge_action_node
+[0.748s] -- Up-to-date symlink: /root/tiago_public_ws/install/plansys2_multidomain_example/lib/plansys2_multidomain_example/pick_object_action_node
+[0.751s] -- Up-to-date symlink: /root/tiago_public_ws/install/plansys2_multidomain_example/lib/plansys2_multidomain_example/place_object_action_node
+[0.751s] -- Up-to-date symlink: /root/tiago_public_ws/install/plansys2_multidomain_example/share/ament_index/resource_index/package_run_dependencies/plansys2_multidomain_example
+[0.751s] -- Up-to-date symlink: /root/tiago_public_ws/install/plansys2_multidomain_example/share/ament_index/resource_index/parent_prefix_path/plansys2_multidomain_example
+[0.751s] -- Up-to-date symlink: /root/tiago_public_ws/install/plansys2_multidomain_example/share/plansys2_multidomain_example/environment/ament_prefix_path.sh
+[0.768s] -- Up-to-date symlink: /root/tiago_public_ws/install/plansys2_multidomain_example/share/plansys2_multidomain_example/environment/ament_prefix_path.dsv
+[0.769s] -- Up-to-date symlink: /root/tiago_public_ws/install/plansys2_multidomain_example/share/plansys2_multidomain_example/environment/path.sh
+[0.769s] -- Up-to-date symlink: /root/tiago_public_ws/install/plansys2_multidomain_example/share/plansys2_multidomain_example/environment/path.dsv
+[0.770s] -- Up-to-date symlink: /root/tiago_public_ws/install/plansys2_multidomain_example/share/plansys2_multidomain_example/local_setup.bash
+[0.770s] -- Up-to-date symlink: /root/tiago_public_ws/install/plansys2_multidomain_example/share/plansys2_multidomain_example/local_setup.sh
+[0.770s] -- Up-to-date symlink: /root/tiago_public_ws/install/plansys2_multidomain_example/share/plansys2_multidomain_example/local_setup.zsh
+[0.770s] -- Up-to-date symlink: /root/tiago_public_ws/install/plansys2_multidomain_example/share/plansys2_multidomain_example/local_setup.dsv
+[0.771s] -- Symlinking: /root/tiago_public_ws/install/plansys2_multidomain_example/share/plansys2_multidomain_example/package.dsv
+[0.790s] -- Up-to-date symlink: /root/tiago_public_ws/install/plansys2_multidomain_example/share/ament_index/resource_index/packages/plansys2_multidomain_example
+[0.791s] -- Up-to-date symlink: /root/tiago_public_ws/install/plansys2_multidomain_example/share/plansys2_multidomain_example/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.791s] -- Up-to-date symlink: /root/tiago_public_ws/install/plansys2_multidomain_example/share/plansys2_multidomain_example/cmake/plansys2_multidomain_exampleConfig.cmake
+[0.792s] -- Up-to-date symlink: /root/tiago_public_ws/install/plansys2_multidomain_example/share/plansys2_multidomain_example/cmake/plansys2_multidomain_exampleConfig-version.cmake
+[0.794s] -- Up-to-date symlink: /root/tiago_public_ws/install/plansys2_multidomain_example/share/plansys2_multidomain_example/package.xml
+[0.860s] Invoked command in '/root/tiago_public_ws/build/plansys2_multidomain_example' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/tiago_public_ws/install/launch_pal:/root/nav2_ws/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake --install /root/tiago_public_ws/build/plansys2_multidomain_example

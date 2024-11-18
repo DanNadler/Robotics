@@ -1,0 +1,57 @@
+[0.316s] Invoking command in '/root/tiago_public_ws/build/tiago_controller_configuration': AMENT_PREFIX_PATH=/root/tiago_public_ws/install/pmb2_controller_configuration:/root/tiago_public_ws/install/pal_robotiq_controller_configuration:/root/tiago_public_ws/install/pal_hey5_controller_configuration:/root/tiago_public_ws/install/pal_gripper_controller_configuration:/root/tiago_public_ws/install/launch_pal:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/tiago_public_ws/install/pmb2_controller_configuration:/root/tiago_public_ws/install/pal_robotiq_controller_configuration:/root/tiago_public_ws/install/pal_hey5_controller_configuration:/root/tiago_public_ws/install/pal_gripper_controller_configuration:/opt/ros/humble PYTHONPATH=/root/tiago_public_ws/build/launch_pal:/root/tiago_public_ws/install/launch_pal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /root/tiago_public_ws/src/tiago_robot/tiago_controller_configuration -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/tiago_public_ws/install/tiago_controller_configuration
+[0.468s] -- The C compiler identification is GNU 11.4.0
+[0.939s] -- The CXX compiler identification is GNU 11.4.0
+[1.291s] -- Detecting C compiler ABI info
+[1.466s] -- Detecting C compiler ABI info - done
+[1.485s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.517s] -- Detecting C compile features
+[1.518s] -- Detecting C compile features - done
+[1.522s] -- Detecting CXX compiler ABI info
+[1.847s] -- Detecting CXX compiler ABI info - done
+[1.853s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.862s] -- Detecting CXX compile features
+[1.863s] -- Detecting CXX compile features - done
+[1.866s] -- Found ament_cmake_auto: 1.3.10 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[2.298s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.537s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.735s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.845s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.859s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.859s] -- Added test 'lint_cmake' to check CMake code style
+[2.859s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.859s] -- Added test 'xmllint' to check XML markup files
+[2.860s] -- Configuring done
+[2.880s] -- Generating done
+[2.903s] -- Build files have been written to: /root/tiago_public_ws/build/tiago_controller_configuration
+[2.932s] Invoked command in '/root/tiago_public_ws/build/tiago_controller_configuration' returned '0': AMENT_PREFIX_PATH=/root/tiago_public_ws/install/pmb2_controller_configuration:/root/tiago_public_ws/install/pal_robotiq_controller_configuration:/root/tiago_public_ws/install/pal_hey5_controller_configuration:/root/tiago_public_ws/install/pal_gripper_controller_configuration:/root/tiago_public_ws/install/launch_pal:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/tiago_public_ws/install/pmb2_controller_configuration:/root/tiago_public_ws/install/pal_robotiq_controller_configuration:/root/tiago_public_ws/install/pal_hey5_controller_configuration:/root/tiago_public_ws/install/pal_gripper_controller_configuration:/opt/ros/humble PYTHONPATH=/root/tiago_public_ws/build/launch_pal:/root/tiago_public_ws/install/launch_pal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /root/tiago_public_ws/src/tiago_robot/tiago_controller_configuration -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/tiago_public_ws/install/tiago_controller_configuration
+[2.933s] Invoking command in '/root/tiago_public_ws/build/tiago_controller_configuration': AMENT_PREFIX_PATH=/root/tiago_public_ws/install/pmb2_controller_configuration:/root/tiago_public_ws/install/pal_robotiq_controller_configuration:/root/tiago_public_ws/install/pal_hey5_controller_configuration:/root/tiago_public_ws/install/pal_gripper_controller_configuration:/root/tiago_public_ws/install/launch_pal:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/tiago_public_ws/install/pmb2_controller_configuration:/root/tiago_public_ws/install/pal_robotiq_controller_configuration:/root/tiago_public_ws/install/pal_hey5_controller_configuration:/root/tiago_public_ws/install/pal_gripper_controller_configuration:/opt/ros/humble PYTHONPATH=/root/tiago_public_ws/build/launch_pal:/root/tiago_public_ws/install/launch_pal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /root/tiago_public_ws/build/tiago_controller_configuration -- -j8 -l8
+[3.028s] Invoked command in '/root/tiago_public_ws/build/tiago_controller_configuration' returned '0': AMENT_PREFIX_PATH=/root/tiago_public_ws/install/pmb2_controller_configuration:/root/tiago_public_ws/install/pal_robotiq_controller_configuration:/root/tiago_public_ws/install/pal_hey5_controller_configuration:/root/tiago_public_ws/install/pal_gripper_controller_configuration:/root/tiago_public_ws/install/launch_pal:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/tiago_public_ws/install/pmb2_controller_configuration:/root/tiago_public_ws/install/pal_robotiq_controller_configuration:/root/tiago_public_ws/install/pal_hey5_controller_configuration:/root/tiago_public_ws/install/pal_gripper_controller_configuration:/opt/ros/humble PYTHONPATH=/root/tiago_public_ws/build/launch_pal:/root/tiago_public_ws/install/launch_pal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /root/tiago_public_ws/build/tiago_controller_configuration -- -j8 -l8
+[3.205s] Invoking command in '/root/tiago_public_ws/build/tiago_controller_configuration': AMENT_PREFIX_PATH=/root/tiago_public_ws/install/pmb2_controller_configuration:/root/tiago_public_ws/install/pal_robotiq_controller_configuration:/root/tiago_public_ws/install/pal_hey5_controller_configuration:/root/tiago_public_ws/install/pal_gripper_controller_configuration:/root/tiago_public_ws/install/launch_pal:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/tiago_public_ws/install/pmb2_controller_configuration:/root/tiago_public_ws/install/pal_robotiq_controller_configuration:/root/tiago_public_ws/install/pal_hey5_controller_configuration:/root/tiago_public_ws/install/pal_gripper_controller_configuration:/opt/ros/humble PYTHONPATH=/root/tiago_public_ws/build/launch_pal:/root/tiago_public_ws/install/launch_pal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /root/tiago_public_ws/build/tiago_controller_configuration
+[3.493s] -- Install configuration: ""
+[3.493s] -- Execute custom install script
+[3.493s] -- Symlinking: /root/tiago_public_ws/install/tiago_controller_configuration/share/tiago_controller_configuration/config/arm_controller.yaml
+[3.494s] -- Symlinking: /root/tiago_public_ws/install/tiago_controller_configuration/share/tiago_controller_configuration/config/ft_sensor_controller.yaml
+[3.494s] -- Symlinking: /root/tiago_public_ws/install/tiago_controller_configuration/share/tiago_controller_configuration/config/gravity_compensation_controller_ilm.yaml
+[3.494s] -- Symlinking: /root/tiago_public_ws/install/tiago_controller_configuration/share/tiago_controller_configuration/config/gravity_compensation_controller_parker.yaml
+[3.494s] -- Symlinking: /root/tiago_public_ws/install/tiago_controller_configuration/share/tiago_controller_configuration/config/head_controller.yaml
+[3.494s] -- Symlinking: /root/tiago_public_ws/install/tiago_controller_configuration/share/tiago_controller_configuration/config/imu_sensor_broadcaster.yaml
+[3.494s] -- Symlinking: /root/tiago_public_ws/install/tiago_controller_configuration/share/tiago_controller_configuration/config/joint_state_broadcaster.yaml
+[3.494s] -- Symlinking: /root/tiago_public_ws/install/tiago_controller_configuration/share/tiago_controller_configuration/config/torso_controller.yaml
+[3.494s] -- Symlinking: /root/tiago_public_ws/install/tiago_controller_configuration/share/tiago_controller_configuration/launch/default_controllers.launch.py
+[3.494s] -- Symlinking: /root/tiago_public_ws/install/tiago_controller_configuration/share/tiago_controller_configuration/launch/gravity_compensation_controller.launch.py
+[3.494s] -- Symlinking: /root/tiago_public_ws/install/tiago_controller_configuration/share/ament_index/resource_index/package_run_dependencies/tiago_controller_configuration
+[3.494s] -- Symlinking: /root/tiago_public_ws/install/tiago_controller_configuration/share/ament_index/resource_index/parent_prefix_path/tiago_controller_configuration
+[3.521s] -- Symlinking: /root/tiago_public_ws/install/tiago_controller_configuration/share/tiago_controller_configuration/environment/ament_prefix_path.sh
+[3.534s] -- Symlinking: /root/tiago_public_ws/install/tiago_controller_configuration/share/tiago_controller_configuration/environment/ament_prefix_path.dsv
+[3.561s] -- Symlinking: /root/tiago_public_ws/install/tiago_controller_configuration/share/tiago_controller_configuration/environment/path.sh
+[3.603s] -- Symlinking: /root/tiago_public_ws/install/tiago_controller_configuration/share/tiago_controller_configuration/environment/path.dsv
+[3.619s] -- Symlinking: /root/tiago_public_ws/install/tiago_controller_configuration/share/tiago_controller_configuration/local_setup.bash
+[3.632s] -- Symlinking: /root/tiago_public_ws/install/tiago_controller_configuration/share/tiago_controller_configuration/local_setup.sh
+[3.644s] -- Symlinking: /root/tiago_public_ws/install/tiago_controller_configuration/share/tiago_controller_configuration/local_setup.zsh
+[3.660s] -- Symlinking: /root/tiago_public_ws/install/tiago_controller_configuration/share/tiago_controller_configuration/local_setup.dsv
+[3.673s] -- Symlinking: /root/tiago_public_ws/install/tiago_controller_configuration/share/tiago_controller_configuration/package.dsv
+[3.717s] -- Symlinking: /root/tiago_public_ws/install/tiago_controller_configuration/share/ament_index/resource_index/packages/tiago_controller_configuration
+[3.752s] -- Symlinking: /root/tiago_public_ws/install/tiago_controller_configuration/share/tiago_controller_configuration/cmake/tiago_controller_configurationConfig.cmake
+[3.764s] -- Symlinking: /root/tiago_public_ws/install/tiago_controller_configuration/share/tiago_controller_configuration/cmake/tiago_controller_configurationConfig-version.cmake
+[3.821s] -- Symlinking: /root/tiago_public_ws/install/tiago_controller_configuration/share/tiago_controller_configuration/package.xml
+[3.915s] Invoked command in '/root/tiago_public_ws/build/tiago_controller_configuration' returned '0': AMENT_PREFIX_PATH=/root/tiago_public_ws/install/pmb2_controller_configuration:/root/tiago_public_ws/install/pal_robotiq_controller_configuration:/root/tiago_public_ws/install/pal_hey5_controller_configuration:/root/tiago_public_ws/install/pal_gripper_controller_configuration:/root/tiago_public_ws/install/launch_pal:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/tiago_public_ws/install/pmb2_controller_configuration:/root/tiago_public_ws/install/pal_robotiq_controller_configuration:/root/tiago_public_ws/install/pal_hey5_controller_configuration:/root/tiago_public_ws/install/pal_gripper_controller_configuration:/opt/ros/humble PYTHONPATH=/root/tiago_public_ws/build/launch_pal:/root/tiago_public_ws/install/launch_pal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /root/tiago_public_ws/build/tiago_controller_configuration

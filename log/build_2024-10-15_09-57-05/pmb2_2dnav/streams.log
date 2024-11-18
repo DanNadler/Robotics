@@ -1,0 +1,58 @@
+[0.138s] Invoking command in '/root/tiago_public_ws/build/pmb2_2dnav': AMENT_PREFIX_PATH=/root/tiago_public_ws/install/pmb2_laser_sensors:/root/tiago_public_ws/install/launch_pal:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/tiago_public_ws/install/pmb2_laser_sensors:/opt/ros/humble PYTHONPATH=/root/tiago_public_ws/build/launch_pal:/root/tiago_public_ws/install/launch_pal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /root/tiago_public_ws/src/pmb2_navigation/pmb2_2dnav -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/tiago_public_ws/install/pmb2_2dnav
+[2.536s] -- The C compiler identification is GNU 11.4.0
+[2.536s] -- The CXX compiler identification is GNU 11.4.0
+[2.536s] -- Detecting C compiler ABI info
+[2.536s] -- Detecting C compiler ABI info - done
+[2.536s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.536s] -- Detecting C compile features
+[2.536s] -- Detecting C compile features - done
+[2.536s] -- Detecting CXX compiler ABI info
+[2.536s] -- Detecting CXX compiler ABI info - done
+[2.536s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.536s] -- Detecting CXX compile features
+[2.536s] -- Detecting CXX compile features - done
+[2.536s] -- Found ament_cmake_auto: 1.3.10 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[2.537s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.537s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.537s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.537s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.537s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.537s] -- Added test 'lint_cmake' to check CMake code style
+[2.538s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.538s] -- Added test 'xmllint' to check XML markup files
+[2.538s] -- Configuring done
+[2.538s] -- Generating done
+[2.538s] -- Build files have been written to: /root/tiago_public_ws/build/pmb2_2dnav
+[2.608s] Invoked command in '/root/tiago_public_ws/build/pmb2_2dnav' returned '0': AMENT_PREFIX_PATH=/root/tiago_public_ws/install/pmb2_laser_sensors:/root/tiago_public_ws/install/launch_pal:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/tiago_public_ws/install/pmb2_laser_sensors:/opt/ros/humble PYTHONPATH=/root/tiago_public_ws/build/launch_pal:/root/tiago_public_ws/install/launch_pal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /root/tiago_public_ws/src/pmb2_navigation/pmb2_2dnav -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/tiago_public_ws/install/pmb2_2dnav
+[2.608s] Invoking command in '/root/tiago_public_ws/build/pmb2_2dnav': AMENT_PREFIX_PATH=/root/tiago_public_ws/install/pmb2_laser_sensors:/root/tiago_public_ws/install/launch_pal:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/tiago_public_ws/install/pmb2_laser_sensors:/opt/ros/humble PYTHONPATH=/root/tiago_public_ws/build/launch_pal:/root/tiago_public_ws/install/launch_pal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /root/tiago_public_ws/build/pmb2_2dnav -- -j8 -l8
+[2.759s] Invoked command in '/root/tiago_public_ws/build/pmb2_2dnav' returned '0': AMENT_PREFIX_PATH=/root/tiago_public_ws/install/pmb2_laser_sensors:/root/tiago_public_ws/install/launch_pal:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/tiago_public_ws/install/pmb2_laser_sensors:/opt/ros/humble PYTHONPATH=/root/tiago_public_ws/build/launch_pal:/root/tiago_public_ws/install/launch_pal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /root/tiago_public_ws/build/pmb2_2dnav -- -j8 -l8
+[2.910s] Invoking command in '/root/tiago_public_ws/build/pmb2_2dnav': AMENT_PREFIX_PATH=/root/tiago_public_ws/install/pmb2_laser_sensors:/root/tiago_public_ws/install/launch_pal:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/tiago_public_ws/install/pmb2_laser_sensors:/opt/ros/humble PYTHONPATH=/root/tiago_public_ws/build/launch_pal:/root/tiago_public_ws/install/launch_pal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /root/tiago_public_ws/build/pmb2_2dnav
+[3.161s] -- Install configuration: ""
+[3.161s] -- Execute custom install script
+[3.161s] -- Symlinking: /root/tiago_public_ws/install/pmb2_2dnav/share/pmb2_2dnav/config/rviz/advanced_navigation.rviz
+[3.161s] -- Symlinking: /root/tiago_public_ws/install/pmb2_2dnav/share/pmb2_2dnav/config/rviz/navigation.rviz
+[3.161s] -- Symlinking: /root/tiago_public_ws/install/pmb2_2dnav/share/pmb2_2dnav/launch/pmb2_nav_bringup.launch.py
+[3.161s] -- Symlinking: /root/tiago_public_ws/install/pmb2_2dnav/share/pmb2_2dnav/params/pmb2_loc.yaml
+[3.162s] -- Symlinking: /root/tiago_public_ws/install/pmb2_2dnav/share/pmb2_2dnav/params/pmb2_loc_w_composition.yaml
+[3.162s] -- Symlinking: /root/tiago_public_ws/install/pmb2_2dnav/share/pmb2_2dnav/params/pmb2_nav.yaml
+[3.162s] -- Symlinking: /root/tiago_public_ws/install/pmb2_2dnav/share/pmb2_2dnav/params/pmb2_nav_public_sim.yaml
+[3.162s] -- Symlinking: /root/tiago_public_ws/install/pmb2_2dnav/share/pmb2_2dnav/params/pmb2_nav_w_composition.yaml
+[3.162s] -- Symlinking: /root/tiago_public_ws/install/pmb2_2dnav/share/pmb2_2dnav/params/pmb2_remappings.yaml
+[3.162s] -- Symlinking: /root/tiago_public_ws/install/pmb2_2dnav/share/pmb2_2dnav/params/pmb2_remappings_sim.yaml
+[3.162s] -- Symlinking: /root/tiago_public_ws/install/pmb2_2dnav/share/pmb2_2dnav/params/pmb2_slam.yaml
+[3.162s] -- Symlinking: /root/tiago_public_ws/install/pmb2_2dnav/share/ament_index/resource_index/package_run_dependencies/pmb2_2dnav
+[3.173s] -- Symlinking: /root/tiago_public_ws/install/pmb2_2dnav/share/ament_index/resource_index/parent_prefix_path/pmb2_2dnav
+[3.191s] -- Symlinking: /root/tiago_public_ws/install/pmb2_2dnav/share/pmb2_2dnav/environment/ament_prefix_path.sh
+[3.215s] -- Symlinking: /root/tiago_public_ws/install/pmb2_2dnav/share/pmb2_2dnav/environment/ament_prefix_path.dsv
+[3.229s] -- Symlinking: /root/tiago_public_ws/install/pmb2_2dnav/share/pmb2_2dnav/environment/path.sh
+[3.256s] -- Symlinking: /root/tiago_public_ws/install/pmb2_2dnav/share/pmb2_2dnav/environment/path.dsv
+[3.283s] -- Symlinking: /root/tiago_public_ws/install/pmb2_2dnav/share/pmb2_2dnav/local_setup.bash
+[3.299s] -- Symlinking: /root/tiago_public_ws/install/pmb2_2dnav/share/pmb2_2dnav/local_setup.sh
+[3.334s] -- Symlinking: /root/tiago_public_ws/install/pmb2_2dnav/share/pmb2_2dnav/local_setup.zsh
+[3.359s] -- Symlinking: /root/tiago_public_ws/install/pmb2_2dnav/share/pmb2_2dnav/local_setup.dsv
+[3.375s] -- Symlinking: /root/tiago_public_ws/install/pmb2_2dnav/share/pmb2_2dnav/package.dsv
+[3.389s] -- Symlinking: /root/tiago_public_ws/install/pmb2_2dnav/share/ament_index/resource_index/packages/pmb2_2dnav
+[3.418s] -- Symlinking: /root/tiago_public_ws/install/pmb2_2dnav/share/pmb2_2dnav/cmake/pmb2_2dnavConfig.cmake
+[3.443s] -- Symlinking: /root/tiago_public_ws/install/pmb2_2dnav/share/pmb2_2dnav/cmake/pmb2_2dnavConfig-version.cmake
+[3.471s] -- Symlinking: /root/tiago_public_ws/install/pmb2_2dnav/share/pmb2_2dnav/package.xml
+[3.582s] Invoked command in '/root/tiago_public_ws/build/pmb2_2dnav' returned '0': AMENT_PREFIX_PATH=/root/tiago_public_ws/install/pmb2_laser_sensors:/root/tiago_public_ws/install/launch_pal:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/tiago_public_ws/install/pmb2_laser_sensors:/opt/ros/humble PYTHONPATH=/root/tiago_public_ws/build/launch_pal:/root/tiago_public_ws/install/launch_pal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /root/tiago_public_ws/build/pmb2_2dnav

@@ -1,0 +1,51 @@
+[0.976s] Invoking command in '/root/tiago_public_ws/build/play_motion2': AMENT_PREFIX_PATH=/root/tiago_public_ws/install/play_motion2_msgs:/root/tiago_public_ws/install/launch_pal:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/tiago_public_ws/install/play_motion2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/tiago_public_ws/install/play_motion2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/tiago_public_ws/install/play_motion2_msgs/local/lib/python3.10/dist-packages:/root/tiago_public_ws/build/launch_pal:/root/tiago_public_ws/install/launch_pal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /root/tiago_public_ws/build/play_motion2 -- -j8 -l8
+[1.317s] [ 18%] Built target play_motion2
+[1.464s] [ 27%] Built target gtest
+[1.567s] [ 36%] Built target client
+[1.614s] [ 45%] Built target gtest_main
+[1.676s] [ 54%] Built target rrbot_system
+[1.739s] [ 63%] Built target play_motion2_node_test
+[1.924s] [ 72%] Built target play_motion2_test
+[2.014s] [ 81%] Built target motion_loader_test
+[2.069s] [ 90%] Built target run_motion
+[2.121s] [100%] Built target play_motion2_node
+[2.155s] Invoked command in '/root/tiago_public_ws/build/play_motion2' returned '0': AMENT_PREFIX_PATH=/root/tiago_public_ws/install/play_motion2_msgs:/root/tiago_public_ws/install/launch_pal:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/tiago_public_ws/install/play_motion2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/tiago_public_ws/install/play_motion2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/tiago_public_ws/install/play_motion2_msgs/local/lib/python3.10/dist-packages:/root/tiago_public_ws/build/launch_pal:/root/tiago_public_ws/install/launch_pal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /root/tiago_public_ws/build/play_motion2 -- -j8 -l8
+[2.461s] Invoking command in '/root/tiago_public_ws/build/play_motion2': AMENT_PREFIX_PATH=/root/tiago_public_ws/install/play_motion2_msgs:/root/tiago_public_ws/install/launch_pal:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/tiago_public_ws/install/play_motion2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/tiago_public_ws/install/play_motion2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/tiago_public_ws/install/play_motion2_msgs/local/lib/python3.10/dist-packages:/root/tiago_public_ws/build/launch_pal:/root/tiago_public_ws/install/launch_pal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /root/tiago_public_ws/build/play_motion2
+[2.476s] -- Install configuration: ""
+[2.476s] -- Execute custom install script
+[2.476s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2/share/play_motion2/test/rrbot/rrbot_system.xml
+[2.476s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2/lib/play_motion2/play_motion2_node_test
+[2.477s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2/include/play_motion2/client.hpp
+[2.477s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2/include/play_motion2/motion_loader.hpp
+[2.477s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2/include/play_motion2/motion_planner.hpp
+[2.478s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2/include/play_motion2/play_motion2.hpp
+[2.479s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2/include/play_motion2/types.hpp
+[2.479s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2/share/play_motion2/environment/library_path.sh
+[2.480s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2/share/play_motion2/environment/library_path.dsv
+[2.481s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2/lib/libplay_motion2.so
+[2.481s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2/lib/libclient.a
+[2.481s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2/lib/librrbot_system.so
+[2.482s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2/lib/play_motion2/play_motion2_node
+[2.482s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2/lib/play_motion2/run_motion
+[2.482s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2/share/play_motion2/config/motion_planner_config.yaml
+[2.483s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2/share/play_motion2/launch/play_motion2.launch.py
+[2.484s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2/share/ament_index/resource_index/package_run_dependencies/play_motion2
+[2.485s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2/share/ament_index/resource_index/parent_prefix_path/play_motion2
+[2.486s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2/share/play_motion2/environment/ament_prefix_path.sh
+[2.487s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2/share/play_motion2/environment/ament_prefix_path.dsv
+[2.489s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2/share/play_motion2/environment/path.sh
+[2.490s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2/share/play_motion2/environment/path.dsv
+[2.491s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2/share/play_motion2/local_setup.bash
+[2.493s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2/share/play_motion2/local_setup.sh
+[2.494s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2/share/play_motion2/local_setup.zsh
+[2.494s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2/share/play_motion2/local_setup.dsv
+[2.494s] -- Symlinking: /root/tiago_public_ws/install/play_motion2/share/play_motion2/package.dsv
+[2.529s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2/share/ament_index/resource_index/packages/play_motion2
+[2.529s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/play_motion2
+[2.530s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2/share/play_motion2/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.531s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2/share/play_motion2/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.532s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2/share/play_motion2/cmake/ament_cmake_export_libraries-extras.cmake
+[2.532s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2/share/play_motion2/cmake/play_motion2Config.cmake
+[2.534s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2/share/play_motion2/cmake/play_motion2Config-version.cmake
+[2.534s] -- Up-to-date symlink: /root/tiago_public_ws/install/play_motion2/share/play_motion2/package.xml
+[2.594s] Invoked command in '/root/tiago_public_ws/build/play_motion2' returned '0': AMENT_PREFIX_PATH=/root/tiago_public_ws/install/play_motion2_msgs:/root/tiago_public_ws/install/launch_pal:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/tiago_public_ws/install/play_motion2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/tiago_public_ws/install/play_motion2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/tiago_public_ws/install/play_motion2_msgs/local/lib/python3.10/dist-packages:/root/tiago_public_ws/build/launch_pal:/root/tiago_public_ws/install/launch_pal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /root/tiago_public_ws/build/play_motion2
