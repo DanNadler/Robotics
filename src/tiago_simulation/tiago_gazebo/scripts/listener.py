@@ -92,9 +92,6 @@ class TiagoListener(Node):
         self.tf_listener = tf2_ros.TransformListener(self.tf_buffer, self)
         
 
-
-
-
     def listener_callback(self, msg):
         self.get_logger().info("Processing order in listener_callback")
         # Example long-running task that will no longer block image processing
@@ -318,41 +315,6 @@ class TiagoListener(Node):
             return None
 
 
-
-    def move_gripper(self, open=True):
-        """Opens or closes the gripper."""
-        self.get_logger().info("Started planning gripper movement")
-
-        gripper_goal = MoveGroup.Goal()
-        gripper_goal.request.group_name = "gripper"
-
-        if open:
-            target_position = [0.04, 0.04]
-        else:
-            target_position = [0.0, 0.0]
-
-        joint_constraints = [
-            self.create_joint_constraint("gripper_left_finger_joint", target_position[0]),
-            self.create_joint_constraint("gripper_right_finger_joint", target_position[1])
-        ]
-
-        constraints = Constraints()
-        constraints.joint_constraints.extend(joint_constraints)
-        gripper_goal.request.goal_constraints.append(constraints)
-        
-        self.get_logger().info("Sending gripper move goal...")
-        self.move_group_client.send_goal_async(gripper_goal)
-
-    def create_joint_constraint(self, joint_name, position):
-        from moveit_msgs.msg import JointConstraint
-        joint_constraint = JointConstraint()
-        joint_constraint.joint_name = joint_name
-        joint_constraint.position = position
-        joint_constraint.tolerance_above = 0.01
-        joint_constraint.tolerance_below = 0.01
-        joint_constraint.weight = 1.0
-        return joint_constraint
-
     def stop_robot(self):
         twist = Twist()
         twist.linear.x = 0.0
@@ -367,8 +329,6 @@ class TiagoListener(Node):
         twist = Twist()
         twist.angular.z = 0.3  # Adjust the speed as necessary
         self.vel_publisher.publish(twist)
-
-
 
 
     def rotate_robot_to_orientation(self, desired_yaw):
@@ -451,135 +411,62 @@ class TiagoListener(Node):
         self.head_cmd.publish(jt)
         self.get_logger().info("done")
 
-    def add_table_to_scene(self):
-        """Adds a table as a collision object in the planning scene to avoid collisions."""
-        self.get_logger().info("Adding table to the planning scene...")
+    #this function are used for grasping an item using force exerted by the gripper feedback,
+    #a nice method that we considered to implement
 
-        # Define the collision object (table)
-        table = CollisionObject()
-        table.header.frame_id = "base_footprint"  # Adjust to the frame you're using, such as "base_link" or "map"
-        table.id = "table"
+    # def grasp_an_item(self):
+    #     self.get_logger().info("Starting pick_an_item method")
+    #     # Dynamic gripper closing loop
+    #     target_grip_force = 2  # Adjust this based on the can’s weight
+    #     close_increment = 0.0008  # Amount to close each step, adjust as needed
+    #     max_grip_position = 0.04  # Max gripper position to avoid over-closing
+    #     min_grip_position = 0.015
+    #     current_grip_position = 0.0  # Initial open position
 
-        # Define the table dimensions (width, depth, height) in meters
-        box = SolidPrimitive()
-        box.type = SolidPrimitive.BOX
-        box.dimensions = [0.93, 0.93, 0.3]  # Adjust these dimensions to your table's size
+    #     self.get_logger().info("Starting dynamic closing motion based on FT sensor readings.")
+    #     while current_grip_position < max_grip_position:
+    #         # Check the current force to see if the can is gripped
+    #         if self.force_z > target_grip_force and current_grip_position>=0.015:
+    #             self.get_logger().info("Can successfully grasped with optimal force.")
+    #             break  # Stop closing as the desired force is reached
 
-        # Define the position of the table in the "map" frame
-        table_pose = Pose()
-        table_pose.position.x = -1.500000  # Adjust to your table's X position in the map frame
-        table_pose.position.y = -5.500000  # Adjust to your table's Y position in the map frame
-        table_pose.position.z = 0.825  # Half of table height to place it at the correct level
-        table_pose.orientation.w = 1.0  # Neutral orientation (no rotation)
-        self.get_logger().info(f"{table_pose}")
-        # Assign the shape and pose to the collision object
-        table.primitives = [box]
-        table.primitive_poses = [table_pose]
-        table.operation = CollisionObject.ADD
+    #         # Incrementally close the gripper
+    #         current_grip_position += close_increment
+    #         self.move_gripper_to_position(current_grip_position)
 
-        # Add the table to the planning scene
-        planning_scene_client = self.create_client(ApplyPlanningScene, 'apply_planning_scene')
-        if not planning_scene_client.wait_for_service(timeout_sec=5.0):
-            self.get_logger().error("Planning scene service not available")
-            return
-        planning_scene_diff = PlanningScene()
-        planning_scene_diff.is_diff = True
-        planning_scene_diff.world.collision_objects.append(table)
-        # Prepare the request to add the table to the planning scene
-        request = ApplyPlanningScene.Request()
-        request.scene = planning_scene_diff
+    #         time.sleep(3)  # Small delay to allow FT sensor reading to stabilize
+    #         self.get_logger().info(f"current grip position {current_grip_position}, current gripper force {self.force_z}")
 
-        # Call the service to add the table to the planning scene
-        future = planning_scene_client.call_async(request)
-        self.get_logger().info(f"{future}")
-        time.sleep(15)
-        if future.result() is not None:
-            self.get_logger().info("Table successfully added to the planning scene.")
-        else:
-            self.get_logger().error("Failed to add table to the planning scene.")
+    #     if current_grip_position >= max_grip_position:
+    #         self.get_logger().warning("Reached max closing position without achieving desired force.")
 
-    def check_items_in_scene(self):
-        planning_scene_client = self.create_client(GetPlanningScene, 'get_planning_scene')
-        planning_scene_client.wait_for_service()
-        request = GetPlanningScene.Request()
-        request.components.components = PlanningSceneComponents.SCENE_SETTINGS | \
-                                    PlanningSceneComponents.ROBOT_STATE | \
-                                    PlanningSceneComponents.ROBOT_STATE_ATTACHED_OBJECTS | \
-                                    PlanningSceneComponents.WORLD_OBJECT_NAMES | \
-                                    PlanningSceneComponents.WORLD_OBJECT_GEOMETRY | \
-                                    PlanningSceneComponents.ALLOWED_COLLISION_MATRIX | \
-                                    PlanningSceneComponents.LINK_PADDING_AND_SCALING | \
-                                    PlanningSceneComponents.OBJECT_COLORS | \
-                                    PlanningSceneComponents.TRANSFORMS
-        self.get_logger().info("Created GetPlanningScene request.")
-        self.get_logger().info(f"Request structure: {request}")
-        future = planning_scene_client.call_async(request)
-        time.sleep(10)
-        if future.result() is not None:
-            scene = future.result().scene
-            self.get_logger().info(f"Scene name: {scene.name}")
-            self.get_logger().info(f"Is scene diff: {scene.is_diff}")
-            if scene.world.collision_objects:
-                self.get_logger().info("Objects in the planning scene:")
-                for obj in scene.world.collision_objects:
-                    self.get_logger().info(f"- Object ID: {obj.id}, Frame ID: {obj.header.frame_id}, poses: {obj.primitive_poses}, primitive: {obj.primitives}")
-            else:
-                self.get_logger().info("No objects in the planning scene.")
-        else:
-            self.get_logger().error("Failed to retrieve the planning scene.")
 
-    def grasp_an_item(self):
-        self.get_logger().info("Starting pick_an_item method")
-        # Dynamic gripper closing loop
-        target_grip_force = 2  # Adjust this based on the can’s weight
-        close_increment = 0.0008  # Amount to close each step, adjust as needed
-        max_grip_position = 0.04  # Max gripper position to avoid over-closing
-        min_grip_position = 0.015
-        current_grip_position = 0.0  # Initial open position
-
-        self.get_logger().info("Starting dynamic closing motion based on FT sensor readings.")
-        while current_grip_position < max_grip_position:
-            # Check the current force to see if the can is gripped
-            if self.force_z > target_grip_force and current_grip_position>=0.015:
-                self.get_logger().info("Can successfully grasped with optimal force.")
-                break  # Stop closing as the desired force is reached
-
-            # Incrementally close the gripper
-            current_grip_position += close_increment
-            self.move_gripper_to_position(current_grip_position)
-
-            time.sleep(3)  # Small delay to allow FT sensor reading to stabilize
-            self.get_logger().info(f"current grip position {current_grip_position}, current gripper force {self.force_z}")
-
-        if current_grip_position >= max_grip_position:
-            self.get_logger().warning("Reached max closing position without achieving desired force.")
-
-    def move_gripper_to_position(self, position):
-        """Moves the gripper to the specified position."""
-        gripper_goal = MoveGroup.Goal()
-        gripper_goal.request.group_name = "gripper"
+    # def move_gripper_to_position(self, position):
+    #     """Moves the gripper to the specified position."""
+    #     gripper_goal = MoveGroup.Goal()
+    #     gripper_goal.request.group_name = "gripper"
         
-        joint_constraints = [
-            self.create_joint_constraint("gripper_left_finger_joint", 0.044 - position),
-            self.create_joint_constraint("gripper_right_finger_joint", 0.044 - position)
-        ]
+    #     joint_constraints = [
+    #         self.create_joint_constraint("gripper_left_finger_joint", 0.044 - position),
+    #         self.create_joint_constraint("gripper_right_finger_joint", 0.044 - position)
+    #     ]
         
-        constraints = Constraints()
-        constraints.joint_constraints.extend(joint_constraints)
-        gripper_goal.request.goal_constraints.append(constraints)
+    #     constraints = Constraints()
+    #     constraints.joint_constraints.extend(joint_constraints)
+    #     gripper_goal.request.goal_constraints.append(constraints)
         
-        self.get_logger().info(f"Sending gripper move goal to position: {position}")
-        self.move_group_client.send_goal_async(gripper_goal)
+    #     self.get_logger().info(f"Sending gripper move goal to position: {position}")
+    #     self.move_group_client.send_goal_async(gripper_goal)
 
-    def create_joint_constraint(self, joint_name, position):
-        from moveit_msgs.msg import JointConstraint
-        joint_constraint = JointConstraint()
-        joint_constraint.joint_name = joint_name
-        joint_constraint.position = position
-        joint_constraint.tolerance_above = 0.01
-        joint_constraint.tolerance_below = 0.01
-        joint_constraint.weight = 1.0
-        return joint_constraint 
+    # def create_joint_constraint(self, joint_name, position):
+    #     from moveit_msgs.msg import JointConstraint
+    #     joint_constraint = JointConstraint()
+    #     joint_constraint.joint_name = joint_name
+    #     joint_constraint.position = position
+    #     joint_constraint.tolerance_above = 0.01
+    #     joint_constraint.tolerance_below = 0.01
+    #     joint_constraint.weight = 1.0
+    #     return joint_constraint 
 
 
 
