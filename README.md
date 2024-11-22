@@ -32,8 +32,7 @@ Create a workspace and clone all repositories:
 ```console
 mkdir -p ~/tiago_public_ws
 cd ~/tiago_public_ws
-git clone https://github.com/DanNadler/Robotics.git
-cd Robotics
+git clone https://github.com/DanNadler/Robotics.git .
 ```
 
 Install dependencies using rosdep
