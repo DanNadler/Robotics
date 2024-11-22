@@ -80,14 +80,14 @@ This project develops an autonomous robotic service system in a simulated café 
 
 <div align="center">
   <video width="600" controls poster="overview.jpg">
-    <source src="film.mp4" type="video/mp4">
+    <source src="readme_files/film.mp4" type="video/mp4">
   </video>
 </div>
 
 
 
 <p align="center">
-  <img src="flowchart.jpg" alt="flowchart" width="400">
+  <img src="readme_files/flowchart.jpg" alt="flowchart" width="400">
 </p>
 
 ## Libraries and Tools
@@ -101,7 +101,7 @@ Using SLAM, we generated a static map that provides the robot with a precise lay
 To handle changes in real-time, the robot uses its laser sensor for dynamic navigation, detecting unexpected obstacles. This sensor layer is integrated with the static map, allowing the robot to adjust its path instantly as it encounters new obstacles. We tuned the laser sensor’s sensitivity to balance responsiveness with speed, ensuring it detects sudden changes without sacrificing navigation efficiency. It is crucial that the robot completely avoids obstacles, as collisions would disrupt its spatial awareness and reduce accuracy in positioning and orientation. This setup enables the robot to navigate safely even in dynamic and unpredictable environments.
 
 <p align="center">
-  <img src="laser.jpg" alt="Laser Sensor" width="600">
+  <img src="readme_files/laser.jpg" alt="Laser Sensor" width="600">
 </p>
 
 ### Adaptive Path-Planning and Orientation Control with Nav2
@@ -114,7 +114,7 @@ Accurate object recognition is essential for the robot to identify and localize 
 By integrating the ArUco marker system with a custom alignment process, we significantly improved the reliability of object recognition and manipulation.
 
 <p align="center">
-  <img src="vision.jpg" alt="Vision" width="600">
+  <img src="readme_files/vision.jpg" alt="Vision" width="600">
 </p>
 
 ### MoveIt2 for Manipulation
@@ -123,7 +123,7 @@ We use MoveIt2 to control the robot’s arm, which has to be precise to grab ite
 
 PRMkConfigDefault is a PRM-based (Probabilistic Roadmap) planner well-suited for complex, obstacle-dense environments. It efficiently generates paths in high-dimensional spaces and can adapt dynamically to changes in the environment. This flexibility, along with its strong collision avoidance and easy customization, made it perfect for our setup. By using PRMkConfigDefault, we were able to get the robot’s arm positioned accurately and safely.
 <p align="center">
-  <img src="mani1.jpg" alt="mani1 " width="600">
+  <img src="readme_files/mani1.jpg" alt="mani1 " width="600">
 </p>
 
 ## System Complexity and Challenges
